@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="IOTsoC_BL\BootLoadable\Generated_Source\PSoC5">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="IOTsoC_BL\BootLoadable\Source Files\main.c">
 <ExpandedNodeIds>
 <v>IOTsoC_BL</v>
 <v>IOTsoC_BL\BootLoadable</v>
@@ -90,6 +90,13 @@
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\uart_wifi.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\uart_wifi_BOOT.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\uart_wifi_INT.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\uart_wifi_IntClock.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\uart_wifi_PM.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\wifi_enable.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\wifi_reset.lst</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\BootLoadable.elf</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\BootLoadable.hex</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\BootLoadable.map</v>
@@ -115,12 +122,18 @@
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\uart_wifi.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\uart_wifi_BOOT.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\uart_wifi_INT.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\uart_wifi_IntClock.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\uart_wifi_PM.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\wifi_enable.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\wifi_reset.lst</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\BootLoadable.elf</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\BootLoadable.hex</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\BootLoadable.map</v>
 <v>IOTsoC_BL\BootLoadable\BootLoadable.gpdsc</v>
 <v>IOTsoC_BL\BootLoadable\BootLoadable.rpt</v>
-<v>IOTsoC_BL\BootLoadable\BootLoadable_timing.html</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -136,6 +149,9 @@
 <v>IOTsoC_BL\BootLoadable\CY8C58LP Family Datasheet</v>
 <v>IOTsoC_BL\BootLoadable\System Reference Guides</v>
 <v>IOTsoC_BL\BootLoadable\System Reference Guides\cy_boot_v5_60</v>
+<v>IOTsoC_BL\BootLoadable\cy_pins_v2_20</v>
+<v>IOTsoC_BL\BootLoadable\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>IOTsoC_BL\BootLoadable\UART_v2_50.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>IOTsoC_BL</v>
@@ -144,6 +160,9 @@
 <v>IOTsoC_BL\BootLoadable\CY8C58LP Family Datasheet</v>
 <v>IOTsoC_BL\BootLoadable\System Reference Guides</v>
 <v>IOTsoC_BL\BootLoadable\System Reference Guides\cy_boot_v5_60</v>
+<v>IOTsoC_BL\BootLoadable\cy_pins_v2_20</v>
+<v>IOTsoC_BL\BootLoadable\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>IOTsoC_BL\BootLoadable\UART_v2_50.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
@@ -154,6 +173,8 @@
 <Unloaded />
 <OpenDocs>
 <name v=".\BootLoadable.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\BootLoadable.cydsn\BootLoadable.cydwr" />
+<name v=".\BootLoadable.cydsn\main.c" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -161,7 +182,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="751, 372" SelectedTabbedMdiWindow="658d282b-6f15-4053-96d2-071d14f009f9"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="1bc91a4e-bf38-4131-9281-496d1ba93949" /><DocumentWindow Key="C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\TopDesign\TopDesign.cysch" Guid="658d282b-6f15-4053-96d2-071d14f009f9" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="907, 372" SelectedTabbedMdiWindow="19d2c127-3089-4328-98b5-34e2553f20b7"><DocumentWindow Key="C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\TopDesign\TopDesign.cysch" Guid="658d282b-6f15-4053-96d2-071d14f009f9" /><DocumentWindow Key="C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\BootLoadable.cydwr" Guid="17f5ca7f-c375-46d3-b5e5-ce57c1d76606" /><DocumentWindow Key="C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\main.c" Guid="19d2c127-3089-4328-98b5-34e2553f20b7" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
