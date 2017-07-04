@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="IOTsoC_BL\BootLoadable\Source Files\main.c">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="IOTsoC_BL\BootLoadable\Header Files\FreeRTOSConfig.h">
 <ExpandedNodeIds>
 <v>IOTsoC_BL</v>
 <v>IOTsoC_BL\BootLoadable</v>
@@ -29,20 +29,42 @@
 <v>IOTsoC_BL\BootLoadable\BootLoadable.cydwr\Flash Security</v>
 <v>IOTsoC_BL\BootLoadable\BootLoadable.cydwr\EEPROM</v>
 <v>IOTsoC_BL\BootLoadable\Header Files</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\croutine.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\deprecated_definitions.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\device.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\event_groups.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\FreeRTOS.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\list.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\mpu_wrappers.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\os_resource.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\portable.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\portmacro.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\projdefs.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\queue.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\semphr.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\StackMacros.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\task.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\timers.h</v>
 <v>IOTsoC_BL\BootLoadable\Header Files\cyapicallbacks.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\device.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\FreeRTOS_inc.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\FreeRTOSConfig.h</v>
 <v>IOTsoC_BL\BootLoadable\Source Files</v>
+<v>IOTsoC_BL\BootLoadable\Source Files\freertos</v>
+<v>IOTsoC_BL\BootLoadable\Source Files\freertos\croutine.c</v>
+<v>IOTsoC_BL\BootLoadable\Source Files\freertos\event_groups.c</v>
+<v>IOTsoC_BL\BootLoadable\Source Files\freertos\heap_2.c</v>
+<v>IOTsoC_BL\BootLoadable\Source Files\freertos\list.c</v>
+<v>IOTsoC_BL\BootLoadable\Source Files\freertos\os_resource.c</v>
+<v>IOTsoC_BL\BootLoadable\Source Files\freertos\port.c</v>
+<v>IOTsoC_BL\BootLoadable\Source Files\freertos\queue.c</v>
+<v>IOTsoC_BL\BootLoadable\Source Files\freertos\tasks.c</v>
+<v>IOTsoC_BL\BootLoadable\Source Files\freertos\timers.c</v>
 <v>IOTsoC_BL\BootLoadable\Source Files\main.c</v>
-<v>IOTsoC_BL\BootLoadable\Generated_Source</v>
 <v>IOTsoC_BL\BootLoadable\Generated_Source\PSoC5\cy_boot</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
-<v>IOTsoC_BL</v>
-<v>IOTsoC_BL\BootLoadable</v>
-<v>IOTsoC_BL\BootLoadable\TopDesign</v>
-<v>IOTsoC_BL\BootLoadable\BootLoadable.cydwr</v>
-<v>IOTsoC_BL\BootLoadable\BootLoadable.cydwr\Pins</v>
-<v>IOTsoC_BL\BootLoadable\BootLoadable.cydwr\Analog</v>
-<v>IOTsoC_BL\BootLoadable\BootLoadable.cydwr\Clocks</v>
 <v>IOTsoC_BL\BootLoadable\BootLoadable.cydwr\Interrupts</v>
 <v>IOTsoC_BL\BootLoadable\BootLoadable.cydwr\DMA</v>
 <v>IOTsoC_BL\BootLoadable\BootLoadable.cydwr\System</v>
@@ -50,11 +72,33 @@
 <v>IOTsoC_BL\BootLoadable\BootLoadable.cydwr\Flash Security</v>
 <v>IOTsoC_BL\BootLoadable\BootLoadable.cydwr\EEPROM</v>
 <v>IOTsoC_BL\BootLoadable\Header Files</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\croutine.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\deprecated_definitions.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\device.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\event_groups.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\FreeRTOS.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\list.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\mpu_wrappers.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\os_resource.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\portable.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\portmacro.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\projdefs.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\queue.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\semphr.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\StackMacros.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\task.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\freertos\timers.h</v>
 <v>IOTsoC_BL\BootLoadable\Header Files\cyapicallbacks.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\device.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\FreeRTOS_inc.h</v>
+<v>IOTsoC_BL\BootLoadable\Header Files\FreeRTOSConfig.h</v>
 <v>IOTsoC_BL\BootLoadable\Source Files</v>
-<v>IOTsoC_BL\BootLoadable\Source Files\main.c</v>
-<v>IOTsoC_BL\BootLoadable\Generated_Source</v>
-<v>IOTsoC_BL\BootLoadable\Generated_Source\PSoC5</v>
+<v>IOTsoC_BL\BootLoadable\Source Files\freertos</v>
+<v>IOTsoC_BL\BootLoadable\Source Files\freertos\croutine.c</v>
+<v>IOTsoC_BL\BootLoadable\Source Files\freertos\event_groups.c</v>
+<v>IOTsoC_BL\BootLoadable\Source Files\freertos\heap_2.c</v>
+<v>IOTsoC_BL\BootLoadable\Source Files\freertos\list.c</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -71,7 +115,7 @@
 <v>IOTsoC_BL\BootLoadable\TopDesign\TopDesign.cysch</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="IOTsoC_BL">
 <ExpandedNodeIds>
 <v>IOTsoC_BL</v>
 <v>IOTsoC_BL\BootLoadable</v>
@@ -80,6 +124,7 @@
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\croutine.lst</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
@@ -89,7 +134,17 @@
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\event_groups.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\heap_2.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\led_user.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\list.lst</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\os_resource.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\port.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\queue.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\switch_user.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\tasks.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\timers.lst</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\uart_wifi.lst</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\uart_wifi_BOOT.lst</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\uart_wifi_INT.lst</v>
@@ -112,6 +167,7 @@
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\croutine.lst</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
@@ -121,19 +177,23 @@
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\event_groups.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\heap_2.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\led_user.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\list.lst</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\os_resource.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\port.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\queue.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\switch_user.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\tasks.lst</v>
+<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\timers.lst</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\uart_wifi.lst</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\uart_wifi_BOOT.lst</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\uart_wifi_INT.lst</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\uart_wifi_IntClock.lst</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\uart_wifi_PM.lst</v>
 <v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\wifi_enable.lst</v>
-<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\Listing Files\wifi_reset.lst</v>
-<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\BootLoadable.elf</v>
-<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\BootLoadable.hex</v>
-<v>IOTsoC_BL\BootLoadable\CortexM3\ARM_GCC_541\Debug\BootLoadable.map</v>
-<v>IOTsoC_BL\BootLoadable\BootLoadable.gpdsc</v>
-<v>IOTsoC_BL\BootLoadable\BootLoadable.rpt</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -141,7 +201,7 @@
 <v>Datasheet</v>
 </TreeKeysV2>
 <TreeStatesV2>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="IOTsoC_BL">
 <ExpandedNodeIds>
 <v>IOTsoC_BL</v>
 <v>IOTsoC_BL\BootLoadable</v>
@@ -149,6 +209,7 @@
 <v>IOTsoC_BL\BootLoadable\CY8C58LP Family Datasheet</v>
 <v>IOTsoC_BL\BootLoadable\System Reference Guides</v>
 <v>IOTsoC_BL\BootLoadable\System Reference Guides\cy_boot_v5_60</v>
+<v>IOTsoC_BL\BootLoadable\cy_constant_v1_0.pdf</v>
 <v>IOTsoC_BL\BootLoadable\cy_pins_v2_20</v>
 <v>IOTsoC_BL\BootLoadable\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>IOTsoC_BL\BootLoadable\UART_v2_50.pdf</v>
@@ -160,6 +221,7 @@
 <v>IOTsoC_BL\BootLoadable\CY8C58LP Family Datasheet</v>
 <v>IOTsoC_BL\BootLoadable\System Reference Guides</v>
 <v>IOTsoC_BL\BootLoadable\System Reference Guides\cy_boot_v5_60</v>
+<v>IOTsoC_BL\BootLoadable\cy_constant_v1_0.pdf</v>
 <v>IOTsoC_BL\BootLoadable\cy_pins_v2_20</v>
 <v>IOTsoC_BL\BootLoadable\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>IOTsoC_BL\BootLoadable\UART_v2_50.pdf</v>
@@ -171,18 +233,14 @@
 </userData>
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
-<OpenDocs>
-<name v=".\BootLoadable.cydsn\TopDesign\TopDesign.cysch" />
-<name v=".\BootLoadable.cydsn\BootLoadable.cydwr" />
-<name v=".\BootLoadable.cydsn\main.c" />
-</OpenDocs>
+<OpenDocs />
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
   Actipro Docking/MDI for WinForms
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="907, 372" SelectedTabbedMdiWindow="19d2c127-3089-4328-98b5-34e2553f20b7"><DocumentWindow Key="C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\TopDesign\TopDesign.cysch" Guid="658d282b-6f15-4053-96d2-071d14f009f9" /><DocumentWindow Key="C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\BootLoadable.cydwr" Guid="17f5ca7f-c375-46d3-b5e5-ce57c1d76606" /><DocumentWindow Key="C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\main.c" Guid="19d2c127-3089-4328-98b5-34e2553f20b7" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal" /><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

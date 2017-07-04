@@ -10,20 +10,43 @@
  * ========================================
 */
 #include "project.h"
+#include "FreeRTOS_inc.h"
+#include "os_resource.h"
+
+portTASK_FUNCTION_PROTO(ledTask, pvParameters);
 
 int main(void)
 {
+    CySysTickStart();
     CyGlobalIntEnable; /* Enable global interrupts. */
 
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
-    // Wifi Module Enabler
-    CyPins_SetPin(wifi_enable_0);
-    CyDelay(150);
-    CyPins_SetPin(wifi_reset_0);
+    //uart_wifi_Start();
+    
+    xTaskCreate(ledTask, 
+                "Led",
+                configMINIMAL_STACK_SIZE,
+                NULL,
+                3,
+                NULL);
+    
+    /* Start Scheduler */
+    prvHardwareSetup();
+    vTaskStartScheduler();
+}
 
-    for(;;)
-    {
-        /* Place your application code here. */
+portTASK_FUNCTION(ledTask, pvParameters) {
+    
+    uint8_t led_state = 0;
+    for (;;) {
+        if (led_state > 0) {
+            led_state = 0;
+            CyPins_ClearPin(led_user_0);
+        } else {
+            led_state = 1;
+            CyPins_SetPin(led_user_0);
+        }
+        vTaskDelay(50);
     }
 }
 

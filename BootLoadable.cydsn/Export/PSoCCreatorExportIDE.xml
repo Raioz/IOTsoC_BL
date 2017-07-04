@@ -5,9 +5,9 @@
   <Toolchains>
     <Toolchain Name="ARM GCC Generic" Selected="True">
       <Tool Name="prebuild" Command="" Options="" />
-      <Tool Name="assembler" Command="arm-none-eabi-as.exe" Options="-mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -alh=${OutputDir}/${CompileFile}.lst -g -W" />
-      <Tool Name="compiler" Command="arm-none-eabi-gcc.exe" Options="-mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
-      <Tool Name="linker" Command="arm-none-eabi-gcc.exe" Options="-mcpu=cortex-m3 -mthumb -L Generated_Source\PSoC5 -Wl,-Map,${OutputDir}/${ProjectShortName}.map -T Generated_Source\PSoC5\cm3gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects" />
+      <Tool Name="assembler" Command="arm-none-eabi-as.exe" Options="-mcpu=cortex-m3 -mthumb -I.\freertos\config -I.\freertos\include -I. -IGenerated_Source\PSoC5 -alh=${OutputDir}/${CompileFile}.lst -g -W" />
+      <Tool Name="compiler" Command="arm-none-eabi-gcc.exe" Options="-mcpu=cortex-m3 -mthumb -I.\freertos\config -I.\freertos\include -I. -IGenerated_Source\PSoC5 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+      <Tool Name="linker" Command="arm-none-eabi-gcc.exe" Options="-mcpu=cortex-m3 -mthumb -L Generated_Source\PSoC5 -L .\freertos\config -L .\freertos\include -Wl,-Map,${OutputDir}/${ProjectShortName}.map -T Generated_Source\PSoC5\cm3gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects" />
       <Tool Name="postbuild" Command="" Options="" />
     </Toolchain>
     <Toolchain Name="ARM MDK Generic" Selected="False">
@@ -38,6 +38,38 @@
         <Files Root="C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn">
           <File BuildType="BUILD" Toolchain="">main.c</File>
           <File BuildType="BUILD" Toolchain="">cyapicallbacks.h</File>
+          <File BuildType="BUILD" Toolchain="">freertos\include\device.h</File>
+          <File BuildType="BUILD" Toolchain="">freertos\include\os_resource.h</File>
+          <File BuildType="BUILD" Toolchain="">freertos\include\croutine.h</File>
+          <File BuildType="BUILD" Toolchain="">freertos\include\deprecated_definitions.h</File>
+          <File BuildType="BUILD" Toolchain="">freertos\include\event_groups.h</File>
+          <File BuildType="BUILD" Toolchain="">freertos\include\FreeRTOS.h</File>
+          <File BuildType="BUILD" Toolchain="">freertos\include\list.h</File>
+          <File BuildType="BUILD" Toolchain="">freertos\include\mpu_wrappers.h</File>
+          <File BuildType="BUILD" Toolchain="">freertos\include\portable.h</File>
+          <File BuildType="BUILD" Toolchain="">freertos\include\portmacro.h</File>
+          <File BuildType="BUILD" Toolchain="">freertos\include\projdefs.h</File>
+          <File BuildType="BUILD" Toolchain="">freertos\include\queue.h</File>
+          <File BuildType="BUILD" Toolchain="">freertos\include\semphr.h</File>
+          <File BuildType="BUILD" Toolchain="">freertos\include\StackMacros.h</File>
+          <File BuildType="BUILD" Toolchain="">freertos\include\task.h</File>
+          <File BuildType="BUILD" Toolchain="">freertos\include\timers.h</File>
+          <File BuildType="BUILD" Toolchain="">FreeRTOS_inc.h</File>
+          <File BuildType="BUILD" Toolchain="">freertos\include\device.h</File>
+          <File BuildType="BUILD" Toolchain="">freertos\config\FreeRTOSConfig.h</File>
+        </Files>
+      </Folder>
+      <Folder BuildType="STRICT" Path="C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn">
+        <Files Root="C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn">
+          <File BuildType="BUILD" Toolchain="">freertos\os_resource.c</File>
+          <File BuildType="BUILD" Toolchain="">freertos\croutine.c</File>
+          <File BuildType="BUILD" Toolchain="">freertos\event_groups.c</File>
+          <File BuildType="BUILD" Toolchain="">freertos\heap_2.c</File>
+          <File BuildType="BUILD" Toolchain="">freertos\list.c</File>
+          <File BuildType="BUILD" Toolchain="">freertos\port.c</File>
+          <File BuildType="BUILD" Toolchain="">freertos\queue.c</File>
+          <File BuildType="BUILD" Toolchain="">freertos\tasks.c</File>
+          <File BuildType="BUILD" Toolchain="">freertos\timers.c</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\Generated_Source\PSoC5">
@@ -102,6 +134,12 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\wifi_reset.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\uart_wifi_IntClock.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\uart_wifi_IntClock.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\led_user_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\led_user.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\led_user.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\switch_user_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\switch_user.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\switch_user.h</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\Export\ARM_GCC_Generic">
