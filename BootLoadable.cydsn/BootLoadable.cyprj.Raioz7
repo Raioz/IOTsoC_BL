@@ -86,6 +86,33 @@
 <dep name=".\Generated_Source\PSoC5\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC5\CySpc.c" />
+<file name=".\CortexM3\ARM_GCC_541\Debug\SOF_Timer.o">
+<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
+<dep name=".\Generated_Source\PSoC5\CyLib.h" />
+<dep name=".\Generated_Source\PSoC5\CySpc.h" />
+<dep name=".\Generated_Source\PSoC5\SOF_Timer.c" />
+<dep name=".\Generated_Source\PSoC5\SOF_Timer.h" />
+<dep name=".\Generated_Source\PSoC5\cyPm.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC5\SOF_Timer.c" />
+<file name=".\Generated_Source\PSoC5\SOF_Timer.h" />
+<file name=".\CortexM3\ARM_GCC_541\Debug\SOF_Timer_PM.o">
+<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
+<dep name=".\Generated_Source\PSoC5\CyLib.h" />
+<dep name=".\Generated_Source\PSoC5\CySpc.h" />
+<dep name=".\Generated_Source\PSoC5\SOF_Timer.h" />
+<dep name=".\Generated_Source\PSoC5\SOF_Timer_PM.c" />
+<dep name=".\Generated_Source\PSoC5\cyPm.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC5\SOF_Timer_PM.c" />
 <file name=".\CortexM3\ARM_GCC_541\Debug\cyPm.o">
 <dep name=".\Generated_Source\PSoC5\CyFlash.h" />
 <dep name=".\Generated_Source\PSoC5\CyLib.h" />
@@ -125,6 +152,21 @@
 <dep name=".\Generated_Source\PSoC5\cyutils.c" />
 </file>
 <file name=".\Generated_Source\PSoC5\cyutils.c" />
+<file name=".\CortexM3\ARM_GCC_541\Debug\isr_sof_timer.o">
+<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
+<dep name=".\Generated_Source\PSoC5\CyLib.h" />
+<dep name=".\Generated_Source\PSoC5\CySpc.h" />
+<dep name=".\Generated_Source\PSoC5\cyPm.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+<dep name=".\Generated_Source\PSoC5\isr_sof_timer.c" />
+<dep name=".\Generated_Source\PSoC5\isr_sof_timer.h" />
+<dep name=".\cyapicallbacks.h" />
+</file>
+<file name=".\Generated_Source\PSoC5\isr_sof_timer.c" />
+<file name=".\Generated_Source\PSoC5\isr_sof_timer.h" />
 <file name=".\CortexM3\ARM_GCC_541\Debug\led_user.o">
 <dep name=".\Generated_Source\PSoC5\cydevice.h" />
 <dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
@@ -152,6 +194,445 @@
 <file name=".\Generated_Source\PSoC5\switch_user.c" />
 <file name=".\Generated_Source\PSoC5\switch_user.h" />
 <file name=".\Generated_Source\PSoC5\switch_user_aliases.h" />
+<file name=".\CortexM3\ARM_GCC_541\Debug\croutine.o">
+<dep name=".\Generated_Source\PSoC5\cmsis_armcc.h" />
+<dep name=".\Generated_Source\PSoC5\cmsis_compiler.h" />
+<dep name=".\Generated_Source\PSoC5\cmsis_gcc.h" />
+<dep name=".\Generated_Source\PSoC5\core_cm3.h" />
+<dep name=".\Generated_Source\PSoC5\core_cm3_psoc5.h" />
+<dep name=".\Generated_Source\PSoC5\cydisabledsheets.h" />
+<dep name=".\Generated_Source\PSoC5\project.h" />
+<dep name=".\freertos\config\FreeRTOSConfig.h" />
+<dep name=".\freertos\include\FreeRTOS.h" />
+<dep name=".\freertos\include\croutine.h" />
+<dep name=".\freertos\include\deprecated_definitions.h" />
+<dep name=".\freertos\include\device.h" />
+<dep name=".\freertos\include\list.h" />
+<dep name=".\freertos\include\mpu_wrappers.h" />
+<dep name=".\freertos\include\portable.h" />
+<dep name=".\freertos\include\portmacro.h" />
+<dep name=".\freertos\include\projdefs.h" />
+<dep name=".\freertos\include\task.h" />
+<dep name=".\Generated_Source\PSoC5\CyDmac.h" />
+<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
+<dep name=".\Generated_Source\PSoC5\CyLib.h" />
+<dep name=".\Generated_Source\PSoC5\CySpc.h" />
+<dep name=".\Generated_Source\PSoC5\SOF_Timer.h" />
+<dep name=".\Generated_Source\PSoC5\cyPm.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter_cfg.h" />
+<dep name=".\Generated_Source\PSoC5\cypins.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+<dep name=".\Generated_Source\PSoC5\isr_sof_timer.h" />
+<dep name=".\Generated_Source\PSoC5\led_user.h" />
+<dep name=".\Generated_Source\PSoC5\led_user_aliases.h" />
+<dep name=".\Generated_Source\PSoC5\switch_user.h" />
+<dep name=".\Generated_Source\PSoC5\switch_user_aliases.h" />
+<dep name=".\freertos\croutine.c" />
+</file>
+<file name=".\Generated_Source\PSoC5\cmsis_armcc.h" />
+<file name=".\Generated_Source\PSoC5\cmsis_compiler.h" />
+<file name=".\Generated_Source\PSoC5\cmsis_gcc.h" />
+<file name=".\Generated_Source\PSoC5\core_cm3.h" />
+<file name=".\Generated_Source\PSoC5\core_cm3_psoc5.h" />
+<file name=".\Generated_Source\PSoC5\cydisabledsheets.h" />
+<file name=".\Generated_Source\PSoC5\project.h" />
+<file name=".\freertos\config\FreeRTOSConfig.h" />
+<file name=".\freertos\include\FreeRTOS.h" />
+<file name=".\freertos\include\croutine.h" />
+<file name=".\freertos\include\deprecated_definitions.h" />
+<file name=".\freertos\include\device.h" />
+<file name=".\freertos\include\list.h" />
+<file name=".\freertos\include\mpu_wrappers.h" />
+<file name=".\freertos\include\portable.h" />
+<file name=".\freertos\include\portmacro.h" />
+<file name=".\freertos\include\projdefs.h" />
+<file name=".\freertos\include\task.h" />
+<file name=".\freertos\croutine.c" />
+<file name=".\CortexM3\ARM_GCC_541\Debug\event_groups.o">
+<dep name=".\Generated_Source\PSoC5\cmsis_armcc.h" />
+<dep name=".\Generated_Source\PSoC5\cmsis_compiler.h" />
+<dep name=".\Generated_Source\PSoC5\cmsis_gcc.h" />
+<dep name=".\Generated_Source\PSoC5\core_cm3.h" />
+<dep name=".\Generated_Source\PSoC5\core_cm3_psoc5.h" />
+<dep name=".\Generated_Source\PSoC5\cydisabledsheets.h" />
+<dep name=".\Generated_Source\PSoC5\project.h" />
+<dep name=".\freertos\config\FreeRTOSConfig.h" />
+<dep name=".\freertos\include\FreeRTOS.h" />
+<dep name=".\freertos\include\deprecated_definitions.h" />
+<dep name=".\freertos\include\device.h" />
+<dep name=".\freertos\include\event_groups.h" />
+<dep name=".\freertos\include\list.h" />
+<dep name=".\freertos\include\mpu_wrappers.h" />
+<dep name=".\freertos\include\portable.h" />
+<dep name=".\freertos\include\portmacro.h" />
+<dep name=".\freertos\include\projdefs.h" />
+<dep name=".\freertos\include\task.h" />
+<dep name=".\freertos\include\timers.h" />
+<dep name=".\Generated_Source\PSoC5\CyDmac.h" />
+<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
+<dep name=".\Generated_Source\PSoC5\CyLib.h" />
+<dep name=".\Generated_Source\PSoC5\CySpc.h" />
+<dep name=".\Generated_Source\PSoC5\SOF_Timer.h" />
+<dep name=".\Generated_Source\PSoC5\cyPm.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter_cfg.h" />
+<dep name=".\Generated_Source\PSoC5\cypins.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+<dep name=".\Generated_Source\PSoC5\isr_sof_timer.h" />
+<dep name=".\Generated_Source\PSoC5\led_user.h" />
+<dep name=".\Generated_Source\PSoC5\led_user_aliases.h" />
+<dep name=".\Generated_Source\PSoC5\switch_user.h" />
+<dep name=".\Generated_Source\PSoC5\switch_user_aliases.h" />
+<dep name=".\freertos\event_groups.c" />
+</file>
+<file name=".\freertos\include\event_groups.h" />
+<file name=".\freertos\include\timers.h" />
+<file name=".\freertos\event_groups.c" />
+<file name=".\CortexM3\ARM_GCC_541\Debug\heap_2.o">
+<dep name=".\Generated_Source\PSoC5\cmsis_armcc.h" />
+<dep name=".\Generated_Source\PSoC5\cmsis_compiler.h" />
+<dep name=".\Generated_Source\PSoC5\cmsis_gcc.h" />
+<dep name=".\Generated_Source\PSoC5\core_cm3.h" />
+<dep name=".\Generated_Source\PSoC5\core_cm3_psoc5.h" />
+<dep name=".\Generated_Source\PSoC5\cydisabledsheets.h" />
+<dep name=".\Generated_Source\PSoC5\project.h" />
+<dep name=".\freertos\config\FreeRTOSConfig.h" />
+<dep name=".\freertos\include\FreeRTOS.h" />
+<dep name=".\freertos\include\deprecated_definitions.h" />
+<dep name=".\freertos\include\device.h" />
+<dep name=".\freertos\include\list.h" />
+<dep name=".\freertos\include\mpu_wrappers.h" />
+<dep name=".\freertos\include\portable.h" />
+<dep name=".\freertos\include\portmacro.h" />
+<dep name=".\freertos\include\projdefs.h" />
+<dep name=".\freertos\include\task.h" />
+<dep name=".\Generated_Source\PSoC5\CyDmac.h" />
+<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
+<dep name=".\Generated_Source\PSoC5\CyLib.h" />
+<dep name=".\Generated_Source\PSoC5\CySpc.h" />
+<dep name=".\Generated_Source\PSoC5\SOF_Timer.h" />
+<dep name=".\Generated_Source\PSoC5\cyPm.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter_cfg.h" />
+<dep name=".\Generated_Source\PSoC5\cypins.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+<dep name=".\Generated_Source\PSoC5\isr_sof_timer.h" />
+<dep name=".\Generated_Source\PSoC5\led_user.h" />
+<dep name=".\Generated_Source\PSoC5\led_user_aliases.h" />
+<dep name=".\Generated_Source\PSoC5\switch_user.h" />
+<dep name=".\Generated_Source\PSoC5\switch_user_aliases.h" />
+<dep name=".\freertos\heap_2.c" />
+</file>
+<file name=".\freertos\heap_2.c" />
+<file name=".\CortexM3\ARM_GCC_541\Debug\list.o">
+<dep name=".\Generated_Source\PSoC5\cmsis_armcc.h" />
+<dep name=".\Generated_Source\PSoC5\cmsis_compiler.h" />
+<dep name=".\Generated_Source\PSoC5\cmsis_gcc.h" />
+<dep name=".\Generated_Source\PSoC5\core_cm3.h" />
+<dep name=".\Generated_Source\PSoC5\core_cm3_psoc5.h" />
+<dep name=".\Generated_Source\PSoC5\cydisabledsheets.h" />
+<dep name=".\Generated_Source\PSoC5\project.h" />
+<dep name=".\freertos\config\FreeRTOSConfig.h" />
+<dep name=".\freertos\include\FreeRTOS.h" />
+<dep name=".\freertos\include\deprecated_definitions.h" />
+<dep name=".\freertos\include\device.h" />
+<dep name=".\freertos\include\list.h" />
+<dep name=".\freertos\include\mpu_wrappers.h" />
+<dep name=".\freertos\include\portable.h" />
+<dep name=".\freertos\include\portmacro.h" />
+<dep name=".\freertos\include\projdefs.h" />
+<dep name=".\Generated_Source\PSoC5\CyDmac.h" />
+<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
+<dep name=".\Generated_Source\PSoC5\CyLib.h" />
+<dep name=".\Generated_Source\PSoC5\CySpc.h" />
+<dep name=".\Generated_Source\PSoC5\SOF_Timer.h" />
+<dep name=".\Generated_Source\PSoC5\cyPm.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter_cfg.h" />
+<dep name=".\Generated_Source\PSoC5\cypins.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+<dep name=".\Generated_Source\PSoC5\isr_sof_timer.h" />
+<dep name=".\Generated_Source\PSoC5\led_user.h" />
+<dep name=".\Generated_Source\PSoC5\led_user_aliases.h" />
+<dep name=".\Generated_Source\PSoC5\switch_user.h" />
+<dep name=".\Generated_Source\PSoC5\switch_user_aliases.h" />
+<dep name=".\freertos\list.c" />
+</file>
+<file name=".\freertos\list.c" />
+<file name=".\CortexM3\ARM_GCC_541\Debug\os_resource.o">
+<dep name=".\Generated_Source\PSoC5\cmsis_armcc.h" />
+<dep name=".\Generated_Source\PSoC5\cmsis_compiler.h" />
+<dep name=".\Generated_Source\PSoC5\cmsis_gcc.h" />
+<dep name=".\Generated_Source\PSoC5\core_cm3.h" />
+<dep name=".\Generated_Source\PSoC5\core_cm3_psoc5.h" />
+<dep name=".\Generated_Source\PSoC5\cydisabledsheets.h" />
+<dep name=".\Generated_Source\PSoC5\project.h" />
+<dep name=".\freertos\config\FreeRTOSConfig.h" />
+<dep name=".\freertos\include\FreeRTOS.h" />
+<dep name=".\freertos\include\StackMacros.h" />
+<dep name=".\freertos\include\croutine.h" />
+<dep name=".\freertos\include\deprecated_definitions.h" />
+<dep name=".\freertos\include\device.h" />
+<dep name=".\freertos\include\event_groups.h" />
+<dep name=".\freertos\include\list.h" />
+<dep name=".\freertos\include\mpu_wrappers.h" />
+<dep name=".\freertos\include\os_resource.h" />
+<dep name=".\freertos\include\portable.h" />
+<dep name=".\freertos\include\portmacro.h" />
+<dep name=".\freertos\include\projdefs.h" />
+<dep name=".\freertos\include\queue.h" />
+<dep name=".\freertos\include\semphr.h" />
+<dep name=".\freertos\include\task.h" />
+<dep name=".\freertos\include\timers.h" />
+<dep name=".\FreeRTOS_inc.h" />
+<dep name=".\Generated_Source\PSoC5\CyDmac.h" />
+<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
+<dep name=".\Generated_Source\PSoC5\CyLib.h" />
+<dep name=".\Generated_Source\PSoC5\CySpc.h" />
+<dep name=".\Generated_Source\PSoC5\SOF_Timer.h" />
+<dep name=".\Generated_Source\PSoC5\cyPm.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter_cfg.h" />
+<dep name=".\Generated_Source\PSoC5\cypins.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+<dep name=".\Generated_Source\PSoC5\isr_sof_timer.h" />
+<dep name=".\Generated_Source\PSoC5\led_user.h" />
+<dep name=".\Generated_Source\PSoC5\led_user_aliases.h" />
+<dep name=".\Generated_Source\PSoC5\switch_user.h" />
+<dep name=".\Generated_Source\PSoC5\switch_user_aliases.h" />
+<dep name=".\freertos\os_resource.c" />
+</file>
+<file name=".\freertos\include\StackMacros.h" />
+<file name=".\freertos\include\os_resource.h" />
+<file name=".\freertos\include\queue.h" />
+<file name=".\freertos\include\semphr.h" />
+<file name=".\FreeRTOS_inc.h" />
+<file name=".\freertos\os_resource.c" />
+<file name=".\CortexM3\ARM_GCC_541\Debug\port.o">
+<dep name=".\Generated_Source\PSoC5\cmsis_armcc.h" />
+<dep name=".\Generated_Source\PSoC5\cmsis_compiler.h" />
+<dep name=".\Generated_Source\PSoC5\cmsis_gcc.h" />
+<dep name=".\Generated_Source\PSoC5\core_cm3.h" />
+<dep name=".\Generated_Source\PSoC5\core_cm3_psoc5.h" />
+<dep name=".\Generated_Source\PSoC5\cydisabledsheets.h" />
+<dep name=".\Generated_Source\PSoC5\project.h" />
+<dep name=".\freertos\config\FreeRTOSConfig.h" />
+<dep name=".\freertos\include\FreeRTOS.h" />
+<dep name=".\freertos\include\deprecated_definitions.h" />
+<dep name=".\freertos\include\device.h" />
+<dep name=".\freertos\include\list.h" />
+<dep name=".\freertos\include\mpu_wrappers.h" />
+<dep name=".\freertos\include\portable.h" />
+<dep name=".\freertos\include\portmacro.h" />
+<dep name=".\freertos\include\projdefs.h" />
+<dep name=".\freertos\include\task.h" />
+<dep name=".\Generated_Source\PSoC5\CyDmac.h" />
+<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
+<dep name=".\Generated_Source\PSoC5\CyLib.h" />
+<dep name=".\Generated_Source\PSoC5\CySpc.h" />
+<dep name=".\Generated_Source\PSoC5\SOF_Timer.h" />
+<dep name=".\Generated_Source\PSoC5\cyPm.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter_cfg.h" />
+<dep name=".\Generated_Source\PSoC5\cypins.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+<dep name=".\Generated_Source\PSoC5\isr_sof_timer.h" />
+<dep name=".\Generated_Source\PSoC5\led_user.h" />
+<dep name=".\Generated_Source\PSoC5\led_user_aliases.h" />
+<dep name=".\Generated_Source\PSoC5\switch_user.h" />
+<dep name=".\Generated_Source\PSoC5\switch_user_aliases.h" />
+<dep name=".\freertos\port.c" />
+</file>
+<file name=".\freertos\port.c" />
+<file name=".\CortexM3\ARM_GCC_541\Debug\queue.o">
+<dep name=".\Generated_Source\PSoC5\cmsis_armcc.h" />
+<dep name=".\Generated_Source\PSoC5\cmsis_compiler.h" />
+<dep name=".\Generated_Source\PSoC5\cmsis_gcc.h" />
+<dep name=".\Generated_Source\PSoC5\core_cm3.h" />
+<dep name=".\Generated_Source\PSoC5\core_cm3_psoc5.h" />
+<dep name=".\Generated_Source\PSoC5\cydisabledsheets.h" />
+<dep name=".\Generated_Source\PSoC5\project.h" />
+<dep name=".\freertos\config\FreeRTOSConfig.h" />
+<dep name=".\freertos\include\FreeRTOS.h" />
+<dep name=".\freertos\include\croutine.h" />
+<dep name=".\freertos\include\deprecated_definitions.h" />
+<dep name=".\freertos\include\device.h" />
+<dep name=".\freertos\include\list.h" />
+<dep name=".\freertos\include\mpu_wrappers.h" />
+<dep name=".\freertos\include\portable.h" />
+<dep name=".\freertos\include\portmacro.h" />
+<dep name=".\freertos\include\projdefs.h" />
+<dep name=".\freertos\include\queue.h" />
+<dep name=".\freertos\include\task.h" />
+<dep name=".\Generated_Source\PSoC5\CyDmac.h" />
+<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
+<dep name=".\Generated_Source\PSoC5\CyLib.h" />
+<dep name=".\Generated_Source\PSoC5\CySpc.h" />
+<dep name=".\Generated_Source\PSoC5\SOF_Timer.h" />
+<dep name=".\Generated_Source\PSoC5\cyPm.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter_cfg.h" />
+<dep name=".\Generated_Source\PSoC5\cypins.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+<dep name=".\Generated_Source\PSoC5\isr_sof_timer.h" />
+<dep name=".\Generated_Source\PSoC5\led_user.h" />
+<dep name=".\Generated_Source\PSoC5\led_user_aliases.h" />
+<dep name=".\Generated_Source\PSoC5\switch_user.h" />
+<dep name=".\Generated_Source\PSoC5\switch_user_aliases.h" />
+<dep name=".\freertos\queue.c" />
+</file>
+<file name=".\freertos\queue.c" />
+<file name=".\CortexM3\ARM_GCC_541\Debug\tasks.o">
+<dep name=".\Generated_Source\PSoC5\cmsis_armcc.h" />
+<dep name=".\Generated_Source\PSoC5\cmsis_compiler.h" />
+<dep name=".\Generated_Source\PSoC5\cmsis_gcc.h" />
+<dep name=".\Generated_Source\PSoC5\core_cm3.h" />
+<dep name=".\Generated_Source\PSoC5\core_cm3_psoc5.h" />
+<dep name=".\Generated_Source\PSoC5\cydisabledsheets.h" />
+<dep name=".\Generated_Source\PSoC5\project.h" />
+<dep name=".\freertos\config\FreeRTOSConfig.h" />
+<dep name=".\freertos\include\FreeRTOS.h" />
+<dep name=".\freertos\include\StackMacros.h" />
+<dep name=".\freertos\include\deprecated_definitions.h" />
+<dep name=".\freertos\include\device.h" />
+<dep name=".\freertos\include\list.h" />
+<dep name=".\freertos\include\mpu_wrappers.h" />
+<dep name=".\freertos\include\portable.h" />
+<dep name=".\freertos\include\portmacro.h" />
+<dep name=".\freertos\include\projdefs.h" />
+<dep name=".\freertos\include\task.h" />
+<dep name=".\freertos\include\timers.h" />
+<dep name=".\Generated_Source\PSoC5\CyDmac.h" />
+<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
+<dep name=".\Generated_Source\PSoC5\CyLib.h" />
+<dep name=".\Generated_Source\PSoC5\CySpc.h" />
+<dep name=".\Generated_Source\PSoC5\SOF_Timer.h" />
+<dep name=".\Generated_Source\PSoC5\cyPm.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter_cfg.h" />
+<dep name=".\Generated_Source\PSoC5\cypins.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+<dep name=".\Generated_Source\PSoC5\isr_sof_timer.h" />
+<dep name=".\Generated_Source\PSoC5\led_user.h" />
+<dep name=".\Generated_Source\PSoC5\led_user_aliases.h" />
+<dep name=".\Generated_Source\PSoC5\switch_user.h" />
+<dep name=".\Generated_Source\PSoC5\switch_user_aliases.h" />
+<dep name=".\freertos\tasks.c" />
+</file>
+<file name=".\freertos\tasks.c" />
+<file name=".\CortexM3\ARM_GCC_541\Debug\timers.o">
+<dep name=".\Generated_Source\PSoC5\cmsis_armcc.h" />
+<dep name=".\Generated_Source\PSoC5\cmsis_compiler.h" />
+<dep name=".\Generated_Source\PSoC5\cmsis_gcc.h" />
+<dep name=".\Generated_Source\PSoC5\core_cm3.h" />
+<dep name=".\Generated_Source\PSoC5\core_cm3_psoc5.h" />
+<dep name=".\Generated_Source\PSoC5\cydisabledsheets.h" />
+<dep name=".\Generated_Source\PSoC5\project.h" />
+<dep name=".\freertos\config\FreeRTOSConfig.h" />
+<dep name=".\freertos\include\FreeRTOS.h" />
+<dep name=".\freertos\include\deprecated_definitions.h" />
+<dep name=".\freertos\include\device.h" />
+<dep name=".\freertos\include\list.h" />
+<dep name=".\freertos\include\mpu_wrappers.h" />
+<dep name=".\freertos\include\portable.h" />
+<dep name=".\freertos\include\portmacro.h" />
+<dep name=".\freertos\include\projdefs.h" />
+<dep name=".\freertos\include\queue.h" />
+<dep name=".\freertos\include\task.h" />
+<dep name=".\freertos\include\timers.h" />
+<dep name=".\Generated_Source\PSoC5\CyDmac.h" />
+<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
+<dep name=".\Generated_Source\PSoC5\CyLib.h" />
+<dep name=".\Generated_Source\PSoC5\CySpc.h" />
+<dep name=".\Generated_Source\PSoC5\SOF_Timer.h" />
+<dep name=".\Generated_Source\PSoC5\cyPm.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter_cfg.h" />
+<dep name=".\Generated_Source\PSoC5\cypins.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+<dep name=".\Generated_Source\PSoC5\isr_sof_timer.h" />
+<dep name=".\Generated_Source\PSoC5\led_user.h" />
+<dep name=".\Generated_Source\PSoC5\led_user_aliases.h" />
+<dep name=".\Generated_Source\PSoC5\switch_user.h" />
+<dep name=".\Generated_Source\PSoC5\switch_user_aliases.h" />
+<dep name=".\freertos\timers.c" />
+</file>
+<file name=".\freertos\timers.c" />
+<file name=".\CortexM3\ARM_GCC_541\Debug\main.o">
+<dep name=".\Generated_Source\PSoC5\cmsis_armcc.h" />
+<dep name=".\Generated_Source\PSoC5\cmsis_compiler.h" />
+<dep name=".\Generated_Source\PSoC5\cmsis_gcc.h" />
+<dep name=".\Generated_Source\PSoC5\core_cm3.h" />
+<dep name=".\Generated_Source\PSoC5\core_cm3_psoc5.h" />
+<dep name=".\Generated_Source\PSoC5\cydisabledsheets.h" />
+<dep name=".\Generated_Source\PSoC5\project.h" />
+<dep name=".\freertos\config\FreeRTOSConfig.h" />
+<dep name=".\freertos\include\FreeRTOS.h" />
+<dep name=".\freertos\include\StackMacros.h" />
+<dep name=".\freertos\include\croutine.h" />
+<dep name=".\freertos\include\deprecated_definitions.h" />
+<dep name=".\freertos\include\device.h" />
+<dep name=".\freertos\include\event_groups.h" />
+<dep name=".\freertos\include\list.h" />
+<dep name=".\freertos\include\mpu_wrappers.h" />
+<dep name=".\freertos\include\os_resource.h" />
+<dep name=".\freertos\include\portable.h" />
+<dep name=".\freertos\include\portmacro.h" />
+<dep name=".\freertos\include\projdefs.h" />
+<dep name=".\freertos\include\queue.h" />
+<dep name=".\freertos\include\semphr.h" />
+<dep name=".\freertos\include\task.h" />
+<dep name=".\freertos\include\timers.h" />
+<dep name=".\FreeRTOS_inc.h" />
+<dep name=".\Generated_Source\PSoC5\CyDmac.h" />
+<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
+<dep name=".\Generated_Source\PSoC5\CyLib.h" />
+<dep name=".\Generated_Source\PSoC5\CySpc.h" />
+<dep name=".\Generated_Source\PSoC5\SOF_Timer.h" />
+<dep name=".\Generated_Source\PSoC5\cyPm.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter_cfg.h" />
+<dep name=".\Generated_Source\PSoC5\cypins.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+<dep name=".\Generated_Source\PSoC5\isr_sof_timer.h" />
+<dep name=".\Generated_Source\PSoC5\led_user.h" />
+<dep name=".\Generated_Source\PSoC5\led_user_aliases.h" />
+<dep name=".\Generated_Source\PSoC5\switch_user.h" />
+<dep name=".\Generated_Source\PSoC5\switch_user_aliases.h" />
+<dep name=".\main.c" />
+</file>
+<file name=".\main.c" />
+<file name=".\CortexM3\ARM_GCC_541\Debug\CyBootAsmGnu.o">
+<dep name=".\Generated_Source\PSoC5\CyBootAsmGnu.s" />
+<dep name=".\Generated_Source\PSoC5\cydevicegnu.inc" />
+<dep name=".\Generated_Source\PSoC5\cydevicegnu_trm.inc" />
+<dep name=".\Generated_Source\PSoC5\cyfittergnu.inc" />
+</file>
+<file name=".\Generated_Source\PSoC5\CyBootAsmGnu.s" />
+<file name=".\Generated_Source\PSoC5\cydevicegnu.inc" />
+<file name=".\Generated_Source\PSoC5\cydevicegnu_trm.inc" />
+<file name=".\Generated_Source\PSoC5\cyfittergnu.inc" />
 <file name=".\CortexM3\ARM_GCC_541\Debug\uart_wifi.o">
 <dep name=".\Generated_Source\PSoC5\CyFlash.h" />
 <dep name=".\Generated_Source\PSoC5\CyLib.h" />
@@ -243,485 +724,6 @@
 <file name=".\Generated_Source\PSoC5\wifi_reset.c" />
 <file name=".\Generated_Source\PSoC5\wifi_reset.h" />
 <file name=".\Generated_Source\PSoC5\wifi_reset_aliases.h" />
-<file name=".\CortexM3\ARM_GCC_541\Debug\croutine.o">
-<dep name=".\Generated_Source\PSoC5\cmsis_armcc.h" />
-<dep name=".\Generated_Source\PSoC5\cmsis_compiler.h" />
-<dep name=".\Generated_Source\PSoC5\cmsis_gcc.h" />
-<dep name=".\Generated_Source\PSoC5\core_cm3.h" />
-<dep name=".\Generated_Source\PSoC5\core_cm3_psoc5.h" />
-<dep name=".\Generated_Source\PSoC5\cydisabledsheets.h" />
-<dep name=".\Generated_Source\PSoC5\project.h" />
-<dep name=".\freertos\config\FreeRTOSConfig.h" />
-<dep name=".\freertos\include\FreeRTOS.h" />
-<dep name=".\freertos\include\croutine.h" />
-<dep name=".\freertos\include\deprecated_definitions.h" />
-<dep name=".\freertos\include\device.h" />
-<dep name=".\freertos\include\list.h" />
-<dep name=".\freertos\include\mpu_wrappers.h" />
-<dep name=".\freertos\include\portable.h" />
-<dep name=".\freertos\include\portmacro.h" />
-<dep name=".\freertos\include\projdefs.h" />
-<dep name=".\freertos\include\task.h" />
-<dep name=".\Generated_Source\PSoC5\CyDmac.h" />
-<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
-<dep name=".\Generated_Source\PSoC5\CyLib.h" />
-<dep name=".\Generated_Source\PSoC5\CySpc.h" />
-<dep name=".\Generated_Source\PSoC5\cyPm.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter_cfg.h" />
-<dep name=".\Generated_Source\PSoC5\cypins.h" />
-<dep name=".\Generated_Source\PSoC5\cytypes.h" />
-<dep name=".\Generated_Source\PSoC5\led_user.h" />
-<dep name=".\Generated_Source\PSoC5\led_user_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\switch_user.h" />
-<dep name=".\Generated_Source\PSoC5\switch_user_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\uart_wifi.h" />
-<dep name=".\Generated_Source\PSoC5\uart_wifi_IntClock.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_enable.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_enable_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_reset.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_reset_aliases.h" />
-<dep name=".\freertos\croutine.c" />
-</file>
-<file name=".\Generated_Source\PSoC5\cmsis_armcc.h" />
-<file name=".\Generated_Source\PSoC5\cmsis_compiler.h" />
-<file name=".\Generated_Source\PSoC5\cmsis_gcc.h" />
-<file name=".\Generated_Source\PSoC5\core_cm3.h" />
-<file name=".\Generated_Source\PSoC5\core_cm3_psoc5.h" />
-<file name=".\Generated_Source\PSoC5\cydisabledsheets.h" />
-<file name=".\Generated_Source\PSoC5\project.h" />
-<file name=".\freertos\config\FreeRTOSConfig.h" />
-<file name=".\freertos\include\FreeRTOS.h" />
-<file name=".\freertos\include\croutine.h" />
-<file name=".\freertos\include\deprecated_definitions.h" />
-<file name=".\freertos\include\device.h" />
-<file name=".\freertos\include\list.h" />
-<file name=".\freertos\include\mpu_wrappers.h" />
-<file name=".\freertos\include\portable.h" />
-<file name=".\freertos\include\portmacro.h" />
-<file name=".\freertos\include\projdefs.h" />
-<file name=".\freertos\include\task.h" />
-<file name=".\freertos\croutine.c" />
-<file name=".\CortexM3\ARM_GCC_541\Debug\event_groups.o">
-<dep name=".\Generated_Source\PSoC5\cmsis_armcc.h" />
-<dep name=".\Generated_Source\PSoC5\cmsis_compiler.h" />
-<dep name=".\Generated_Source\PSoC5\cmsis_gcc.h" />
-<dep name=".\Generated_Source\PSoC5\core_cm3.h" />
-<dep name=".\Generated_Source\PSoC5\core_cm3_psoc5.h" />
-<dep name=".\Generated_Source\PSoC5\cydisabledsheets.h" />
-<dep name=".\Generated_Source\PSoC5\project.h" />
-<dep name=".\freertos\config\FreeRTOSConfig.h" />
-<dep name=".\freertos\include\FreeRTOS.h" />
-<dep name=".\freertos\include\deprecated_definitions.h" />
-<dep name=".\freertos\include\device.h" />
-<dep name=".\freertos\include\event_groups.h" />
-<dep name=".\freertos\include\list.h" />
-<dep name=".\freertos\include\mpu_wrappers.h" />
-<dep name=".\freertos\include\portable.h" />
-<dep name=".\freertos\include\portmacro.h" />
-<dep name=".\freertos\include\projdefs.h" />
-<dep name=".\freertos\include\task.h" />
-<dep name=".\freertos\include\timers.h" />
-<dep name=".\Generated_Source\PSoC5\CyDmac.h" />
-<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
-<dep name=".\Generated_Source\PSoC5\CyLib.h" />
-<dep name=".\Generated_Source\PSoC5\CySpc.h" />
-<dep name=".\Generated_Source\PSoC5\cyPm.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter_cfg.h" />
-<dep name=".\Generated_Source\PSoC5\cypins.h" />
-<dep name=".\Generated_Source\PSoC5\cytypes.h" />
-<dep name=".\Generated_Source\PSoC5\led_user.h" />
-<dep name=".\Generated_Source\PSoC5\led_user_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\switch_user.h" />
-<dep name=".\Generated_Source\PSoC5\switch_user_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\uart_wifi.h" />
-<dep name=".\Generated_Source\PSoC5\uart_wifi_IntClock.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_enable.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_enable_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_reset.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_reset_aliases.h" />
-<dep name=".\freertos\event_groups.c" />
-</file>
-<file name=".\freertos\include\event_groups.h" />
-<file name=".\freertos\include\timers.h" />
-<file name=".\freertos\event_groups.c" />
-<file name=".\CortexM3\ARM_GCC_541\Debug\heap_2.o">
-<dep name=".\Generated_Source\PSoC5\cmsis_armcc.h" />
-<dep name=".\Generated_Source\PSoC5\cmsis_compiler.h" />
-<dep name=".\Generated_Source\PSoC5\cmsis_gcc.h" />
-<dep name=".\Generated_Source\PSoC5\core_cm3.h" />
-<dep name=".\Generated_Source\PSoC5\core_cm3_psoc5.h" />
-<dep name=".\Generated_Source\PSoC5\cydisabledsheets.h" />
-<dep name=".\Generated_Source\PSoC5\project.h" />
-<dep name=".\freertos\config\FreeRTOSConfig.h" />
-<dep name=".\freertos\include\FreeRTOS.h" />
-<dep name=".\freertos\include\deprecated_definitions.h" />
-<dep name=".\freertos\include\device.h" />
-<dep name=".\freertos\include\list.h" />
-<dep name=".\freertos\include\mpu_wrappers.h" />
-<dep name=".\freertos\include\portable.h" />
-<dep name=".\freertos\include\portmacro.h" />
-<dep name=".\freertos\include\projdefs.h" />
-<dep name=".\freertos\include\task.h" />
-<dep name=".\Generated_Source\PSoC5\CyDmac.h" />
-<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
-<dep name=".\Generated_Source\PSoC5\CyLib.h" />
-<dep name=".\Generated_Source\PSoC5\CySpc.h" />
-<dep name=".\Generated_Source\PSoC5\cyPm.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter_cfg.h" />
-<dep name=".\Generated_Source\PSoC5\cypins.h" />
-<dep name=".\Generated_Source\PSoC5\cytypes.h" />
-<dep name=".\Generated_Source\PSoC5\led_user.h" />
-<dep name=".\Generated_Source\PSoC5\led_user_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\switch_user.h" />
-<dep name=".\Generated_Source\PSoC5\switch_user_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\uart_wifi.h" />
-<dep name=".\Generated_Source\PSoC5\uart_wifi_IntClock.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_enable.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_enable_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_reset.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_reset_aliases.h" />
-<dep name=".\freertos\heap_2.c" />
-</file>
-<file name=".\freertos\heap_2.c" />
-<file name=".\CortexM3\ARM_GCC_541\Debug\list.o">
-<dep name=".\Generated_Source\PSoC5\cmsis_armcc.h" />
-<dep name=".\Generated_Source\PSoC5\cmsis_compiler.h" />
-<dep name=".\Generated_Source\PSoC5\cmsis_gcc.h" />
-<dep name=".\Generated_Source\PSoC5\core_cm3.h" />
-<dep name=".\Generated_Source\PSoC5\core_cm3_psoc5.h" />
-<dep name=".\Generated_Source\PSoC5\cydisabledsheets.h" />
-<dep name=".\Generated_Source\PSoC5\project.h" />
-<dep name=".\freertos\config\FreeRTOSConfig.h" />
-<dep name=".\freertos\include\FreeRTOS.h" />
-<dep name=".\freertos\include\deprecated_definitions.h" />
-<dep name=".\freertos\include\device.h" />
-<dep name=".\freertos\include\list.h" />
-<dep name=".\freertos\include\mpu_wrappers.h" />
-<dep name=".\freertos\include\portable.h" />
-<dep name=".\freertos\include\portmacro.h" />
-<dep name=".\freertos\include\projdefs.h" />
-<dep name=".\Generated_Source\PSoC5\CyDmac.h" />
-<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
-<dep name=".\Generated_Source\PSoC5\CyLib.h" />
-<dep name=".\Generated_Source\PSoC5\CySpc.h" />
-<dep name=".\Generated_Source\PSoC5\cyPm.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter_cfg.h" />
-<dep name=".\Generated_Source\PSoC5\cypins.h" />
-<dep name=".\Generated_Source\PSoC5\cytypes.h" />
-<dep name=".\Generated_Source\PSoC5\led_user.h" />
-<dep name=".\Generated_Source\PSoC5\led_user_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\switch_user.h" />
-<dep name=".\Generated_Source\PSoC5\switch_user_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\uart_wifi.h" />
-<dep name=".\Generated_Source\PSoC5\uart_wifi_IntClock.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_enable.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_enable_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_reset.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_reset_aliases.h" />
-<dep name=".\freertos\list.c" />
-</file>
-<file name=".\freertos\list.c" />
-<file name=".\CortexM3\ARM_GCC_541\Debug\os_resource.o">
-<dep name=".\Generated_Source\PSoC5\cmsis_armcc.h" />
-<dep name=".\Generated_Source\PSoC5\cmsis_compiler.h" />
-<dep name=".\Generated_Source\PSoC5\cmsis_gcc.h" />
-<dep name=".\Generated_Source\PSoC5\core_cm3.h" />
-<dep name=".\Generated_Source\PSoC5\core_cm3_psoc5.h" />
-<dep name=".\Generated_Source\PSoC5\cydisabledsheets.h" />
-<dep name=".\Generated_Source\PSoC5\project.h" />
-<dep name=".\freertos\config\FreeRTOSConfig.h" />
-<dep name=".\freertos\include\FreeRTOS.h" />
-<dep name=".\freertos\include\StackMacros.h" />
-<dep name=".\freertos\include\croutine.h" />
-<dep name=".\freertos\include\deprecated_definitions.h" />
-<dep name=".\freertos\include\device.h" />
-<dep name=".\freertos\include\event_groups.h" />
-<dep name=".\freertos\include\list.h" />
-<dep name=".\freertos\include\mpu_wrappers.h" />
-<dep name=".\freertos\include\os_resource.h" />
-<dep name=".\freertos\include\portable.h" />
-<dep name=".\freertos\include\portmacro.h" />
-<dep name=".\freertos\include\projdefs.h" />
-<dep name=".\freertos\include\queue.h" />
-<dep name=".\freertos\include\semphr.h" />
-<dep name=".\freertos\include\task.h" />
-<dep name=".\freertos\include\timers.h" />
-<dep name=".\FreeRTOS_inc.h" />
-<dep name=".\Generated_Source\PSoC5\CyDmac.h" />
-<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
-<dep name=".\Generated_Source\PSoC5\CyLib.h" />
-<dep name=".\Generated_Source\PSoC5\CySpc.h" />
-<dep name=".\Generated_Source\PSoC5\cyPm.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter_cfg.h" />
-<dep name=".\Generated_Source\PSoC5\cypins.h" />
-<dep name=".\Generated_Source\PSoC5\cytypes.h" />
-<dep name=".\Generated_Source\PSoC5\led_user.h" />
-<dep name=".\Generated_Source\PSoC5\led_user_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\switch_user.h" />
-<dep name=".\Generated_Source\PSoC5\switch_user_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\uart_wifi.h" />
-<dep name=".\Generated_Source\PSoC5\uart_wifi_IntClock.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_enable.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_enable_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_reset.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_reset_aliases.h" />
-<dep name=".\freertos\os_resource.c" />
-</file>
-<file name=".\freertos\include\StackMacros.h" />
-<file name=".\freertos\include\os_resource.h" />
-<file name=".\freertos\include\queue.h" />
-<file name=".\freertos\include\semphr.h" />
-<file name=".\FreeRTOS_inc.h" />
-<file name=".\freertos\os_resource.c" />
-<file name=".\CortexM3\ARM_GCC_541\Debug\port.o">
-<dep name=".\Generated_Source\PSoC5\cmsis_armcc.h" />
-<dep name=".\Generated_Source\PSoC5\cmsis_compiler.h" />
-<dep name=".\Generated_Source\PSoC5\cmsis_gcc.h" />
-<dep name=".\Generated_Source\PSoC5\core_cm3.h" />
-<dep name=".\Generated_Source\PSoC5\core_cm3_psoc5.h" />
-<dep name=".\Generated_Source\PSoC5\cydisabledsheets.h" />
-<dep name=".\Generated_Source\PSoC5\project.h" />
-<dep name=".\freertos\config\FreeRTOSConfig.h" />
-<dep name=".\freertos\include\FreeRTOS.h" />
-<dep name=".\freertos\include\deprecated_definitions.h" />
-<dep name=".\freertos\include\device.h" />
-<dep name=".\freertos\include\list.h" />
-<dep name=".\freertos\include\mpu_wrappers.h" />
-<dep name=".\freertos\include\portable.h" />
-<dep name=".\freertos\include\portmacro.h" />
-<dep name=".\freertos\include\projdefs.h" />
-<dep name=".\freertos\include\task.h" />
-<dep name=".\Generated_Source\PSoC5\CyDmac.h" />
-<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
-<dep name=".\Generated_Source\PSoC5\CyLib.h" />
-<dep name=".\Generated_Source\PSoC5\CySpc.h" />
-<dep name=".\Generated_Source\PSoC5\cyPm.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter_cfg.h" />
-<dep name=".\Generated_Source\PSoC5\cypins.h" />
-<dep name=".\Generated_Source\PSoC5\cytypes.h" />
-<dep name=".\Generated_Source\PSoC5\led_user.h" />
-<dep name=".\Generated_Source\PSoC5\led_user_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\switch_user.h" />
-<dep name=".\Generated_Source\PSoC5\switch_user_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\uart_wifi.h" />
-<dep name=".\Generated_Source\PSoC5\uart_wifi_IntClock.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_enable.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_enable_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_reset.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_reset_aliases.h" />
-<dep name=".\freertos\port.c" />
-</file>
-<file name=".\freertos\port.c" />
-<file name=".\CortexM3\ARM_GCC_541\Debug\queue.o">
-<dep name=".\Generated_Source\PSoC5\cmsis_armcc.h" />
-<dep name=".\Generated_Source\PSoC5\cmsis_compiler.h" />
-<dep name=".\Generated_Source\PSoC5\cmsis_gcc.h" />
-<dep name=".\Generated_Source\PSoC5\core_cm3.h" />
-<dep name=".\Generated_Source\PSoC5\core_cm3_psoc5.h" />
-<dep name=".\Generated_Source\PSoC5\cydisabledsheets.h" />
-<dep name=".\Generated_Source\PSoC5\project.h" />
-<dep name=".\freertos\config\FreeRTOSConfig.h" />
-<dep name=".\freertos\include\FreeRTOS.h" />
-<dep name=".\freertos\include\croutine.h" />
-<dep name=".\freertos\include\deprecated_definitions.h" />
-<dep name=".\freertos\include\device.h" />
-<dep name=".\freertos\include\list.h" />
-<dep name=".\freertos\include\mpu_wrappers.h" />
-<dep name=".\freertos\include\portable.h" />
-<dep name=".\freertos\include\portmacro.h" />
-<dep name=".\freertos\include\projdefs.h" />
-<dep name=".\freertos\include\queue.h" />
-<dep name=".\freertos\include\task.h" />
-<dep name=".\Generated_Source\PSoC5\CyDmac.h" />
-<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
-<dep name=".\Generated_Source\PSoC5\CyLib.h" />
-<dep name=".\Generated_Source\PSoC5\CySpc.h" />
-<dep name=".\Generated_Source\PSoC5\cyPm.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter_cfg.h" />
-<dep name=".\Generated_Source\PSoC5\cypins.h" />
-<dep name=".\Generated_Source\PSoC5\cytypes.h" />
-<dep name=".\Generated_Source\PSoC5\led_user.h" />
-<dep name=".\Generated_Source\PSoC5\led_user_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\switch_user.h" />
-<dep name=".\Generated_Source\PSoC5\switch_user_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\uart_wifi.h" />
-<dep name=".\Generated_Source\PSoC5\uart_wifi_IntClock.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_enable.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_enable_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_reset.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_reset_aliases.h" />
-<dep name=".\freertos\queue.c" />
-</file>
-<file name=".\freertos\queue.c" />
-<file name=".\CortexM3\ARM_GCC_541\Debug\tasks.o">
-<dep name=".\Generated_Source\PSoC5\cmsis_armcc.h" />
-<dep name=".\Generated_Source\PSoC5\cmsis_compiler.h" />
-<dep name=".\Generated_Source\PSoC5\cmsis_gcc.h" />
-<dep name=".\Generated_Source\PSoC5\core_cm3.h" />
-<dep name=".\Generated_Source\PSoC5\core_cm3_psoc5.h" />
-<dep name=".\Generated_Source\PSoC5\cydisabledsheets.h" />
-<dep name=".\Generated_Source\PSoC5\project.h" />
-<dep name=".\freertos\config\FreeRTOSConfig.h" />
-<dep name=".\freertos\include\FreeRTOS.h" />
-<dep name=".\freertos\include\StackMacros.h" />
-<dep name=".\freertos\include\deprecated_definitions.h" />
-<dep name=".\freertos\include\device.h" />
-<dep name=".\freertos\include\list.h" />
-<dep name=".\freertos\include\mpu_wrappers.h" />
-<dep name=".\freertos\include\portable.h" />
-<dep name=".\freertos\include\portmacro.h" />
-<dep name=".\freertos\include\projdefs.h" />
-<dep name=".\freertos\include\task.h" />
-<dep name=".\freertos\include\timers.h" />
-<dep name=".\Generated_Source\PSoC5\CyDmac.h" />
-<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
-<dep name=".\Generated_Source\PSoC5\CyLib.h" />
-<dep name=".\Generated_Source\PSoC5\CySpc.h" />
-<dep name=".\Generated_Source\PSoC5\cyPm.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter_cfg.h" />
-<dep name=".\Generated_Source\PSoC5\cypins.h" />
-<dep name=".\Generated_Source\PSoC5\cytypes.h" />
-<dep name=".\Generated_Source\PSoC5\led_user.h" />
-<dep name=".\Generated_Source\PSoC5\led_user_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\switch_user.h" />
-<dep name=".\Generated_Source\PSoC5\switch_user_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\uart_wifi.h" />
-<dep name=".\Generated_Source\PSoC5\uart_wifi_IntClock.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_enable.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_enable_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_reset.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_reset_aliases.h" />
-<dep name=".\freertos\tasks.c" />
-</file>
-<file name=".\freertos\tasks.c" />
-<file name=".\CortexM3\ARM_GCC_541\Debug\timers.o">
-<dep name=".\Generated_Source\PSoC5\cmsis_armcc.h" />
-<dep name=".\Generated_Source\PSoC5\cmsis_compiler.h" />
-<dep name=".\Generated_Source\PSoC5\cmsis_gcc.h" />
-<dep name=".\Generated_Source\PSoC5\core_cm3.h" />
-<dep name=".\Generated_Source\PSoC5\core_cm3_psoc5.h" />
-<dep name=".\Generated_Source\PSoC5\cydisabledsheets.h" />
-<dep name=".\Generated_Source\PSoC5\project.h" />
-<dep name=".\freertos\config\FreeRTOSConfig.h" />
-<dep name=".\freertos\include\FreeRTOS.h" />
-<dep name=".\freertos\include\deprecated_definitions.h" />
-<dep name=".\freertos\include\device.h" />
-<dep name=".\freertos\include\list.h" />
-<dep name=".\freertos\include\mpu_wrappers.h" />
-<dep name=".\freertos\include\portable.h" />
-<dep name=".\freertos\include\portmacro.h" />
-<dep name=".\freertos\include\projdefs.h" />
-<dep name=".\freertos\include\queue.h" />
-<dep name=".\freertos\include\task.h" />
-<dep name=".\freertos\include\timers.h" />
-<dep name=".\Generated_Source\PSoC5\CyDmac.h" />
-<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
-<dep name=".\Generated_Source\PSoC5\CyLib.h" />
-<dep name=".\Generated_Source\PSoC5\CySpc.h" />
-<dep name=".\Generated_Source\PSoC5\cyPm.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter_cfg.h" />
-<dep name=".\Generated_Source\PSoC5\cypins.h" />
-<dep name=".\Generated_Source\PSoC5\cytypes.h" />
-<dep name=".\Generated_Source\PSoC5\led_user.h" />
-<dep name=".\Generated_Source\PSoC5\led_user_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\switch_user.h" />
-<dep name=".\Generated_Source\PSoC5\switch_user_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\uart_wifi.h" />
-<dep name=".\Generated_Source\PSoC5\uart_wifi_IntClock.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_enable.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_enable_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_reset.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_reset_aliases.h" />
-<dep name=".\freertos\timers.c" />
-</file>
-<file name=".\freertos\timers.c" />
-<file name=".\CortexM3\ARM_GCC_541\Debug\main.o">
-<dep name=".\Generated_Source\PSoC5\cmsis_armcc.h" />
-<dep name=".\Generated_Source\PSoC5\cmsis_compiler.h" />
-<dep name=".\Generated_Source\PSoC5\cmsis_gcc.h" />
-<dep name=".\Generated_Source\PSoC5\core_cm3.h" />
-<dep name=".\Generated_Source\PSoC5\core_cm3_psoc5.h" />
-<dep name=".\Generated_Source\PSoC5\cydisabledsheets.h" />
-<dep name=".\Generated_Source\PSoC5\project.h" />
-<dep name=".\freertos\config\FreeRTOSConfig.h" />
-<dep name=".\freertos\include\FreeRTOS.h" />
-<dep name=".\freertos\include\StackMacros.h" />
-<dep name=".\freertos\include\croutine.h" />
-<dep name=".\freertos\include\deprecated_definitions.h" />
-<dep name=".\freertos\include\device.h" />
-<dep name=".\freertos\include\event_groups.h" />
-<dep name=".\freertos\include\list.h" />
-<dep name=".\freertos\include\mpu_wrappers.h" />
-<dep name=".\freertos\include\os_resource.h" />
-<dep name=".\freertos\include\portable.h" />
-<dep name=".\freertos\include\portmacro.h" />
-<dep name=".\freertos\include\projdefs.h" />
-<dep name=".\freertos\include\queue.h" />
-<dep name=".\freertos\include\semphr.h" />
-<dep name=".\freertos\include\task.h" />
-<dep name=".\freertos\include\timers.h" />
-<dep name=".\FreeRTOS_inc.h" />
-<dep name=".\Generated_Source\PSoC5\CyDmac.h" />
-<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
-<dep name=".\Generated_Source\PSoC5\CyLib.h" />
-<dep name=".\Generated_Source\PSoC5\CySpc.h" />
-<dep name=".\Generated_Source\PSoC5\cyPm.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter_cfg.h" />
-<dep name=".\Generated_Source\PSoC5\cypins.h" />
-<dep name=".\Generated_Source\PSoC5\cytypes.h" />
-<dep name=".\Generated_Source\PSoC5\led_user.h" />
-<dep name=".\Generated_Source\PSoC5\led_user_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\switch_user.h" />
-<dep name=".\Generated_Source\PSoC5\switch_user_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\uart_wifi.h" />
-<dep name=".\Generated_Source\PSoC5\uart_wifi_IntClock.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_enable.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_enable_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_reset.h" />
-<dep name=".\Generated_Source\PSoC5\wifi_reset_aliases.h" />
-<dep name=".\main.c" />
-</file>
-<file name=".\main.c" />
-<file name=".\CortexM3\ARM_GCC_541\Debug\CyBootAsmGnu.o">
-<dep name=".\Generated_Source\PSoC5\CyBootAsmGnu.s" />
-<dep name=".\Generated_Source\PSoC5\cydevicegnu.inc" />
-<dep name=".\Generated_Source\PSoC5\cydevicegnu_trm.inc" />
-<dep name=".\Generated_Source\PSoC5\cyfittergnu.inc" />
-</file>
-<file name=".\Generated_Source\PSoC5\CyBootAsmGnu.s" />
-<file name=".\Generated_Source\PSoC5\cydevicegnu.inc" />
-<file name=".\Generated_Source\PSoC5\cydevicegnu_trm.inc" />
-<file name=".\Generated_Source\PSoC5\cyfittergnu.inc" />
 <file name=".\CortexM3\ARM_GCC_541\Debug\heap_1.o">
 <dep name=".\Generated_Source\PSoC5\CyDmac.h" />
 <dep name=".\Generated_Source\PSoC5\CyFlash.h" />
@@ -840,15 +842,11 @@
 <dep name=".\CortexM3\ARM_GCC_541\Debug\cyPm.o" />
 <dep name=".\CortexM3\ARM_GCC_541\Debug\CySpc.o" />
 <dep name=".\CortexM3\ARM_GCC_541\Debug\cyutils.o" />
-<dep name=".\CortexM3\ARM_GCC_541\Debug\uart_wifi.o" />
-<dep name=".\CortexM3\ARM_GCC_541\Debug\uart_wifi_PM.o" />
-<dep name=".\CortexM3\ARM_GCC_541\Debug\uart_wifi_INT.o" />
-<dep name=".\CortexM3\ARM_GCC_541\Debug\uart_wifi_BOOT.o" />
-<dep name=".\CortexM3\ARM_GCC_541\Debug\wifi_enable.o" />
-<dep name=".\CortexM3\ARM_GCC_541\Debug\wifi_reset.o" />
-<dep name=".\CortexM3\ARM_GCC_541\Debug\uart_wifi_IntClock.o" />
 <dep name=".\CortexM3\ARM_GCC_541\Debug\led_user.o" />
 <dep name=".\CortexM3\ARM_GCC_541\Debug\switch_user.o" />
+<dep name=".\CortexM3\ARM_GCC_541\Debug\SOF_Timer.o" />
+<dep name=".\CortexM3\ARM_GCC_541\Debug\SOF_Timer_PM.o" />
+<dep name=".\CortexM3\ARM_GCC_541\Debug\isr_sof_timer.o" />
 <dep name=".\CortexM3\ARM_GCC_541\Debug\BootLoadable.a" />
 <dep name="${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_541\Debug\CyComponentLibrary.a" />
 </file>
@@ -895,6 +893,9 @@
 <name_val_pair name="freertos\heap_2.c" v="-mcpu=cortex-m3 -mthumb -I.\freertos\config -I.\freertos\include -I. -IGenerated_Source\PSoC5 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
 <name_val_pair name="freertos\os_resource.c" v="-mcpu=cortex-m3 -mthumb -I.\freertos\config -I.\freertos\include -I. -IGenerated_Source\PSoC5 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
 <name_val_pair name="freertos\event_groups.c" v="-mcpu=cortex-m3 -mthumb -I.\freertos\config -I.\freertos\include -I. -IGenerated_Source\PSoC5 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC5\SOF_Timer.c" v="-mcpu=cortex-m3 -mthumb -I.\freertos\config -I.\freertos\include -I. -IGenerated_Source\PSoC5 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC5\SOF_Timer_PM.c" v="-mcpu=cortex-m3 -mthumb -I.\freertos\config -I.\freertos\include -I. -IGenerated_Source\PSoC5 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC5\isr_sof_timer.c" v="-mcpu=cortex-m3 -mthumb -I.\freertos\config -I.\freertos\include -I. -IGenerated_Source\PSoC5 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
 </name>
 </genericCmdLineData>
 <codeGenCmdLineTag v="-.appdatapath &quot;C:\Users\Raioz7\AppData\Local\Cypress Semiconductor\PSoC Creator\4.1&quot; -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\BootLoadable.cyprj -d CY8C5888AXI-LP096 -s C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE" />
@@ -909,27 +910,34 @@
 <CyGuid_925cc1e1-309e-4e08-b0a1-09a83c35b157 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtProjectPSoCExe+CyCodeGenDepUserInfo" version="1">
 <deps_list>
 <v>.\TopDesign\TopDesign.cysch</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\UART_v2_50\UART_v2_50.cysch</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\UART_v2_50\UART_v2_50.cysym</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\UART_v2_50\UART_v2_50.pdf</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\UART_v2_50\UART_v2_50.cystate</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\UART_v2_50\UART_v2_50.cycdx</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\UART_v2_50</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\UART_v2_50\API\UART.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\UART_v2_50\API\UART.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\UART_v2_50\API\UART_PM.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\UART_v2_50\API\UARTINT.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\UART_v2_50\API\UART_BOOT.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\UART_v2_50\Custom\cyuartadvancedcontrol.cs</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\UART_v2_50\Custom\cyuartadvancedcontrol.Designer.cs</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\UART_v2_50\Custom\cyuartcontrol.cs</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\UART_v2_50\Custom\cyuartcontrol.Designer.cs</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\UART_v2_50\Custom\cyuartcustomizer.cs</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\UART_v2_50\Custom\cyuartparameters.cs</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\UART_v2_50\Custom\Resources.Designer.cs</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\UART_v2_50\Custom\cyuartadvancedcontrol.resx</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\UART_v2_50\Custom\cyuartcontrol.resx</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\UART_v2_50\Custom\Resources.resx</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Timer_v2_70\Timer_v2_70.cycdx</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Timer_v2_70\Timer_v2_70.cysym</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Timer_v2_70\Timer_v2_70.pdf</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Timer_v2_70\Timer_v2_70.cystate</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Timer_v2_70\API\Timer.c</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Timer_v2_70\API\Timer.h</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Timer_v2_70\API\Timer_PM.c</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Timer_v2_70\Custom\cytimercontrol.cs</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Timer_v2_70\Custom\cytimercontrol.Designer.cs</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Timer_v2_70\Custom\CyTimerCustomizer.cs</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Timer_v2_70\Custom\TimerParameters.cs</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Timer_v2_70\Custom\Resources.Designer.cs</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Timer_v2_70\Custom\cytimercontrol.resx</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Timer_v2_70\Custom\Resources.resx</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Timer_v2_70\PSoC5\Timer_v2_70.cysch</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Timer_v2_70</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_psoc3_timer_v1_0\cy_psoc3_timer_v1_0.cyprimitive</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_psoc3_timer_v1_0\cy_psoc3_timer_v1_0.cysym</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.cysym</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.pdf</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.cysym</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.pdf</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\Custom\custom.cs</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\OneTerminal\OneTerminal.cysym</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\OneTerminal\OneTerminal.pdf</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\OneTerminal\OneTerminal.v</v>
 <v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_clock_v2_20\cy_clock_v2_20.cyprimitive</v>
 <v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_clock_v2_20\cy_clock_v2_20.cysym</v>
 <v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
@@ -937,12 +945,6 @@
 <v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_clock_v2_20\API\clk.c</v>
 <v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_clock_v2_20\API\clk.h</v>
 <v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_clock_v2_20\Custom\custom.cs</v>
-<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.cysym</v>
-<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.pdf</v>
-<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v</v>
-<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\Custom\custom.cs</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.cysym</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v</v>
 <v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\cy_pins_v2_20.cysym</v>
 <v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\cy_pins_v2_20.cystate</v>
@@ -982,12 +984,13 @@
 <v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\PSoC5\API\aliases.h</v>
 <v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\PSoC5\API\pins.c</v>
 <v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\PSoC5\API\pins.h</v>
-<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.cysym</v>
-<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v</v>
-<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.cystate</v>
-<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.pdf</v>
-<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_constant_v1_0</v>
-<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_constant_v1_0\Custom\custom.cs</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.cysym</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.primitive</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.cystate</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_isr_v1_70\Custom\custom.cs</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_isr_v1_70\PSoC5\API\intc.c</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_isr_v1_70\PSoC5\API\intc.h</v>
 <v>.\BootLoadable.cydwr</v>
 <v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_60\PSoC5\API\cm3gcc.ld</v>
 <v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_60\PSoC5\API\Cm3RealView.scat</v>
@@ -1085,16 +1088,18 @@
 <v>Generated_Source\PSoC5\switch_user_aliases.h</v>
 <v>Generated_Source\PSoC5\switch_user.c</v>
 <v>Generated_Source\PSoC5\switch_user.h</v>
+<v>Generated_Source\PSoC5\SOF_Timer.c</v>
+<v>Generated_Source\PSoC5\SOF_Timer.h</v>
+<v>Generated_Source\PSoC5\SOF_Timer_PM.c</v>
+<v>Generated_Source\PSoC5\isr_sof_timer.c</v>
+<v>Generated_Source\PSoC5\isr_sof_timer.h</v>
 </gen_list>
 <warp_dep>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\ieee\work\stdlogic.vif</v>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif</v>
-<v>C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\cypress.v</v>
-<v>C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\cy_psoc3_inc.v</v>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif</v>
-<v>C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif</v>
 </warp_dep>
-<deps_time v="132060827661517206" />
+<deps_time v="132062974775614895" />
 <top_block v="TopDesign" />
 <last_generation v="0" />
 <pdl_path v="" />
@@ -1104,7 +1109,7 @@
 <dataGuid v="769d31ea-68b1-4f0c-b90a-7c10a43ee563">
 <CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563 type_name="CyDesigner.Common.ProjMgmt.Model.CyLinkCustomData" version="1">
 <link_deps_times>
-<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM3" v="132060827964386602" />
+<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM3" v="132062974907873119" />
 </link_deps_times>
 </CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563>
 </dataGuid>
@@ -1115,27 +1120,40 @@
 <v>Off-Chip</v>
 </tree_states_tab_names>
 <tree_states>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Cypress Component Catalog\Digital\Functions">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Cypress Component Catalog\Digital\Functions\Counter [v3.0]">
 <ExpandedNodeIds>
 <v>Cypress Component Catalog</v>
+<v>Cypress Component Catalog\Digital</v>
+<v>Cypress Component Catalog\Digital\Functions</v>
 <v>Cypress Component Catalog\Digital\Registers</v>
 <v>Cypress Component Catalog\Digital\Utility</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
-<v>Cypress Component Catalog</v>
-<v>Cypress Component Catalog\Analog</v>
-<v>Cypress Component Catalog\CapSense</v>
-<v>Cypress Component Catalog\Communications</v>
-<v>Cypress Component Catalog\Digital</v>
+<v>Cypress Component Catalog\Digital\Functions\PRS [v2.40]</v>
+<v>Cypress Component Catalog\Digital\Functions\PWM [v3.30]</v>
+<v>Cypress Component Catalog\Digital\Functions\Quadrature Decoder [v3.0]</v>
+<v>Cypress Component Catalog\Digital\Functions\Shift Register [v2.30]</v>
+<v>Cypress Component Catalog\Digital\Functions\Timer [v2.70]</v>
+<v>Cypress Component Catalog\Digital\Logic</v>
+<v>Cypress Component Catalog\Digital\Registers</v>
+<v>Cypress Component Catalog\Digital\Registers\Control Register [v1.80]</v>
+<v>Cypress Component Catalog\Digital\Registers\Status Register [v1.90]</v>
+<v>Cypress Component Catalog\Digital\Utility</v>
+<v>Cypress Component Catalog\Digital\Utility\Basic Counter [v1.0]</v>
+<v>Cypress Component Catalog\Digital\Utility\Debouncer [v1.0]</v>
+<v>Cypress Component Catalog\Digital\Utility\Digital Comparator [v1.0]</v>
+<v>Cypress Component Catalog\Digital\Utility\Down Counter (7-bit) [v1.0]</v>
+<v>Cypress Component Catalog\Digital\Utility\Edge Detector [v1.0]</v>
+<v>Cypress Component Catalog\Digital\Utility\Frequency Divider [v1.0]</v>
+<v>Cypress Component Catalog\Digital\Utility\Glitch Filter [v2.0]</v>
+<v>Cypress Component Catalog\Digital\Utility\Pulse Converter [v1.0]</v>
+<v>Cypress Component Catalog\Digital\Utility\Sync [v1.0]</v>
+<v>Cypress Component Catalog\Digital\Utility\UDB Clock Enable [v1.0]</v>
 <v>Cypress Component Catalog\Display</v>
 <v>Cypress Component Catalog\Filters</v>
-<v>Cypress Component Catalog\Ports and Pins</v>
-<v>Cypress Component Catalog\Power Supervision</v>
-<v>Cypress Component Catalog\System</v>
-<v>Cypress Component Catalog\Thermal Management</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Off-Chip Component Catalog">
 <ExpandedNodeIds>
 <v>Off-Chip Component Catalog</v>
 </ExpandedNodeIds>

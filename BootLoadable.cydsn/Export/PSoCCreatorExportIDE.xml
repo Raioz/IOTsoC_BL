@@ -121,25 +121,17 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cycodeshareimport.ld</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cycodeshareexport.ld</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cycodeshareimport.scat</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\uart_wifi.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\uart_wifi.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\uart_wifi_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\uart_wifi_INT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\uart_wifi_BOOT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\wifi_enable_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\wifi_enable.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\wifi_enable.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\wifi_reset_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\wifi_reset.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\wifi_reset.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\uart_wifi_IntClock.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\uart_wifi_IntClock.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\led_user_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\led_user.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\led_user.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\switch_user_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\switch_user.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\switch_user.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SOF_Timer.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SOF_Timer.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SOF_Timer_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\isr_sof_timer.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\isr_sof_timer.h</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\Export\ARM_GCC_Generic">

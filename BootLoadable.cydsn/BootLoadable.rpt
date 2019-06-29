@@ -1,13 +1,13 @@
-Loading plugins phase: Elapsed time ==> 7s.095ms
+Loading plugins phase: Elapsed time ==> 0s.278ms
 <CYPRESSTAG name="CyDsfit arguments...">
 cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\BootLoadable.cyprj -d CY8C5888AXI-LP096 -s C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
 </CYPRESSTAG>
 <CYPRESSTAG name="Design elaboration results...">
 </CYPRESSTAG>
-Elaboration phase: Elapsed time ==> 38s.460ms
+Elaboration phase: Elapsed time ==> 4s.701ms
 <CYPRESSTAG name="HDL generation results...">
 </CYPRESSTAG>
-HDL generation phase: Elapsed time ==> 1s.168ms
+HDL generation phase: Elapsed time ==> 0s.108ms
 <CYPRESSTAG name="Synthesis results...">
 
      | | | | | | |
@@ -41,7 +41,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Raioz
 ======================================================================
 
 vlogfe V6.3 IR 41:  Verilog parser
-Thu Jun 27 00:19:05 2019
+Sat Jun 29 11:57:41 2019
 
 
 ======================================================================
@@ -51,13 +51,11 @@ Options  :    -yv2 -q10 BootLoadable.v
 ======================================================================
 
 vpp V6.3 IR 41:  Verilog Pre-Processor
-Thu Jun 27 00:19:06 2019
+Sat Jun 29 11:57:41 2019
 
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'
-Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v'
-Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\cypress.v'
-Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'
-Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\OneTerminal\OneTerminal.v'
 
 vpp:  No errors.
 
@@ -74,16 +72,6 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\c
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
 Using control file 'BootLoadable.ctl'.
-C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v (line 1113, col 55):  Note: Substituting module 'add_vv_vv' for '+'.
-C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v (line 1122, col 48):  Note: Substituting module 'cmp_vv_vv' for '<'.
-C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v (line 1122, col 77):  Note: Substituting module 'cmp_vv_vv' for '<'.
-C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v (line 1389, col 59):  Note: Substituting module 'cmp_vv_vv' for '<'.
-C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v (line 1424, col 61):  Note: Substituting module 'cmp_vv_vv' for '/='.
-C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v (line 1547, col 106):  Note: Substituting module 'cmp_vv_vv' for '<'.
-C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v (line 1603, col 68):  Note: Substituting module 'cmp_vv_vv' for '<'.
-C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v (line 1604, col 68):  Note: Substituting module 'cmp_vv_vv' for '<'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3pkg.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif'.
 
 vlogfe:  No errors.
 
@@ -95,7 +83,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Raioz
 ======================================================================
 
 tovif V6.3 IR 41:  High-level synthesis
-Thu Jun 27 00:19:08 2019
+Sat Jun 29 11:57:42 2019
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -107,15 +95,10 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\c
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
 Linking 'C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\codegentemp\BootLoadable.ctl'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
 Linking 'C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\codegentemp\BootLoadable.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\cypress.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3pkg.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\mcompare.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\OneTerminal\OneTerminal.v'.
 
 tovif:  No errors.
 
@@ -127,7 +110,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Raioz
 ======================================================================
 
 topld V6.3 IR 41:  Synthesis and optimization
-Thu Jun 27 00:19:09 2019
+Sat Jun 29 11:57:42 2019
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -139,280 +122,45 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\c
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
 Linking 'C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\codegentemp\BootLoadable.ctl'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
 Linking 'C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\codegentemp\BootLoadable.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\cypress.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3pkg.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\mcompare.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\OneTerminal\OneTerminal.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\lcpsoc3\stdlogic\cpsoc3.vif'.
 
 ----------------------------------------------------------
 Detecting unused logic.
 ----------------------------------------------------------
     User names
-	\uart_wifi:BUART:reset_sr\
-	Net_8
-	Net_9
-	\uart_wifi:BUART:rx_bitclk_pre16x\
-	\uart_wifi:BUART:rx_count7_bit8_wire\
-	Net_3
-	\uart_wifi:BUART:sRX:MODULE_1:g2:a0:gta_0\
-	\uart_wifi:BUART:sRX:MODULE_2:g1:a0:gx:u0:albi_1\
-	\uart_wifi:BUART:sRX:MODULE_2:g1:a0:gx:u0:agbi_1\
-	\uart_wifi:BUART:sRX:MODULE_2:g1:a0:gx:u0:lt_0\
-	\uart_wifi:BUART:sRX:MODULE_2:g1:a0:gx:u0:gt_0\
-	\uart_wifi:BUART:sRX:MODULE_2:g1:a0:gx:u0:lti_0\
-	\uart_wifi:BUART:sRX:MODULE_2:g1:a0:gx:u0:gti_0\
-	\uart_wifi:BUART:sRX:MODULE_2:g1:a0:gx:u0:albi_0\
-	\uart_wifi:BUART:sRX:MODULE_2:g1:a0:gx:u0:agbi_0\
-	\uart_wifi:BUART:sRX:MODULE_2:g1:a0:xeq\
-	\uart_wifi:BUART:sRX:MODULE_2:g1:a0:xlt\
-	\uart_wifi:BUART:sRX:MODULE_2:g1:a0:xlte\
-	\uart_wifi:BUART:sRX:MODULE_2:g1:a0:xgt\
-	\uart_wifi:BUART:sRX:MODULE_2:g1:a0:xgte\
-	\uart_wifi:BUART:sRX:MODULE_2:lt\
-	\uart_wifi:BUART:sRX:MODULE_2:eq\
-	\uart_wifi:BUART:sRX:MODULE_2:gt\
-	\uart_wifi:BUART:sRX:MODULE_2:gte\
-	\uart_wifi:BUART:sRX:MODULE_2:lte\
+	Net_82
 
 
-Deleted 25 User equations/components.
+Deleted 1 User equation or component.
 Deleted 0 Synthesized equations/components.
 
 ------------------------------------------------------
 Alias Detection
 ------------------------------------------------------
-Aliasing \uart_wifi:BUART:tx_hd_send_break\ to Net_6
-Aliasing \uart_wifi:BUART:HalfDuplexSend\ to Net_6
-Aliasing \uart_wifi:BUART:FinalParityType_1\ to Net_6
-Aliasing \uart_wifi:BUART:FinalParityType_0\ to Net_6
-Aliasing \uart_wifi:BUART:FinalAddrMode_2\ to Net_6
-Aliasing \uart_wifi:BUART:FinalAddrMode_1\ to Net_6
-Aliasing \uart_wifi:BUART:FinalAddrMode_0\ to Net_6
-Aliasing \uart_wifi:BUART:tx_ctrl_mark\ to Net_6
-Aliasing zero to Net_6
-Aliasing \uart_wifi:BUART:tx_status_6\ to Net_6
-Aliasing \uart_wifi:BUART:tx_status_5\ to Net_6
-Aliasing \uart_wifi:BUART:tx_status_4\ to Net_6
-Aliasing \uart_wifi:BUART:rx_status_1\ to Net_6
-Aliasing \uart_wifi:BUART:sRX:MODULE_1:g2:a0:newa_6\ to Net_6
-Aliasing \uart_wifi:BUART:sRX:MODULE_1:g2:a0:newa_5\ to Net_6
-Aliasing \uart_wifi:BUART:sRX:MODULE_1:g2:a0:newa_4\ to Net_6
-Aliasing \uart_wifi:BUART:sRX:MODULE_1:g2:a0:newb_6\ to Net_6
-Aliasing \uart_wifi:BUART:sRX:MODULE_1:g2:a0:newb_5\ to Net_6
-Aliasing \uart_wifi:BUART:sRX:MODULE_1:g2:a0:newb_4\ to Net_6
-Aliasing \uart_wifi:BUART:sRX:MODULE_1:g2:a0:newb_3\ to Net_6
-Aliasing \uart_wifi:BUART:sRX:MODULE_1:g2:a0:newb_2\ to one
-Aliasing \uart_wifi:BUART:sRX:MODULE_1:g2:a0:newb_1\ to one
-Aliasing \uart_wifi:BUART:sRX:MODULE_1:g2:a0:newb_0\ to Net_6
-Aliasing \uart_wifi:BUART:sRX:MODULE_2:g1:a0:gx:u0:aeqb_0\ to one
-Aliasing tmpOE__wifi_rx_net_0 to one
-Aliasing tmpOE__wifi_tx_net_0 to one
-Aliasing tmpOE__wifi_enable_net_0 to one
-Aliasing tmpOE__wifi_reset_net_0 to one
-Aliasing tmpOE__led_user_net_0 to one
-Aliasing tmpOE__switch_user_net_0 to one
-Aliasing Net_4D to Net_6
-Aliasing \uart_wifi:BUART:rx_break_status\\D\ to Net_6
-Removing Lhs of wire \uart_wifi:Net_61\[2] = \uart_wifi:Net_9\[1]
-Removing Lhs of wire \uart_wifi:BUART:tx_hd_send_break\[8] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:HalfDuplexSend\[9] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:FinalParityType_1\[10] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:FinalParityType_0\[11] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:FinalAddrMode_2\[12] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:FinalAddrMode_1\[13] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:FinalAddrMode_0\[14] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:tx_ctrl_mark\[15] = Net_6[7]
-Removing Rhs of wire \uart_wifi:BUART:tx_bitclk_enable_pre\[27] = \uart_wifi:BUART:tx_bitclk_dp\[64]
-Removing Lhs of wire zero[28] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:tx_counter_tc\[74] = \uart_wifi:BUART:tx_counter_dp\[65]
-Removing Lhs of wire \uart_wifi:BUART:tx_status_6\[75] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:tx_status_5\[76] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:tx_status_4\[77] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:tx_status_1\[79] = \uart_wifi:BUART:tx_fifo_empty\[42]
-Removing Lhs of wire \uart_wifi:BUART:tx_status_3\[81] = \uart_wifi:BUART:tx_fifo_notfull\[41]
-Removing Lhs of wire \uart_wifi:BUART:rx_postpoll\[95] = Net_27[144]
-Removing Lhs of wire \uart_wifi:BUART:rx_status_1\[147] = Net_6[7]
-Removing Rhs of wire \uart_wifi:BUART:rx_status_2\[148] = \uart_wifi:BUART:rx_parity_error_status\[149]
-Removing Rhs of wire \uart_wifi:BUART:rx_status_3\[150] = \uart_wifi:BUART:rx_stop_bit_error\[151]
-Removing Lhs of wire \uart_wifi:BUART:sRX:cmp_vv_vv_MODGEN_1\[161] = \uart_wifi:BUART:sRX:MODULE_1:g2:a0:lta_0\[210]
-Removing Lhs of wire \uart_wifi:BUART:sRX:cmp_vv_vv_MODGEN_2\[165] = \uart_wifi:BUART:sRX:MODULE_2:g1:a0:xneq\[232]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:newa_6\[166] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:newa_5\[167] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:newa_4\[168] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:newa_3\[169] = \uart_wifi:BUART:sRX:MODIN1_6\[170]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODIN1_6\[170] = \uart_wifi:BUART:rx_count_6\[136]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:newa_2\[171] = \uart_wifi:BUART:sRX:MODIN1_5\[172]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODIN1_5\[172] = \uart_wifi:BUART:rx_count_5\[137]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:newa_1\[173] = \uart_wifi:BUART:sRX:MODIN1_4\[174]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODIN1_4\[174] = \uart_wifi:BUART:rx_count_4\[138]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:newa_0\[175] = \uart_wifi:BUART:sRX:MODIN1_3\[176]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODIN1_3\[176] = \uart_wifi:BUART:rx_count_3\[139]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:newb_6\[177] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:newb_5\[178] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:newb_4\[179] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:newb_3\[180] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:newb_2\[181] = one[4]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:newb_1\[182] = one[4]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:newb_0\[183] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:dataa_6\[184] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:dataa_5\[185] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:dataa_4\[186] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:dataa_3\[187] = \uart_wifi:BUART:rx_count_6\[136]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:dataa_2\[188] = \uart_wifi:BUART:rx_count_5\[137]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:dataa_1\[189] = \uart_wifi:BUART:rx_count_4\[138]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:dataa_0\[190] = \uart_wifi:BUART:rx_count_3\[139]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:datab_6\[191] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:datab_5\[192] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:datab_4\[193] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:datab_3\[194] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:datab_2\[195] = one[4]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:datab_1\[196] = one[4]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_1:g2:a0:datab_0\[197] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_2:g1:a0:newa_0\[212] = Net_27[144]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_2:g1:a0:newb_0\[213] = \uart_wifi:BUART:rx_parity_bit\[164]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_2:g1:a0:dataa_0\[214] = Net_27[144]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_2:g1:a0:datab_0\[215] = \uart_wifi:BUART:rx_parity_bit\[164]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_2:g1:a0:gx:u0:a_0\[216] = Net_27[144]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_2:g1:a0:gx:u0:b_0\[217] = \uart_wifi:BUART:rx_parity_bit\[164]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_2:g1:a0:gx:u0:aeqb_0\[219] = one[4]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_2:g1:a0:gx:u0:eq_0\[220] = \uart_wifi:BUART:sRX:MODULE_2:g1:a0:gx:u0:xnor_array_0\[218]
-Removing Lhs of wire \uart_wifi:BUART:sRX:MODULE_2:g1:a0:gx:u0:eqi_0\[221] = \uart_wifi:BUART:sRX:MODULE_2:g1:a0:gx:u0:xnor_array_0\[218]
-Removing Lhs of wire tmpOE__wifi_rx_net_0[243] = one[4]
-Removing Lhs of wire tmpOE__wifi_tx_net_0[248] = one[4]
-Removing Lhs of wire tmpOE__wifi_enable_net_0[254] = one[4]
-Removing Lhs of wire tmpOE__wifi_reset_net_0[260] = one[4]
-Removing Lhs of wire tmpOE__led_user_net_0[266] = one[4]
-Removing Lhs of wire tmpOE__switch_user_net_0[272] = one[4]
-Removing Lhs of wire \uart_wifi:BUART:reset_reg\\D\[277] = Net_6[7]
-Removing Lhs of wire Net_4D[282] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:rx_bitclk\\D\[292] = \uart_wifi:BUART:rx_bitclk_pre\[130]
-Removing Lhs of wire \uart_wifi:BUART:rx_parity_error_pre\\D\[299] = \uart_wifi:BUART:rx_parity_error_pre\[159]
-Removing Lhs of wire \uart_wifi:BUART:rx_break_status\\D\[300] = Net_6[7]
+Aliasing zero to \SOF_Timer:Net_260\
+Aliasing Net_12 to \SOF_Timer:Net_260\
+Aliasing tmpOE__led_user_net_0 to \SOF_Timer:Net_102\
+Aliasing one to \SOF_Timer:Net_102\
+Aliasing tmpOE__switch_user_net_0 to \SOF_Timer:Net_102\
+Removing Rhs of wire \SOF_Timer:Net_266\[3] = \SOF_Timer:Net_102\[11]
+Removing Rhs of wire zero[4] = \SOF_Timer:Net_260\[2]
+Removing Lhs of wire Net_12[5] = zero[4]
+Removing Rhs of wire Net_74[9] = \SOF_Timer:Net_57\[8]
+Removing Rhs of wire tmpOE__led_user_net_0[14] = \SOF_Timer:Net_266\[3]
+Removing Lhs of wire one[18] = tmpOE__led_user_net_0[14]
+Removing Lhs of wire tmpOE__switch_user_net_0[21] = tmpOE__led_user_net_0[14]
 
 ------------------------------------------------------
-Aliased 0 equations, 75 wires.
+Aliased 0 equations, 7 wires.
 ------------------------------------------------------
 
 ----------------------------------------------------------
 Circuit simplification
 ----------------------------------------------------------
-
-Substituting virtuals - pass 1:
-
-Note:  Expanding virtual equation for 'one' (cost = 0):
-one <=  ('1') ;
-
-Note:  Expanding virtual equation for 'Net_6' (cost = 0):
-Net_6 <=  ('0') ;
-
-Note:  Expanding virtual equation for '\uart_wifi:BUART:rx_addressmatch\' (cost = 0):
-\uart_wifi:BUART:rx_addressmatch\ <= (\uart_wifi:BUART:rx_addressmatch2\
-	OR \uart_wifi:BUART:rx_addressmatch1\);
-
-Note:  Expanding virtual equation for '\uart_wifi:BUART:rx_bitclk_pre\' (cost = 0):
-\uart_wifi:BUART:rx_bitclk_pre\ <= ((not \uart_wifi:BUART:rx_count_2\ and not \uart_wifi:BUART:rx_count_1\ and not \uart_wifi:BUART:rx_count_0\));
-
-Note:  Expanding virtual equation for '\uart_wifi:BUART:sRX:MODULE_1:g2:a0:lta_6\' (cost = 0):
-\uart_wifi:BUART:sRX:MODULE_1:g2:a0:lta_6\ <=  ('0') ;
-
-Note:  Expanding virtual equation for '\uart_wifi:BUART:sRX:MODULE_1:g2:a0:gta_6\' (cost = 0):
-\uart_wifi:BUART:sRX:MODULE_1:g2:a0:gta_6\ <=  ('0') ;
-
-Note:  Expanding virtual equation for '\uart_wifi:BUART:sRX:MODULE_1:g2:a0:lta_5\' (cost = 0):
-\uart_wifi:BUART:sRX:MODULE_1:g2:a0:lta_5\ <=  ('0') ;
-
-Note:  Expanding virtual equation for '\uart_wifi:BUART:sRX:MODULE_1:g2:a0:gta_5\' (cost = 0):
-\uart_wifi:BUART:sRX:MODULE_1:g2:a0:gta_5\ <=  ('0') ;
-
-Note:  Expanding virtual equation for '\uart_wifi:BUART:sRX:MODULE_1:g2:a0:lta_4\' (cost = 0):
-\uart_wifi:BUART:sRX:MODULE_1:g2:a0:lta_4\ <=  ('0') ;
-
-Note:  Expanding virtual equation for '\uart_wifi:BUART:sRX:MODULE_1:g2:a0:gta_4\' (cost = 0):
-\uart_wifi:BUART:sRX:MODULE_1:g2:a0:gta_4\ <=  ('0') ;
-
-Note:  Expanding virtual equation for '\uart_wifi:BUART:sRX:MODULE_1:g2:a0:lta_3\' (cost = 0):
-\uart_wifi:BUART:sRX:MODULE_1:g2:a0:lta_3\ <=  ('0') ;
-
-Note:  Expanding virtual equation for '\uart_wifi:BUART:sRX:MODULE_1:g2:a0:gta_3\' (cost = 0):
-\uart_wifi:BUART:sRX:MODULE_1:g2:a0:gta_3\ <= (\uart_wifi:BUART:rx_count_6\);
-
-Note:  Expanding virtual equation for '\uart_wifi:BUART:sRX:MODULE_1:g2:a0:lta_2\' (cost = 1):
-\uart_wifi:BUART:sRX:MODULE_1:g2:a0:lta_2\ <= ((not \uart_wifi:BUART:rx_count_6\ and not \uart_wifi:BUART:rx_count_5\));
-
-Note:  Expanding virtual equation for '\uart_wifi:BUART:sRX:MODULE_1:g2:a0:gta_2\' (cost = 0):
-\uart_wifi:BUART:sRX:MODULE_1:g2:a0:gta_2\ <= (\uart_wifi:BUART:rx_count_6\);
-
-Note:  Expanding virtual equation for '\uart_wifi:BUART:sRX:MODULE_1:g2:a0:lta_1\' (cost = 2):
-\uart_wifi:BUART:sRX:MODULE_1:g2:a0:lta_1\ <= ((not \uart_wifi:BUART:rx_count_6\ and not \uart_wifi:BUART:rx_count_4\)
-	OR (not \uart_wifi:BUART:rx_count_6\ and not \uart_wifi:BUART:rx_count_5\));
-
-Note:  Expanding virtual equation for '\uart_wifi:BUART:sRX:MODULE_1:g2:a0:gta_1\' (cost = 0):
-\uart_wifi:BUART:sRX:MODULE_1:g2:a0:gta_1\ <= (\uart_wifi:BUART:rx_count_6\);
-
-Note:  Expanding virtual equation for '\uart_wifi:BUART:sRX:MODULE_1:g2:a0:lta_0\' (cost = 8):
-\uart_wifi:BUART:sRX:MODULE_1:g2:a0:lta_0\ <= ((not \uart_wifi:BUART:rx_count_6\ and not \uart_wifi:BUART:rx_count_4\)
-	OR (not \uart_wifi:BUART:rx_count_6\ and not \uart_wifi:BUART:rx_count_5\));
-
-Note:  Expanding virtual equation for '\uart_wifi:BUART:sRX:MODULE_2:g1:a0:gx:u0:xnor_array_0\' (cost = 2):
-\uart_wifi:BUART:sRX:MODULE_2:g1:a0:gx:u0:xnor_array_0\ <= ((not Net_27 and not \uart_wifi:BUART:rx_parity_bit\)
-	OR (Net_27 and \uart_wifi:BUART:rx_parity_bit\));
-
-Note:  Expanding virtual equation for '\uart_wifi:BUART:sRX:MODULE_2:g1:a0:gx:u0:aeqb_1\' (cost = 2):
-\uart_wifi:BUART:sRX:MODULE_2:g1:a0:gx:u0:aeqb_1\ <= ((not Net_27 and not \uart_wifi:BUART:rx_parity_bit\)
-	OR (Net_27 and \uart_wifi:BUART:rx_parity_bit\));
-
-
-Substituting virtuals - pass 2:
-
-
-----------------------------------------------------------
-Circuit simplification results:
-
-	Expanded 19 signals.
-	Turned 0 signals into soft nodes.
-	Maximum default expansion cost was set at 3.
-----------------------------------------------------------
-
-------------------------------------------------------
-Alias Detection
-------------------------------------------------------
-Aliasing \uart_wifi:BUART:rx_status_0\ to Net_6
-Aliasing \uart_wifi:BUART:rx_status_6\ to Net_6
-Aliasing \uart_wifi:BUART:rx_markspace_status\\D\ to Net_6
-Aliasing \uart_wifi:BUART:rx_parity_error_status\\D\ to Net_6
-Aliasing \uart_wifi:BUART:rx_addr_match_status\\D\ to Net_6
-Removing Rhs of wire \uart_wifi:BUART:rx_bitclk_enable\[94] = \uart_wifi:BUART:rx_bitclk\[142]
-Removing Lhs of wire \uart_wifi:BUART:rx_status_0\[145] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:rx_status_6\[154] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:tx_ctrl_mark_last\\D\[284] = \uart_wifi:BUART:tx_ctrl_mark_last\[85]
-Removing Lhs of wire \uart_wifi:BUART:rx_markspace_status\\D\[294] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:rx_parity_error_status\\D\[295] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:rx_addr_match_status\\D\[297] = Net_6[7]
-Removing Lhs of wire \uart_wifi:BUART:rx_markspace_pre\\D\[298] = \uart_wifi:BUART:rx_markspace_pre\[158]
-
-------------------------------------------------------
-Aliased 0 equations, 8 wires.
-------------------------------------------------------
-
-----------------------------------------------------------
-Circuit simplification
-----------------------------------------------------------
-
-Eliminating unused logic - pass 1:
-
-Note:  Deleted unused equation:
-\uart_wifi:BUART:sRX:MODULE_2:g1:a0:xneq\ <= ((not \uart_wifi:BUART:rx_parity_bit\ and Net_27)
-	OR (not Net_27 and \uart_wifi:BUART:rx_parity_bit\));
-
-
-Eliminating unused logic - pass 2:
-
 
 Substituting virtuals - pass 1:
 
@@ -431,34 +179,21 @@ CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\wa
 Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\bin\warp.exe
 Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\BootLoadable.cyprj -dcpsoc3 BootLoadable.v -verilog
 </CYPRESSTAG>
-Warp synthesis phase: Elapsed time ==> 7s.543ms
+Warp synthesis phase: Elapsed time ==> 1s.653ms
 <CYPRESSTAG name="Fitter results...">
 <CYPRESSTAG name="Fitter startup details...">
-cyp3fit: V4.1.0.2686, Family: PSoC3, Started at: Thursday, 27 June 2019 00:19:09
+cyp3fit: V4.1.0.2686, Family: PSoC3, Started at: Saturday, 29 June 2019 11:57:42
 Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\BootLoadable.cyprj -d CY8C5888AXI-LP096 BootLoadable.v -verilog
 </CYPRESSTAG>
 <CYPRESSTAG name="Design parsing">
-Design parsing phase: Elapsed time ==> 0s.340ms
+Design parsing phase: Elapsed time ==> 0s.170ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Tech Mapping">
 <CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
-    Converted constant MacroCell: \uart_wifi:BUART:reset_reg\ from registered to combinatorial
-    Converted constant MacroCell: Net_4 from registered to combinatorial
-    Converted constant MacroCell: \uart_wifi:BUART:rx_markspace_status\ from registered to combinatorial
-    Converted constant MacroCell: \uart_wifi:BUART:rx_status_2\ from registered to combinatorial
-    Converted constant MacroCell: \uart_wifi:BUART:rx_addr_match_status\ from registered to combinatorial
-    Converted constant MacroCell: \uart_wifi:BUART:rx_break_status\ from registered to combinatorial
+Assigning clock timer_clock to clock BUS_CLK because it is a pass-through
 <CYPRESSTAG name="Global Clock Selection" icon="FILE_RPT_TECHM">
-    Digital Clock 0: Automatic-assigning  clock 'uart_wifi_IntClock'. Fanout=1, Signal=\uart_wifi:Net_9\
 </CYPRESSTAG>
-
-Removing unused cells resulting from optimization
-Done removing unused cells.
 <CYPRESSTAG name="UDB Clock/Enable Remapping Results">
-    UDB Clk/Enable \uart_wifi:BUART:ClkSync\: with output requested to be synchronous
-        ClockIn: uart_wifi_IntClock was determined to be a global clock that is synchronous to BUS_CLK
-        EnableIn: Constant 1 was determined to be synchronous to ClockIn
-        ClockOut: uart_wifi_IntClock, EnableOut: Constant 1
 </CYPRESSTAG>
 
 Removing unused cells resulting from optimization
@@ -467,100 +202,6 @@ Done removing unused cells.
 </CYPRESSTAG>
 </CYPRESSTAG>
 <CYPRESSTAG name="Duplicate Macrocell detection">
-
-Removing duplicate macrocells
-    Removing \uart_wifi:BUART:rx_parity_bit\, Duplicate of \uart_wifi:BUART:tx_ctrl_mark_last\ 
-    MacroCell: Name=\uart_wifi:BUART:rx_parity_bit\, Mode=(T-Register)
-        Total # of inputs        : 0
-        Total # of product terms : 0
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 0 pterms
-        (
-            0
-        );
-        Output = \uart_wifi:BUART:rx_parity_bit\ (fanout=0)
-
-    Removing \uart_wifi:BUART:rx_address_detected\, Duplicate of \uart_wifi:BUART:tx_ctrl_mark_last\ 
-    MacroCell: Name=\uart_wifi:BUART:rx_address_detected\, Mode=(T-Register)
-        Total # of inputs        : 0
-        Total # of product terms : 0
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 0 pterms
-        (
-            0
-        );
-        Output = \uart_wifi:BUART:rx_address_detected\ (fanout=0)
-
-    Removing \uart_wifi:BUART:rx_parity_error_pre\, Duplicate of \uart_wifi:BUART:tx_ctrl_mark_last\ 
-    MacroCell: Name=\uart_wifi:BUART:rx_parity_error_pre\, Mode=(T-Register)
-        Total # of inputs        : 0
-        Total # of product terms : 0
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 0 pterms
-        (
-            0
-        );
-        Output = \uart_wifi:BUART:rx_parity_error_pre\ (fanout=0)
-
-    Removing \uart_wifi:BUART:rx_markspace_pre\, Duplicate of \uart_wifi:BUART:tx_ctrl_mark_last\ 
-    MacroCell: Name=\uart_wifi:BUART:rx_markspace_pre\, Mode=(T-Register)
-        Total # of inputs        : 0
-        Total # of product terms : 0
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 0 pterms
-        (
-            0
-        );
-        Output = \uart_wifi:BUART:rx_markspace_pre\ (fanout=0)
-
-    Removing \uart_wifi:BUART:rx_state_1\, Duplicate of \uart_wifi:BUART:tx_ctrl_mark_last\ 
-    MacroCell: Name=\uart_wifi:BUART:rx_state_1\, Mode=(T-Register)
-        Total # of inputs        : 0
-        Total # of product terms : 0
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 0 pterms
-        (
-            0
-        );
-        Output = \uart_wifi:BUART:rx_state_1\ (fanout=8)
-
-    Removing \uart_wifi:BUART:tx_parity_bit\, Duplicate of \uart_wifi:BUART:tx_ctrl_mark_last\ 
-    MacroCell: Name=\uart_wifi:BUART:tx_parity_bit\, Mode=(T-Register)
-        Total # of inputs        : 0
-        Total # of product terms : 0
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 0 pterms
-        (
-            0
-        );
-        Output = \uart_wifi:BUART:tx_parity_bit\ (fanout=0)
-
-    Removing \uart_wifi:BUART:tx_mark\, Duplicate of \uart_wifi:BUART:tx_ctrl_mark_last\ 
-    MacroCell: Name=\uart_wifi:BUART:tx_mark\, Mode=(T-Register)
-        Total # of inputs        : 0
-        Total # of product terms : 0
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 0 pterms
-        (
-            0
-        );
-        Output = \uart_wifi:BUART:tx_mark\ (fanout=0)
-
-End removing duplicate macrocells: used 1 pass
 </CYPRESSTAG>
 <CYPRESSTAG name="Design Equations" icon="FILE_RPT_EQUATION">
 
@@ -572,164 +213,6 @@ Design Equations
     ------------------------------------------------------------
     Pin listing
     ------------------------------------------------------------
-
-    Pin : Name = wifi_rx(0)
-        Attributes:
-            In Group/Port: True
-            In Sync Option: SYNC
-            Out Sync Option: AUTO
-            Interrupt generated: False
-            Interrupt mode: NONE
-            Drive mode: HI_Z_DIGITAL
-            VTrip: EITHER
-            Slew: FAST
-            Input Sync needed: False
-            Output Sync needed: False
-            SC shield enabled: False
-            POR State: ANY
-            LCD Mode: COMMON
-            Register Mode: RegComb
-            CaSense Mode: NEITHER
-            Treat as pin: True
-            Is OE Registered: False
-            Uses Analog: False
-            Can contain Digital: True
-            Is SIO: False
-            SIO Output Buf: NONREGULATED
-            SIO Input Buf: SINGLE_ENDED
-            SIO HiFreq: LOW
-            SIO Hyst: DISABLED
-            SIO Vtrip: MULTIPLIER_0_5
-            SIO Multiplier Index: 0
-            SIO RefSel: VCC_IO
-            Required Capabilities: DIGITAL, ROUTABLE
-            Initial Value: 0
-            IO Voltage: 0
-        PORT MAP (
-            pa_out => wifi_rx(0)__PA ,
-            fb => Net_27 ,
-            pad => wifi_rx(0)_PAD );
-        Properties:
-        {
-        }
-
-    Pin : Name = wifi_tx(0)
-        Attributes:
-            In Group/Port: True
-            In Sync Option: AUTO
-            Out Sync Option: NOSYNC
-            Interrupt generated: False
-            Interrupt mode: NONE
-            Drive mode: RES_PULL_UP
-            VTrip: EITHER
-            Slew: FAST
-            Input Sync needed: False
-            Output Sync needed: False
-            SC shield enabled: False
-            POR State: ANY
-            LCD Mode: COMMON
-            Register Mode: RegComb
-            CaSense Mode: NEITHER
-            Treat as pin: True
-            Is OE Registered: False
-            Uses Analog: False
-            Can contain Digital: True
-            Is SIO: False
-            SIO Output Buf: NONREGULATED
-            SIO Input Buf: SINGLE_ENDED
-            SIO HiFreq: LOW
-            SIO Hyst: DISABLED
-            SIO Vtrip: MULTIPLIER_0_5
-            SIO Multiplier Index: 0
-            SIO RefSel: VCC_IO
-            Required Capabilities: DIGITAL, ROUTABLE
-            Initial Value: 1
-            IO Voltage: 0
-        PORT MAP (
-            pa_out => wifi_tx(0)__PA ,
-            pin_input => Net_24 ,
-            pad => wifi_tx(0)_PAD );
-        Properties:
-        {
-        }
-
-    Pin : Name = wifi_enable(0)
-        Attributes:
-            In Group/Port: True
-            In Sync Option: AUTO
-            Out Sync Option: NOSYNC
-            Interrupt generated: False
-            Interrupt mode: NONE
-            Drive mode: RES_PULL_UP
-            VTrip: EITHER
-            Slew: FAST
-            Input Sync needed: False
-            Output Sync needed: False
-            SC shield enabled: False
-            POR State: ANY
-            LCD Mode: COMMON
-            Register Mode: RegComb
-            CaSense Mode: NEITHER
-            Treat as pin: True
-            Is OE Registered: False
-            Uses Analog: False
-            Can contain Digital: True
-            Is SIO: False
-            SIO Output Buf: NONREGULATED
-            SIO Input Buf: SINGLE_ENDED
-            SIO HiFreq: LOW
-            SIO Hyst: DISABLED
-            SIO Vtrip: MULTIPLIER_0_5
-            SIO Multiplier Index: 0
-            SIO RefSel: VCC_IO
-            Required Capabilities: DIGITAL
-            Initial Value: 0
-            IO Voltage: 0
-        PORT MAP (
-            pa_out => wifi_enable(0)__PA ,
-            pad => wifi_enable(0)_PAD );
-        Properties:
-        {
-        }
-
-    Pin : Name = wifi_reset(0)
-        Attributes:
-            In Group/Port: True
-            In Sync Option: AUTO
-            Out Sync Option: NOSYNC
-            Interrupt generated: False
-            Interrupt mode: NONE
-            Drive mode: RES_PULL_UP
-            VTrip: EITHER
-            Slew: FAST
-            Input Sync needed: False
-            Output Sync needed: False
-            SC shield enabled: False
-            POR State: ANY
-            LCD Mode: COMMON
-            Register Mode: RegComb
-            CaSense Mode: NEITHER
-            Treat as pin: True
-            Is OE Registered: False
-            Uses Analog: False
-            Can contain Digital: True
-            Is SIO: False
-            SIO Output Buf: NONREGULATED
-            SIO Input Buf: SINGLE_ENDED
-            SIO HiFreq: LOW
-            SIO Hyst: DISABLED
-            SIO Vtrip: MULTIPLIER_0_5
-            SIO Multiplier Index: 0
-            SIO RefSel: VCC_IO
-            Required Capabilities: DIGITAL
-            Initial Value: 0
-            IO Voltage: 0
-        PORT MAP (
-            pa_out => wifi_reset(0)__PA ,
-            pad => wifi_reset(0)_PAD );
-        Properties:
-        {
-        }
 
     Pin : Name = led_user(0)
         Attributes:
@@ -815,547 +298,44 @@ Design Equations
     Macrocell listing
     ------------------------------------------------------------
 
-    MacroCell: Name=Net_24, Mode=(Combinatorial)
-        Total # of inputs        : 1
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              !\uart_wifi:BUART:txn\
-        );
-        Output = Net_24 (fanout=1)
-
-    MacroCell: Name=\uart_wifi:BUART:counter_load_not\, Mode=(Combinatorial)
-        Total # of inputs        : 4
-        Total # of product terms : 2
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        !(
-              !\uart_wifi:BUART:tx_state_1\ * !\uart_wifi:BUART:tx_state_0\ * 
-              \uart_wifi:BUART:tx_bitclk_enable_pre\
-            + !\uart_wifi:BUART:tx_state_1\ * !\uart_wifi:BUART:tx_state_0\ * 
-              !\uart_wifi:BUART:tx_state_2\
-        );
-        Output = \uart_wifi:BUART:counter_load_not\ (fanout=1)
-
-    MacroCell: Name=\uart_wifi:BUART:tx_status_0\, Mode=(Combinatorial)
-        Total # of inputs        : 5
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              !\uart_wifi:BUART:tx_state_1\ * !\uart_wifi:BUART:tx_state_0\ * 
-              \uart_wifi:BUART:tx_bitclk_enable_pre\ * 
-              \uart_wifi:BUART:tx_fifo_empty\ * \uart_wifi:BUART:tx_state_2\
-        );
-        Output = \uart_wifi:BUART:tx_status_0\ (fanout=1)
-
-    MacroCell: Name=\uart_wifi:BUART:tx_status_2\, Mode=(Combinatorial)
-        Total # of inputs        : 1
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              !\uart_wifi:BUART:tx_fifo_notfull\
-        );
-        Output = \uart_wifi:BUART:tx_status_2\ (fanout=1)
-
-    MacroCell: Name=\uart_wifi:BUART:rx_counter_load\, Mode=(Combinatorial)
-        Total # of inputs        : 4
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              !\uart_wifi:BUART:rx_state_0\ * !\uart_wifi:BUART:rx_state_3\ * 
-              !\uart_wifi:BUART:rx_state_2\
-        );
-        Output = \uart_wifi:BUART:rx_counter_load\ (fanout=1)
-
-    MacroCell: Name=\uart_wifi:BUART:rx_status_4\, Mode=(Combinatorial)
-        Total # of inputs        : 2
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              \uart_wifi:BUART:rx_load_fifo\ * \uart_wifi:BUART:rx_fifofull\
-        );
-        Output = \uart_wifi:BUART:rx_status_4\ (fanout=1)
-
-    MacroCell: Name=\uart_wifi:BUART:rx_status_5\, Mode=(Combinatorial)
-        Total # of inputs        : 2
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              \uart_wifi:BUART:rx_fifonotempty\ * 
-              \uart_wifi:BUART:rx_state_stop1_reg\
-        );
-        Output = \uart_wifi:BUART:rx_status_5\ (fanout=1)
-
-    MacroCell: Name=\uart_wifi:BUART:txn\, Mode=(D-Register)
-        Total # of inputs        : 7
-        Total # of product terms : 5
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 5 pterms
-        (
-              \uart_wifi:BUART:txn\ * \uart_wifi:BUART:tx_state_1\ * 
-              !\uart_wifi:BUART:tx_bitclk\
-            + \uart_wifi:BUART:txn\ * \uart_wifi:BUART:tx_state_2\
-            + !\uart_wifi:BUART:tx_state_1\ * \uart_wifi:BUART:tx_state_0\ * 
-              !\uart_wifi:BUART:tx_shift_out\ * !\uart_wifi:BUART:tx_state_2\
-            + !\uart_wifi:BUART:tx_state_1\ * \uart_wifi:BUART:tx_state_0\ * 
-              !\uart_wifi:BUART:tx_state_2\ * !\uart_wifi:BUART:tx_bitclk\
-            + \uart_wifi:BUART:tx_state_1\ * !\uart_wifi:BUART:tx_state_0\ * 
-              !\uart_wifi:BUART:tx_shift_out\ * !\uart_wifi:BUART:tx_state_2\ * 
-              !\uart_wifi:BUART:tx_counter_dp\ * \uart_wifi:BUART:tx_bitclk\
-        );
-        Output = \uart_wifi:BUART:txn\ (fanout=2)
-
-    MacroCell: Name=\uart_wifi:BUART:tx_state_1\, Mode=(T-Register)
-        Total # of inputs        : 6
-        Total # of product terms : 3
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 3 pterms
-        (
-              \uart_wifi:BUART:tx_state_1\ * \uart_wifi:BUART:tx_state_0\ * 
-              \uart_wifi:BUART:tx_bitclk_enable_pre\ * 
-              \uart_wifi:BUART:tx_state_2\
-            + \uart_wifi:BUART:tx_state_1\ * !\uart_wifi:BUART:tx_state_2\ * 
-              \uart_wifi:BUART:tx_counter_dp\ * \uart_wifi:BUART:tx_bitclk\
-            + \uart_wifi:BUART:tx_state_0\ * !\uart_wifi:BUART:tx_state_2\ * 
-              \uart_wifi:BUART:tx_bitclk\
-        );
-        Output = \uart_wifi:BUART:tx_state_1\ (fanout=8)
-
-    MacroCell: Name=\uart_wifi:BUART:tx_state_0\, Mode=(T-Register)
-        Total # of inputs        : 6
-        Total # of product terms : 4
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 4 pterms
-        (
-              !\uart_wifi:BUART:tx_state_1\ * !\uart_wifi:BUART:tx_state_0\ * 
-              \uart_wifi:BUART:tx_bitclk_enable_pre\ * 
-              !\uart_wifi:BUART:tx_fifo_empty\
-            + !\uart_wifi:BUART:tx_state_1\ * !\uart_wifi:BUART:tx_state_0\ * 
-              !\uart_wifi:BUART:tx_fifo_empty\ * 
-              !\uart_wifi:BUART:tx_state_2\
-            + \uart_wifi:BUART:tx_state_1\ * \uart_wifi:BUART:tx_state_0\ * 
-              \uart_wifi:BUART:tx_bitclk_enable_pre\ * 
-              \uart_wifi:BUART:tx_fifo_empty\ * \uart_wifi:BUART:tx_state_2\
-            + \uart_wifi:BUART:tx_state_0\ * !\uart_wifi:BUART:tx_state_2\ * 
-              \uart_wifi:BUART:tx_bitclk\
-        );
-        Output = \uart_wifi:BUART:tx_state_0\ (fanout=8)
-
-    MacroCell: Name=\uart_wifi:BUART:tx_state_2\, Mode=(T-Register)
-        Total # of inputs        : 6
-        Total # of product terms : 4
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 4 pterms
-        (
-              !\uart_wifi:BUART:tx_state_1\ * !\uart_wifi:BUART:tx_state_0\ * 
-              \uart_wifi:BUART:tx_bitclk_enable_pre\ * 
-              \uart_wifi:BUART:tx_state_2\
-            + \uart_wifi:BUART:tx_state_1\ * \uart_wifi:BUART:tx_state_0\ * 
-              \uart_wifi:BUART:tx_bitclk_enable_pre\ * 
-              \uart_wifi:BUART:tx_state_2\
-            + \uart_wifi:BUART:tx_state_1\ * \uart_wifi:BUART:tx_state_0\ * 
-              !\uart_wifi:BUART:tx_state_2\ * \uart_wifi:BUART:tx_bitclk\
-            + \uart_wifi:BUART:tx_state_1\ * !\uart_wifi:BUART:tx_state_2\ * 
-              \uart_wifi:BUART:tx_counter_dp\ * \uart_wifi:BUART:tx_bitclk\
-        );
-        Output = \uart_wifi:BUART:tx_state_2\ (fanout=7)
-
-    MacroCell: Name=\uart_wifi:BUART:tx_bitclk\, Mode=(D-Register)
-        Total # of inputs        : 4
-        Total # of product terms : 2
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        !(
-              !\uart_wifi:BUART:tx_state_1\ * !\uart_wifi:BUART:tx_state_0\ * 
-              \uart_wifi:BUART:tx_state_2\
-            + !\uart_wifi:BUART:tx_bitclk_enable_pre\
-        );
-        Output = \uart_wifi:BUART:tx_bitclk\ (fanout=4)
-
-    MacroCell: Name=\uart_wifi:BUART:tx_ctrl_mark_last\, Mode=(T-Register)
+    MacroCell: Name=__ONE__, Mode=(Combinatorial)
         Total # of inputs        : 0
         Total # of product terms : 0
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
             Clock Enable: True
         Main Equation            : 0 pterms
-        (
+        !(
             0
         );
-        Output = \uart_wifi:BUART:tx_ctrl_mark_last\ (fanout=8)
-
-    MacroCell: Name=\uart_wifi:BUART:rx_state_0\, Mode=(T-Register)
-        Total # of inputs        : 9
-        Total # of product terms : 3
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 3 pterms
-        (
-              !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              !\uart_wifi:BUART:rx_state_0\ * 
-              \uart_wifi:BUART:rx_bitclk_enable\ * 
-              !\uart_wifi:BUART:rx_state_3\ * \uart_wifi:BUART:rx_state_2\ * 
-              !Net_27_SYNCOUT
-            + !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              \uart_wifi:BUART:rx_state_0\ * !\uart_wifi:BUART:rx_state_3\ * 
-              !\uart_wifi:BUART:rx_state_2\ * !\uart_wifi:BUART:rx_count_6\ * 
-              !\uart_wifi:BUART:rx_count_5\
-            + !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              \uart_wifi:BUART:rx_state_0\ * !\uart_wifi:BUART:rx_state_3\ * 
-              !\uart_wifi:BUART:rx_state_2\ * !\uart_wifi:BUART:rx_count_6\ * 
-              !\uart_wifi:BUART:rx_count_4\
-        );
-        Output = \uart_wifi:BUART:rx_state_0\ (fanout=8)
-
-    MacroCell: Name=\uart_wifi:BUART:rx_load_fifo\, Mode=(D-Register)
-        Total # of inputs        : 8
-        Total # of product terms : 3
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 3 pterms
-        (
-              !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              !\uart_wifi:BUART:rx_state_0\ * 
-              \uart_wifi:BUART:rx_bitclk_enable\ * 
-              \uart_wifi:BUART:rx_state_3\ * !\uart_wifi:BUART:rx_state_2\
-            + !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              \uart_wifi:BUART:rx_state_0\ * !\uart_wifi:BUART:rx_state_3\ * 
-              !\uart_wifi:BUART:rx_state_2\ * !\uart_wifi:BUART:rx_count_6\ * 
-              !\uart_wifi:BUART:rx_count_5\
-            + !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              \uart_wifi:BUART:rx_state_0\ * !\uart_wifi:BUART:rx_state_3\ * 
-              !\uart_wifi:BUART:rx_state_2\ * !\uart_wifi:BUART:rx_count_6\ * 
-              !\uart_wifi:BUART:rx_count_4\
-        );
-        Output = \uart_wifi:BUART:rx_load_fifo\ (fanout=2)
-
-    MacroCell: Name=\uart_wifi:BUART:rx_state_3\, Mode=(T-Register)
-        Total # of inputs        : 8
-        Total # of product terms : 3
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 3 pterms
-        (
-              !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              !\uart_wifi:BUART:rx_state_0\ * 
-              \uart_wifi:BUART:rx_bitclk_enable\ * 
-              \uart_wifi:BUART:rx_state_3\ * \uart_wifi:BUART:rx_state_2\
-            + !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              \uart_wifi:BUART:rx_state_0\ * !\uart_wifi:BUART:rx_state_3\ * 
-              !\uart_wifi:BUART:rx_state_2\ * !\uart_wifi:BUART:rx_count_6\ * 
-              !\uart_wifi:BUART:rx_count_5\
-            + !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              \uart_wifi:BUART:rx_state_0\ * !\uart_wifi:BUART:rx_state_3\ * 
-              !\uart_wifi:BUART:rx_state_2\ * !\uart_wifi:BUART:rx_count_6\ * 
-              !\uart_wifi:BUART:rx_count_4\
-        );
-        Output = \uart_wifi:BUART:rx_state_3\ (fanout=7)
-
-    MacroCell: Name=\uart_wifi:BUART:rx_state_2\, Mode=(T-Register)
-        Total # of inputs        : 10
-        Total # of product terms : 5
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 5 pterms
-        (
-              !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              !\uart_wifi:BUART:rx_state_0\ * 
-              \uart_wifi:BUART:rx_bitclk_enable\ * 
-              \uart_wifi:BUART:rx_state_3\
-            + !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              !\uart_wifi:BUART:rx_state_0\ * 
-              \uart_wifi:BUART:rx_bitclk_enable\ * 
-              \uart_wifi:BUART:rx_state_2\
-            + !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              !\uart_wifi:BUART:rx_state_0\ * !\uart_wifi:BUART:rx_state_3\ * 
-              !\uart_wifi:BUART:rx_state_2\ * \uart_wifi:BUART:rx_last\ * 
-              !Net_27_SYNCOUT
-            + !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              \uart_wifi:BUART:rx_state_0\ * !\uart_wifi:BUART:rx_state_3\ * 
-              !\uart_wifi:BUART:rx_state_2\ * !\uart_wifi:BUART:rx_count_6\ * 
-              !\uart_wifi:BUART:rx_count_5\
-            + !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              \uart_wifi:BUART:rx_state_0\ * !\uart_wifi:BUART:rx_state_3\ * 
-              !\uart_wifi:BUART:rx_state_2\ * !\uart_wifi:BUART:rx_count_6\ * 
-              !\uart_wifi:BUART:rx_count_4\
-        );
-        Output = \uart_wifi:BUART:rx_state_2\ (fanout=7)
-
-    MacroCell: Name=\uart_wifi:BUART:rx_bitclk_enable\, Mode=(D-Register)
-        Total # of inputs        : 3
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              !\uart_wifi:BUART:rx_count_2\ * !\uart_wifi:BUART:rx_count_1\ * 
-              !\uart_wifi:BUART:rx_count_0\
-        );
-        Output = \uart_wifi:BUART:rx_bitclk_enable\ (fanout=6)
-
-    MacroCell: Name=\uart_wifi:BUART:rx_state_stop1_reg\, Mode=(D-Register)
-        Total # of inputs        : 4
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        !(
-              !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              !\uart_wifi:BUART:rx_state_0\ * \uart_wifi:BUART:rx_state_3\ * 
-              \uart_wifi:BUART:rx_state_2\
-        );
-        Output = \uart_wifi:BUART:rx_state_stop1_reg\ (fanout=1)
-
-    MacroCell: Name=\uart_wifi:BUART:rx_status_3\, Mode=(D-Register)
-        Total # of inputs        : 6
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              !\uart_wifi:BUART:rx_state_0\ * 
-              \uart_wifi:BUART:rx_bitclk_enable\ * 
-              \uart_wifi:BUART:rx_state_3\ * \uart_wifi:BUART:rx_state_2\ * 
-              !Net_27_SYNCOUT
-        );
-        Output = \uart_wifi:BUART:rx_status_3\ (fanout=1)
-
-    MacroCell: Name=\uart_wifi:BUART:rx_last\, Mode=(D-Register)
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_27_SYNCOUT
-        );
-        Output = \uart_wifi:BUART:rx_last\ (fanout=1)
+        Output = __ONE__ (fanout=1)
     </CYPRESSTAG>
     <CYPRESSTAG name="Datapath listing">
-
-    ------------------------------------------------------------
-    Datapath listing
-    ------------------------------------------------------------
-
-    datapathcell: Name =\uart_wifi:BUART:sTX:TxShifter:u0\
-        PORT MAP (
-            clock => \uart_wifi:Net_9\ ,
-            cs_addr_2 => \uart_wifi:BUART:tx_state_1\ ,
-            cs_addr_1 => \uart_wifi:BUART:tx_state_0\ ,
-            cs_addr_0 => \uart_wifi:BUART:tx_bitclk_enable_pre\ ,
-            so_comb => \uart_wifi:BUART:tx_shift_out\ ,
-            f0_bus_stat_comb => \uart_wifi:BUART:tx_fifo_notfull\ ,
-            f0_blk_stat_comb => \uart_wifi:BUART:tx_fifo_empty\ );
-        Properties:
-        {
-            a0_init = "00000000"
-            a1_init = "00000000"
-            ce0_sync = 1
-            ce1_sync = 1
-            cl0_sync = 1
-            cl1_sync = 1
-            cmsb_sync = 1
-            co_msb_sync = 1
-            cy_dpconfig = "0000000000000000000000000000000000000000000000000000000011000000000000000000000000000010010000000000000000000000000000000000000011111111000000001111111111111111000000000000000001000100111100000000000000001100"
-            d0_init = "00000000"
-            d1_init = "00000000"
-            f0_blk_sync = 1
-            f0_bus_sync = 1
-            f1_blk_sync = 1
-            f1_bus_sync = 1
-            ff0_sync = 1
-            ff1_sync = 1
-            ov_msb_sync = 1
-            so_sync = 1
-            z0_sync = 1
-            z1_sync = 1
-        }
-        Clock Polarity: Active High
-        Clock Enable: True
-
-    datapathcell: Name =\uart_wifi:BUART:sTX:sCLOCK:TxBitClkGen\
-        PORT MAP (
-            clock => \uart_wifi:Net_9\ ,
-            cs_addr_0 => \uart_wifi:BUART:counter_load_not\ ,
-            ce0_reg => \uart_wifi:BUART:tx_bitclk_enable_pre\ ,
-            ce1_reg => \uart_wifi:BUART:tx_counter_dp\ );
-        Properties:
-        {
-            a0_init = "00000000"
-            a1_init = "00000000"
-            ce0_sync = 1
-            ce1_sync = 1
-            cl0_sync = 1
-            cl1_sync = 1
-            cmsb_sync = 1
-            co_msb_sync = 1
-            cy_dpconfig = "1010100001000000001000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111111000000001111111100000111001000000100000000000101111100000000000000001000"
-            d0_init = "00000000"
-            d1_init = "00000000"
-            f0_blk_sync = 1
-            f0_bus_sync = 1
-            f1_blk_sync = 1
-            f1_bus_sync = 1
-            ff0_sync = 1
-            ff1_sync = 1
-            ov_msb_sync = 1
-            so_sync = 1
-            z0_sync = 1
-            z1_sync = 1
-        }
-        Clock Polarity: Active High
-        Clock Enable: True
-
-    datapathcell: Name =\uart_wifi:BUART:sRX:RxShifter:u0\
-        PORT MAP (
-            clock => \uart_wifi:Net_9\ ,
-            cs_addr_2 => \uart_wifi:BUART:tx_ctrl_mark_last\ ,
-            cs_addr_1 => \uart_wifi:BUART:rx_state_0\ ,
-            cs_addr_0 => \uart_wifi:BUART:rx_bitclk_enable\ ,
-            route_si => Net_27_SYNCOUT ,
-            f0_load => \uart_wifi:BUART:rx_load_fifo\ ,
-            f0_bus_stat_comb => \uart_wifi:BUART:rx_fifonotempty\ ,
-            f0_blk_stat_comb => \uart_wifi:BUART:rx_fifofull\ );
-        Properties:
-        {
-            a0_init = "00000000"
-            a1_init = "00000000"
-            ce0_sync = 1
-            ce1_sync = 1
-            cl0_sync = 1
-            cl1_sync = 1
-            cmsb_sync = 1
-            co_msb_sync = 1
-            cy_dpconfig = "0000000000000000000000000000000000000000000000000000001001000000000100000000000000010000001100000001000000000000000100100001000011111111000000001111111111111111101000000110001001000001111100000000000000001100"
-            d0_init = "00000000"
-            d1_init = "00000000"
-            f0_blk_sync = 1
-            f0_bus_sync = 1
-            f1_blk_sync = 1
-            f1_bus_sync = 1
-            ff0_sync = 1
-            ff1_sync = 1
-            ov_msb_sync = 1
-            so_sync = 1
-            z0_sync = 1
-            z1_sync = 1
-        }
-        Clock Polarity: Active High
-        Clock Enable: True
     </CYPRESSTAG>
     <CYPRESSTAG name="Status register listing">
     </CYPRESSTAG>
     <CYPRESSTAG name="StatusI register listing">
-
-    ------------------------------------------------------------
-    StatusI register listing
-    ------------------------------------------------------------
-
-    statusicell: Name =\uart_wifi:BUART:sTX:TxSts\
-        PORT MAP (
-            clock => \uart_wifi:Net_9\ ,
-            status_3 => \uart_wifi:BUART:tx_fifo_notfull\ ,
-            status_2 => \uart_wifi:BUART:tx_status_2\ ,
-            status_1 => \uart_wifi:BUART:tx_fifo_empty\ ,
-            status_0 => \uart_wifi:BUART:tx_status_0\ );
-        Properties:
-        {
-            cy_force_order = 1
-            cy_int_mask = "1111111"
-            cy_md_select = "0000001"
-        }
-        Clock Polarity: Active High
-        Clock Enable: True
-
-    statusicell: Name =\uart_wifi:BUART:sRX:RxSts\
-        PORT MAP (
-            clock => \uart_wifi:Net_9\ ,
-            status_5 => \uart_wifi:BUART:rx_status_5\ ,
-            status_4 => \uart_wifi:BUART:rx_status_4\ ,
-            status_3 => \uart_wifi:BUART:rx_status_3\ );
-        Properties:
-        {
-            cy_force_order = 1
-            cy_int_mask = "1111111"
-            cy_md_select = "1011111"
-        }
-        Clock Polarity: Active High
-        Clock Enable: True
     </CYPRESSTAG>
     <CYPRESSTAG name="Sync listing">
-
-    ------------------------------------------------------------
-    Sync listing
-    ------------------------------------------------------------
-
-    synccell: Name =wifi_rx(0)_SYNC
-        PORT MAP (
-            in => Net_27 ,
-            out => Net_27_SYNCOUT ,
-            clock => ClockBlock_BUS_CLK );
-        Clock Polarity: Active High
-        Clock Enable: True
     </CYPRESSTAG>
     <CYPRESSTAG name="Control register listing">
     </CYPRESSTAG>
     <CYPRESSTAG name="Count7 listing">
-
-    ------------------------------------------------------------
-    Count7 listing
-    ------------------------------------------------------------
-
-    count7cell: Name =\uart_wifi:BUART:sRX:RxBitCounter\
-        PORT MAP (
-            clock => \uart_wifi:Net_9\ ,
-            load => \uart_wifi:BUART:rx_counter_load\ ,
-            count_6 => \uart_wifi:BUART:rx_count_6\ ,
-            count_5 => \uart_wifi:BUART:rx_count_5\ ,
-            count_4 => \uart_wifi:BUART:rx_count_4\ ,
-            count_3 => \uart_wifi:BUART:rx_count_3\ ,
-            count_2 => \uart_wifi:BUART:rx_count_2\ ,
-            count_1 => \uart_wifi:BUART:rx_count_1\ ,
-            count_0 => \uart_wifi:BUART:rx_count_0\ ,
-            tc => \uart_wifi:BUART:rx_count7_tc\ );
-        Properties:
-        {
-            cy_alt_mode = 0
-            cy_init_value = "0000000"
-            cy_period = "1110001"
-            cy_route_en = 1
-            cy_route_ld = 1
-        }
-        Clock Polarity: Active High
-        Clock Enable: True
     </CYPRESSTAG>
     <CYPRESSTAG name="DRQ listing">
     </CYPRESSTAG>
     <CYPRESSTAG name="Interrupt listing">
+
+    ------------------------------------------------------------
+    Interrupt listing
+    ------------------------------------------------------------
+
+    interrupt: Name =isr_sof_timer
+        PORT MAP (
+            interrupt => Net_74 );
+        Properties:
+        {
+            int_type = "10"
+            is_nmi = 0
+        }
     </CYPRESSTAG>
 </CYPRESSTAG>
 <CYPRESSTAG name="Technology mapping summary" expanded>
@@ -1366,29 +346,25 @@ Technology mapping summary
 
 Resource Type                 : Used : Free :  Max :  % Used
 ============================================================
-Digital Clocks                :    1 :    7 :    8 : 12.50 %
+Digital Clocks                :    0 :    8 :    8 :  0.00 %
 Analog Clocks                 :    0 :    4 :    4 :  0.00 %
 CapSense Buffers              :    0 :    2 :    2 :  0.00 %
 Digital Filter Block          :    0 :    1 :    1 :  0.00 %
-Interrupts                    :    0 :   32 :   32 :  0.00 %
-IO                            :    9 :   63 :   72 : 12.50 %
+Interrupts                    :    1 :   31 :   32 :  3.13 %
+IO                            :    5 :   67 :   72 :  6.94 %
 Segment LCD                   :    0 :    1 :    1 :  0.00 %
 CAN 2.0b                      :    0 :    1 :    1 :  0.00 %
 I2C                           :    0 :    1 :    1 :  0.00 %
 USB                           :    0 :    1 :    1 :  0.00 %
 DMA Channels                  :    0 :   24 :   24 :  0.00 %
-Timer                         :    0 :    4 :    4 :  0.00 %
+Timer                         :    1 :    3 :    4 : 25.00 %
 UDB                           :      :      :      :        
-  Macrocells                  :   21 :  171 :  192 : 10.94 %
-  Unique P-terms              :   35 :  349 :  384 :  9.11 %
-  Total P-terms               :   44 :      :      :        
-  Datapath Cells              :    3 :   21 :   24 : 12.50 %
-  Status Cells                :    4 :   20 :   24 : 16.67 %
-    StatusI Registers         :    2 :      :      :        
-    Sync Cells (x1)           :    1 :      :      :        
-    Routed Count7 Load/Enable :    1 :      :      :        
-  Control Cells               :    1 :   23 :   24 :  4.17 %
-    Count7 Cells              :    1 :      :      :        
+  Macrocells                  :    1 :  191 :  192 :  0.52 %
+  Unique P-terms              :    0 :  384 :  384 :  0.00 %
+  Total P-terms               :    0 :      :      :        
+  Datapath Cells              :    0 :   24 :   24 :  0.00 %
+  Status Cells                :    0 :   24 :   24 :  0.00 %
+  Control Cells               :    0 :   24 :   24 :  0.00 %
 Opamp                         :    0 :    4 :    4 :  0.00 %
 Comparator                    :    0 :    4 :    4 :  0.00 %
 Delta-Sigma ADC               :    0 :    1 :    1 :  0.00 %
@@ -1398,18 +374,14 @@ Analog (SC/CT) Blocks         :    0 :    4 :    4 :  0.00 %
 DAC                           :      :      :      :        
   VIDAC                       :    0 :    4 :    4 :  0.00 %
 </CYPRESSTAG>
-Technology Mapping: Elapsed time ==> 0s.711ms
-Tech Mapping phase: Elapsed time ==> 3s.559ms
+Technology Mapping: Elapsed time ==> 0s.391ms
+Tech Mapping phase: Elapsed time ==> 0s.754ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Placement">
 Initial Analog Placement Results:
 IO_7@[IOP=(6)][IoId=(7)] : led_user(0) (fixed)
 IO_2@[IOP=(1)][IoId=(2)] : switch_user(0) (fixed)
-IO_3@[IOP=(2)][IoId=(3)] : wifi_enable(0) (fixed)
-IO_2@[IOP=(2)][IoId=(2)] : wifi_reset(0) (fixed)
-IO_0@[IOP=(2)][IoId=(0)] : wifi_rx(0) (fixed)
-IO_1@[IOP=(2)][IoId=(1)] : wifi_tx(0) (fixed)
-Analog Placement phase: Elapsed time ==> 0s.371ms
+Analog Placement phase: Elapsed time ==> 0s.340ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Routing">
 Analog Routing phase: Elapsed time ==> 0s.000ms
@@ -1427,11 +399,12 @@ Dump of CyP35AnalogRoutingResultsDB
 IsVddaHalfUsedForComp = False
 IsVddaHalfUsedForSar0 = False
 IsVddaHalfUsedForSar1 = False
-Analog Code Generation phase: Elapsed time ==> 0s.618ms
+Analog Code Generation phase: Elapsed time ==> 0s.631ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Placement">
 <CYPRESSTAG name="Detailed placement messages">
-I2076: Total run-time: 0.6 sec.
+I2659: No Constrained paths were found. The placer will run in non-timing driven mode.
+I2076: Total run-time: 2.1 sec.
 
 </CYPRESSTAG>
 <CYPRESSTAG name="PLD Packing">
@@ -1442,27 +415,27 @@ PLD Packing Summary
 ------------------------------------------------------------
             Resource Type : Used : Free :  Max :  % Used
     ====================================================
-                     PLDs :    7 :   41 :   48 :  14.58%
+                     PLDs :    1 :   47 :   48 :   2.08%
 
 <CYPRESSTAG name="PLD Statistics">
 
         PLD Resource Type :     Average/LAB
     =======================================
-                   Inputs :            6.57
-                   Pterms :            5.43
-               Macrocells :            3.00
+                   Inputs :            0.00
+                   Pterms :            0.00
+               Macrocells :            1.00
 </CYPRESSTAG>
 <CYPRESSTAG name="Packed PLD Contents">
 Packed PLD Contents not displayed at this verbose level.</CYPRESSTAG>
 </CYPRESSTAG>
-PLD Packing: Elapsed time ==> 0s.027ms
+PLD Packing: Elapsed time ==> 0s.051ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Partitioning">
 <CYPRESSTAG name="Initial Partitioning Summary">
 Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
 <CYPRESSTAG name="Final Partitioning Summary">
 Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
-Partitioning: Elapsed time ==> 0s.180ms
+Partitioning: Elapsed time ==> 0s.232ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Final Placement Summary">
 
@@ -1472,7 +445,7 @@ Final Placement Summary
 
        Resource Type :      Count : Avg Inputs : Avg Outputs
     ========================================================
-                 UDB :          4 :       8.50 :       5.25
+                 UDB :          1 :       0.00 :       1.00
 <CYPRESSTAG name="Final Placement Details">
 <CYPRESSTAG name="Component Details">
 
@@ -1483,561 +456,23 @@ UDB [UDB=(0,0)] is empty.
 UDB [UDB=(0,1)] is empty.
 UDB [UDB=(0,2)] is empty.
 UDB [UDB=(0,3)] is empty.
-UDB [UDB=(0,4)] contents:
-LAB@[UDB=(0,4)][LB=0] #macrocells=2, #inputs=2, #pterms=2
-{
-    [McSlotId=0]:     MacroCell: Name=Net_24, Mode=(Combinatorial) @ [UDB=(0,4)][LB=0][MC=0]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              !\uart_wifi:BUART:txn\
-        );
-        Output = Net_24 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\uart_wifi:BUART:tx_status_2\, Mode=(Combinatorial) @ [UDB=(0,4)][LB=0][MC=1]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              !\uart_wifi:BUART:tx_fifo_notfull\
-        );
-        Output = \uart_wifi:BUART:tx_status_2\ (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-datapathcell: Name =\uart_wifi:BUART:sTX:sCLOCK:TxBitClkGen\
-    PORT MAP (
-        clock => \uart_wifi:Net_9\ ,
-        cs_addr_0 => \uart_wifi:BUART:counter_load_not\ ,
-        ce0_reg => \uart_wifi:BUART:tx_bitclk_enable_pre\ ,
-        ce1_reg => \uart_wifi:BUART:tx_counter_dp\ );
-    Properties:
-    {
-        a0_init = "00000000"
-        a1_init = "00000000"
-        ce0_sync = 1
-        ce1_sync = 1
-        cl0_sync = 1
-        cl1_sync = 1
-        cmsb_sync = 1
-        co_msb_sync = 1
-        cy_dpconfig = "1010100001000000001000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111111000000001111111100000111001000000100000000000101111100000000000000001000"
-        d0_init = "00000000"
-        d1_init = "00000000"
-        f0_blk_sync = 1
-        f0_bus_sync = 1
-        f1_blk_sync = 1
-        f1_bus_sync = 1
-        ff0_sync = 1
-        ff1_sync = 1
-        ov_msb_sync = 1
-        so_sync = 1
-        z0_sync = 1
-        z1_sync = 1
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-
-synccell: Name =wifi_rx(0)_SYNC
-    PORT MAP (
-        in => Net_27 ,
-        out => Net_27_SYNCOUT ,
-        clock => ClockBlock_BUS_CLK );
-    Properties:
-    {
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-
-UDB [UDB=(0,5)] contents:
-LAB@[UDB=(0,5)][LB=0] #macrocells=3, #inputs=8, #pterms=8
-{
-    [McSlotId=0]:     MacroCell: Name=\uart_wifi:BUART:txn\, Mode=(D-Register) @ [UDB=(0,5)][LB=0][MC=0]
-        Total # of inputs        : 7
-        Total # of product terms : 5
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 5 pterms
-        (
-              \uart_wifi:BUART:txn\ * \uart_wifi:BUART:tx_state_1\ * 
-              !\uart_wifi:BUART:tx_bitclk\
-            + \uart_wifi:BUART:txn\ * \uart_wifi:BUART:tx_state_2\
-            + !\uart_wifi:BUART:tx_state_1\ * \uart_wifi:BUART:tx_state_0\ * 
-              !\uart_wifi:BUART:tx_shift_out\ * !\uart_wifi:BUART:tx_state_2\
-            + !\uart_wifi:BUART:tx_state_1\ * \uart_wifi:BUART:tx_state_0\ * 
-              !\uart_wifi:BUART:tx_state_2\ * !\uart_wifi:BUART:tx_bitclk\
-            + \uart_wifi:BUART:tx_state_1\ * !\uart_wifi:BUART:tx_state_0\ * 
-              !\uart_wifi:BUART:tx_shift_out\ * !\uart_wifi:BUART:tx_state_2\ * 
-              !\uart_wifi:BUART:tx_counter_dp\ * \uart_wifi:BUART:tx_bitclk\
-        );
-        Output = \uart_wifi:BUART:txn\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\uart_wifi:BUART:tx_state_1\, Mode=(T-Register) @ [UDB=(0,5)][LB=0][MC=1]
-        Total # of inputs        : 6
-        Total # of product terms : 3
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 3 pterms
-        (
-              \uart_wifi:BUART:tx_state_1\ * \uart_wifi:BUART:tx_state_0\ * 
-              \uart_wifi:BUART:tx_bitclk_enable_pre\ * 
-              \uart_wifi:BUART:tx_state_2\
-            + \uart_wifi:BUART:tx_state_1\ * !\uart_wifi:BUART:tx_state_2\ * 
-              \uart_wifi:BUART:tx_counter_dp\ * \uart_wifi:BUART:tx_bitclk\
-            + \uart_wifi:BUART:tx_state_0\ * !\uart_wifi:BUART:tx_state_2\ * 
-              \uart_wifi:BUART:tx_bitclk\
-        );
-        Output = \uart_wifi:BUART:tx_state_1\ (fanout=8)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]:     MacroCell: Name=\uart_wifi:BUART:tx_ctrl_mark_last\, Mode=(T-Register) @ [UDB=(0,5)][LB=0][MC=2]
-        Total # of inputs        : 0
-        Total # of product terms : 0
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 0 pterms
-        (
-            0
-        );
-        Output = \uart_wifi:BUART:tx_ctrl_mark_last\ (fanout=8)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]: (empty)
-}
-
-LAB@[UDB=(0,5)][LB=1] #macrocells=3, #inputs=6, #pterms=8
-{
-    [McSlotId=0]:     MacroCell: Name=\uart_wifi:BUART:tx_state_2\, Mode=(T-Register) @ [UDB=(0,5)][LB=1][MC=0]
-        Total # of inputs        : 6
-        Total # of product terms : 4
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 4 pterms
-        (
-              !\uart_wifi:BUART:tx_state_1\ * !\uart_wifi:BUART:tx_state_0\ * 
-              \uart_wifi:BUART:tx_bitclk_enable_pre\ * 
-              \uart_wifi:BUART:tx_state_2\
-            + \uart_wifi:BUART:tx_state_1\ * \uart_wifi:BUART:tx_state_0\ * 
-              \uart_wifi:BUART:tx_bitclk_enable_pre\ * 
-              \uart_wifi:BUART:tx_state_2\
-            + \uart_wifi:BUART:tx_state_1\ * \uart_wifi:BUART:tx_state_0\ * 
-              !\uart_wifi:BUART:tx_state_2\ * \uart_wifi:BUART:tx_bitclk\
-            + \uart_wifi:BUART:tx_state_1\ * !\uart_wifi:BUART:tx_state_2\ * 
-              \uart_wifi:BUART:tx_counter_dp\ * \uart_wifi:BUART:tx_bitclk\
-        );
-        Output = \uart_wifi:BUART:tx_state_2\ (fanout=7)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\uart_wifi:BUART:counter_load_not\, Mode=(Combinatorial) @ [UDB=(0,5)][LB=1][MC=1]
-        Total # of inputs        : 4
-        Total # of product terms : 2
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        !(
-              !\uart_wifi:BUART:tx_state_1\ * !\uart_wifi:BUART:tx_state_0\ * 
-              \uart_wifi:BUART:tx_bitclk_enable_pre\
-            + !\uart_wifi:BUART:tx_state_1\ * !\uart_wifi:BUART:tx_state_0\ * 
-              !\uart_wifi:BUART:tx_state_2\
-        );
-        Output = \uart_wifi:BUART:counter_load_not\ (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]:     MacroCell: Name=\uart_wifi:BUART:tx_bitclk\, Mode=(D-Register) @ [UDB=(0,5)][LB=1][MC=2]
-        Total # of inputs        : 4
-        Total # of product terms : 2
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        !(
-              !\uart_wifi:BUART:tx_state_1\ * !\uart_wifi:BUART:tx_state_0\ * 
-              \uart_wifi:BUART:tx_state_2\
-            + !\uart_wifi:BUART:tx_bitclk_enable_pre\
-        );
-        Output = \uart_wifi:BUART:tx_bitclk\ (fanout=4)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]: (empty)
-}
-
-statusicell: Name =\uart_wifi:BUART:sRX:RxSts\
-    PORT MAP (
-        clock => \uart_wifi:Net_9\ ,
-        status_5 => \uart_wifi:BUART:rx_status_5\ ,
-        status_4 => \uart_wifi:BUART:rx_status_4\ ,
-        status_3 => \uart_wifi:BUART:rx_status_3\ );
-    Properties:
-    {
-        cy_force_order = 1
-        cy_int_mask = "1111111"
-        cy_md_select = "1011111"
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-
+UDB [UDB=(0,4)] is empty.
+UDB [UDB=(0,5)] is empty.
 UDB [UDB=(1,0)] is empty.
 UDB [UDB=(1,1)] is empty.
 UDB [UDB=(1,2)] is empty.
-UDB [UDB=(1,3)] is empty.
-UDB [UDB=(1,4)] contents:
-LAB@[UDB=(1,4)][LB=0] #macrocells=4, #inputs=10, #pterms=8
+UDB [UDB=(1,3)] contents:
+LAB@[UDB=(1,3)][LB=0] #macrocells=1, #inputs=0, #pterms=0
 {
-    [McSlotId=0]:     MacroCell: Name=\uart_wifi:BUART:rx_state_2\, Mode=(T-Register) @ [UDB=(1,4)][LB=0][MC=0]
-        Total # of inputs        : 10
-        Total # of product terms : 5
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
+    [McSlotId=0]:     MacroCell: Name=__ONE__, Mode=(Combinatorial) @ [UDB=(1,3)][LB=0][MC=0]
+        Total # of inputs        : 0
+        Total # of product terms : 0
             Clock Enable: True
-        Main Equation            : 5 pterms
-        (
-              !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              !\uart_wifi:BUART:rx_state_0\ * 
-              \uart_wifi:BUART:rx_bitclk_enable\ * 
-              \uart_wifi:BUART:rx_state_3\
-            + !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              !\uart_wifi:BUART:rx_state_0\ * 
-              \uart_wifi:BUART:rx_bitclk_enable\ * 
-              \uart_wifi:BUART:rx_state_2\
-            + !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              !\uart_wifi:BUART:rx_state_0\ * !\uart_wifi:BUART:rx_state_3\ * 
-              !\uart_wifi:BUART:rx_state_2\ * \uart_wifi:BUART:rx_last\ * 
-              !Net_27_SYNCOUT
-            + !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              \uart_wifi:BUART:rx_state_0\ * !\uart_wifi:BUART:rx_state_3\ * 
-              !\uart_wifi:BUART:rx_state_2\ * !\uart_wifi:BUART:rx_count_6\ * 
-              !\uart_wifi:BUART:rx_count_5\
-            + !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              \uart_wifi:BUART:rx_state_0\ * !\uart_wifi:BUART:rx_state_3\ * 
-              !\uart_wifi:BUART:rx_state_2\ * !\uart_wifi:BUART:rx_count_6\ * 
-              !\uart_wifi:BUART:rx_count_4\
-        );
-        Output = \uart_wifi:BUART:rx_state_2\ (fanout=7)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\uart_wifi:BUART:rx_state_0\, Mode=(T-Register) @ [UDB=(1,4)][LB=0][MC=1]
-        Total # of inputs        : 9
-        Total # of product terms : 3
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 3 pterms
-        (
-              !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              !\uart_wifi:BUART:rx_state_0\ * 
-              \uart_wifi:BUART:rx_bitclk_enable\ * 
-              !\uart_wifi:BUART:rx_state_3\ * \uart_wifi:BUART:rx_state_2\ * 
-              !Net_27_SYNCOUT
-            + !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              \uart_wifi:BUART:rx_state_0\ * !\uart_wifi:BUART:rx_state_3\ * 
-              !\uart_wifi:BUART:rx_state_2\ * !\uart_wifi:BUART:rx_count_6\ * 
-              !\uart_wifi:BUART:rx_count_5\
-            + !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              \uart_wifi:BUART:rx_state_0\ * !\uart_wifi:BUART:rx_state_3\ * 
-              !\uart_wifi:BUART:rx_state_2\ * !\uart_wifi:BUART:rx_count_6\ * 
-              !\uart_wifi:BUART:rx_count_4\
-        );
-        Output = \uart_wifi:BUART:rx_state_0\ (fanout=8)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]:     MacroCell: Name=\uart_wifi:BUART:rx_state_3\, Mode=(T-Register) @ [UDB=(1,4)][LB=0][MC=2]
-        Total # of inputs        : 8
-        Total # of product terms : 3
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 3 pterms
-        (
-              !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              !\uart_wifi:BUART:rx_state_0\ * 
-              \uart_wifi:BUART:rx_bitclk_enable\ * 
-              \uart_wifi:BUART:rx_state_3\ * \uart_wifi:BUART:rx_state_2\
-            + !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              \uart_wifi:BUART:rx_state_0\ * !\uart_wifi:BUART:rx_state_3\ * 
-              !\uart_wifi:BUART:rx_state_2\ * !\uart_wifi:BUART:rx_count_6\ * 
-              !\uart_wifi:BUART:rx_count_5\
-            + !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              \uart_wifi:BUART:rx_state_0\ * !\uart_wifi:BUART:rx_state_3\ * 
-              !\uart_wifi:BUART:rx_state_2\ * !\uart_wifi:BUART:rx_count_6\ * 
-              !\uart_wifi:BUART:rx_count_4\
-        );
-        Output = \uart_wifi:BUART:rx_state_3\ (fanout=7)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]:     MacroCell: Name=\uart_wifi:BUART:rx_load_fifo\, Mode=(D-Register) @ [UDB=(1,4)][LB=0][MC=3]
-        Total # of inputs        : 8
-        Total # of product terms : 3
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 3 pterms
-        (
-              !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              !\uart_wifi:BUART:rx_state_0\ * 
-              \uart_wifi:BUART:rx_bitclk_enable\ * 
-              \uart_wifi:BUART:rx_state_3\ * !\uart_wifi:BUART:rx_state_2\
-            + !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              \uart_wifi:BUART:rx_state_0\ * !\uart_wifi:BUART:rx_state_3\ * 
-              !\uart_wifi:BUART:rx_state_2\ * !\uart_wifi:BUART:rx_count_6\ * 
-              !\uart_wifi:BUART:rx_count_5\
-            + !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              \uart_wifi:BUART:rx_state_0\ * !\uart_wifi:BUART:rx_state_3\ * 
-              !\uart_wifi:BUART:rx_state_2\ * !\uart_wifi:BUART:rx_count_6\ * 
-              !\uart_wifi:BUART:rx_count_4\
-        );
-        Output = \uart_wifi:BUART:rx_load_fifo\ (fanout=2)
-        Properties               : 
-        {
-        }
-}
-
-LAB@[UDB=(1,4)][LB=1] #macrocells=4, #inputs=8, #pterms=4
-{
-    [McSlotId=0]:     MacroCell: Name=\uart_wifi:BUART:rx_status_3\, Mode=(D-Register) @ [UDB=(1,4)][LB=1][MC=0]
-        Total # of inputs        : 6
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              !\uart_wifi:BUART:rx_state_0\ * 
-              \uart_wifi:BUART:rx_bitclk_enable\ * 
-              \uart_wifi:BUART:rx_state_3\ * \uart_wifi:BUART:rx_state_2\ * 
-              !Net_27_SYNCOUT
-        );
-        Output = \uart_wifi:BUART:rx_status_3\ (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\uart_wifi:BUART:rx_counter_load\, Mode=(Combinatorial) @ [UDB=(1,4)][LB=1][MC=1]
-        Total # of inputs        : 4
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              !\uart_wifi:BUART:rx_state_0\ * !\uart_wifi:BUART:rx_state_3\ * 
-              !\uart_wifi:BUART:rx_state_2\
-        );
-        Output = \uart_wifi:BUART:rx_counter_load\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]:     MacroCell: Name=\uart_wifi:BUART:rx_state_stop1_reg\, Mode=(D-Register) @ [UDB=(1,4)][LB=1][MC=2]
-        Total # of inputs        : 4
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
+        Main Equation            : 0 pterms
         !(
-              !\uart_wifi:BUART:tx_ctrl_mark_last\ * 
-              !\uart_wifi:BUART:rx_state_0\ * \uart_wifi:BUART:rx_state_3\ * 
-              \uart_wifi:BUART:rx_state_2\
+            0
         );
-        Output = \uart_wifi:BUART:rx_state_stop1_reg\ (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]:     MacroCell: Name=\uart_wifi:BUART:rx_status_5\, Mode=(Combinatorial) @ [UDB=(1,4)][LB=1][MC=3]
-        Total # of inputs        : 2
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              \uart_wifi:BUART:rx_fifonotempty\ * 
-              \uart_wifi:BUART:rx_state_stop1_reg\
-        );
-        Output = \uart_wifi:BUART:rx_status_5\ (fanout=1)
-        Properties               : 
-        {
-        }
-}
-
-datapathcell: Name =\uart_wifi:BUART:sRX:RxShifter:u0\
-    PORT MAP (
-        clock => \uart_wifi:Net_9\ ,
-        cs_addr_2 => \uart_wifi:BUART:tx_ctrl_mark_last\ ,
-        cs_addr_1 => \uart_wifi:BUART:rx_state_0\ ,
-        cs_addr_0 => \uart_wifi:BUART:rx_bitclk_enable\ ,
-        route_si => Net_27_SYNCOUT ,
-        f0_load => \uart_wifi:BUART:rx_load_fifo\ ,
-        f0_bus_stat_comb => \uart_wifi:BUART:rx_fifonotempty\ ,
-        f0_blk_stat_comb => \uart_wifi:BUART:rx_fifofull\ );
-    Properties:
-    {
-        a0_init = "00000000"
-        a1_init = "00000000"
-        ce0_sync = 1
-        ce1_sync = 1
-        cl0_sync = 1
-        cl1_sync = 1
-        cmsb_sync = 1
-        co_msb_sync = 1
-        cy_dpconfig = "0000000000000000000000000000000000000000000000000000001001000000000100000000000000010000001100000001000000000000000100100001000011111111000000001111111111111111101000000110001001000001111100000000000000001100"
-        d0_init = "00000000"
-        d1_init = "00000000"
-        f0_blk_sync = 1
-        f0_bus_sync = 1
-        f1_blk_sync = 1
-        f1_bus_sync = 1
-        ff0_sync = 1
-        ff1_sync = 1
-        ov_msb_sync = 1
-        so_sync = 1
-        z0_sync = 1
-        z1_sync = 1
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-
-count7cell: Name =\uart_wifi:BUART:sRX:RxBitCounter\
-    PORT MAP (
-        clock => \uart_wifi:Net_9\ ,
-        load => \uart_wifi:BUART:rx_counter_load\ ,
-        count_6 => \uart_wifi:BUART:rx_count_6\ ,
-        count_5 => \uart_wifi:BUART:rx_count_5\ ,
-        count_4 => \uart_wifi:BUART:rx_count_4\ ,
-        count_3 => \uart_wifi:BUART:rx_count_3\ ,
-        count_2 => \uart_wifi:BUART:rx_count_2\ ,
-        count_1 => \uart_wifi:BUART:rx_count_1\ ,
-        count_0 => \uart_wifi:BUART:rx_count_0\ ,
-        tc => \uart_wifi:BUART:rx_count7_tc\ );
-    Properties:
-    {
-        cy_alt_mode = 0
-        cy_init_value = "0000000"
-        cy_period = "1110001"
-        cy_route_en = 1
-        cy_route_ld = 1
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-
-UDB [UDB=(1,5)] contents:
-LAB@[UDB=(1,5)][LB=0] #macrocells=4, #inputs=11, #pterms=7
-{
-    [McSlotId=0]:     MacroCell: Name=\uart_wifi:BUART:tx_state_0\, Mode=(T-Register) @ [UDB=(1,5)][LB=0][MC=0]
-        Total # of inputs        : 6
-        Total # of product terms : 4
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 4 pterms
-        (
-              !\uart_wifi:BUART:tx_state_1\ * !\uart_wifi:BUART:tx_state_0\ * 
-              \uart_wifi:BUART:tx_bitclk_enable_pre\ * 
-              !\uart_wifi:BUART:tx_fifo_empty\
-            + !\uart_wifi:BUART:tx_state_1\ * !\uart_wifi:BUART:tx_state_0\ * 
-              !\uart_wifi:BUART:tx_fifo_empty\ * 
-              !\uart_wifi:BUART:tx_state_2\
-            + \uart_wifi:BUART:tx_state_1\ * \uart_wifi:BUART:tx_state_0\ * 
-              \uart_wifi:BUART:tx_bitclk_enable_pre\ * 
-              \uart_wifi:BUART:tx_fifo_empty\ * \uart_wifi:BUART:tx_state_2\
-            + \uart_wifi:BUART:tx_state_0\ * !\uart_wifi:BUART:tx_state_2\ * 
-              \uart_wifi:BUART:tx_bitclk\
-        );
-        Output = \uart_wifi:BUART:tx_state_0\ (fanout=8)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\uart_wifi:BUART:tx_status_0\, Mode=(Combinatorial) @ [UDB=(1,5)][LB=0][MC=1]
-        Total # of inputs        : 5
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              !\uart_wifi:BUART:tx_state_1\ * !\uart_wifi:BUART:tx_state_0\ * 
-              \uart_wifi:BUART:tx_bitclk_enable_pre\ * 
-              \uart_wifi:BUART:tx_fifo_empty\ * \uart_wifi:BUART:tx_state_2\
-        );
-        Output = \uart_wifi:BUART:tx_status_0\ (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]:     MacroCell: Name=\uart_wifi:BUART:rx_bitclk_enable\, Mode=(D-Register) @ [UDB=(1,5)][LB=0][MC=2]
-        Total # of inputs        : 3
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              !\uart_wifi:BUART:rx_count_2\ * !\uart_wifi:BUART:rx_count_1\ * 
-              !\uart_wifi:BUART:rx_count_0\
-        );
-        Output = \uart_wifi:BUART:rx_bitclk_enable\ (fanout=6)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]:     MacroCell: Name=\uart_wifi:BUART:rx_status_4\, Mode=(Combinatorial) @ [UDB=(1,5)][LB=0][MC=3]
-        Total # of inputs        : 2
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              \uart_wifi:BUART:rx_load_fifo\ * \uart_wifi:BUART:rx_fifofull\
-        );
-        Output = \uart_wifi:BUART:rx_status_4\ (fanout=1)
-        Properties               : 
-        {
-        }
-}
-
-LAB@[UDB=(1,5)][LB=1] #macrocells=1, #inputs=1, #pterms=1
-{
-    [McSlotId=0]:     MacroCell: Name=\uart_wifi:BUART:rx_last\, Mode=(D-Register) @ [UDB=(1,5)][LB=1][MC=0]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\uart_wifi:Net_9\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_27_SYNCOUT
-        );
-        Output = \uart_wifi:BUART:rx_last\ (fanout=1)
+        Output = __ONE__ (fanout=1)
         Properties               : 
         {
         }
@@ -2047,58 +482,8 @@ LAB@[UDB=(1,5)][LB=1] #macrocells=1, #inputs=1, #pterms=1
     [McSlotId=3]: (empty)
 }
 
-datapathcell: Name =\uart_wifi:BUART:sTX:TxShifter:u0\
-    PORT MAP (
-        clock => \uart_wifi:Net_9\ ,
-        cs_addr_2 => \uart_wifi:BUART:tx_state_1\ ,
-        cs_addr_1 => \uart_wifi:BUART:tx_state_0\ ,
-        cs_addr_0 => \uart_wifi:BUART:tx_bitclk_enable_pre\ ,
-        so_comb => \uart_wifi:BUART:tx_shift_out\ ,
-        f0_bus_stat_comb => \uart_wifi:BUART:tx_fifo_notfull\ ,
-        f0_blk_stat_comb => \uart_wifi:BUART:tx_fifo_empty\ );
-    Properties:
-    {
-        a0_init = "00000000"
-        a1_init = "00000000"
-        ce0_sync = 1
-        ce1_sync = 1
-        cl0_sync = 1
-        cl1_sync = 1
-        cmsb_sync = 1
-        co_msb_sync = 1
-        cy_dpconfig = "0000000000000000000000000000000000000000000000000000000011000000000000000000000000000010010000000000000000000000000000000000000011111111000000001111111111111111000000000000000001000100111100000000000000001100"
-        d0_init = "00000000"
-        d1_init = "00000000"
-        f0_blk_sync = 1
-        f0_bus_sync = 1
-        f1_blk_sync = 1
-        f1_bus_sync = 1
-        ff0_sync = 1
-        ff1_sync = 1
-        ov_msb_sync = 1
-        so_sync = 1
-        z0_sync = 1
-        z1_sync = 1
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-
-statusicell: Name =\uart_wifi:BUART:sTX:TxSts\
-    PORT MAP (
-        clock => \uart_wifi:Net_9\ ,
-        status_3 => \uart_wifi:BUART:tx_fifo_notfull\ ,
-        status_2 => \uart_wifi:BUART:tx_status_2\ ,
-        status_1 => \uart_wifi:BUART:tx_fifo_empty\ ,
-        status_0 => \uart_wifi:BUART:tx_status_0\ );
-    Properties:
-    {
-        cy_force_order = 1
-        cy_int_mask = "1111111"
-        cy_md_select = "0000001"
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-
+UDB [UDB=(1,4)] is empty.
+UDB [UDB=(1,5)] is empty.
 UDB [UDB=(2,0)] is empty.
 UDB [UDB=(2,1)] is empty.
 UDB [UDB=(2,2)] is empty.
@@ -2111,7 +496,16 @@ UDB [UDB=(3,2)] is empty.
 UDB [UDB=(3,3)] is empty.
 UDB [UDB=(3,4)] is empty.
 UDB [UDB=(3,5)] is empty.
-Intr container @ [IntrContainer=(0)]: empty
+Intr container @ [IntrContainer=(0)]: 
+  Intr@ [IntrContainer=(0)][IntrId=(17)] 
+    interrupt: Name =isr_sof_timer
+        PORT MAP (
+            interrupt => Net_74 );
+        Properties:
+        {
+            int_type = "10"
+            is_nmi = 0
+        }
 Drq container @ [DrqContainer=(0)]: empty
 Port 0 contains the following IO cells:
 Port 1 contains the following IO cells:
@@ -2156,168 +550,6 @@ Pin : Name = switch_user(0)
     }
 
 Port 2 contains the following IO cells:
-[IoId=0]: 
-Pin : Name = wifi_rx(0)
-    Attributes:
-        In Group/Port: True
-        In Sync Option: SYNC
-        Out Sync Option: AUTO
-        Interrupt generated: False
-        Interrupt mode: NONE
-        Drive mode: HI_Z_DIGITAL
-        VTrip: EITHER
-        Slew: FAST
-        Input Sync needed: False
-        Output Sync needed: False
-        SC shield enabled: False
-        POR State: ANY
-        LCD Mode: COMMON
-        Register Mode: RegComb
-        CaSense Mode: NEITHER
-        Treat as pin: True
-        Is OE Registered: False
-        Uses Analog: False
-        Can contain Digital: True
-        Is SIO: False
-        SIO Output Buf: NONREGULATED
-        SIO Input Buf: SINGLE_ENDED
-        SIO HiFreq: LOW
-        SIO Hyst: DISABLED
-        SIO Vtrip: MULTIPLIER_0_5
-        SIO Multiplier Index: 0
-        SIO RefSel: VCC_IO
-        Required Capabilities: DIGITAL, ROUTABLE
-        Initial Value: 0
-        IO Voltage: 0
-    PORT MAP (
-        pa_out => wifi_rx(0)__PA ,
-        fb => Net_27 ,
-        pad => wifi_rx(0)_PAD );
-    Properties:
-    {
-    }
-
-[IoId=1]: 
-Pin : Name = wifi_tx(0)
-    Attributes:
-        In Group/Port: True
-        In Sync Option: AUTO
-        Out Sync Option: NOSYNC
-        Interrupt generated: False
-        Interrupt mode: NONE
-        Drive mode: RES_PULL_UP
-        VTrip: EITHER
-        Slew: FAST
-        Input Sync needed: False
-        Output Sync needed: False
-        SC shield enabled: False
-        POR State: ANY
-        LCD Mode: COMMON
-        Register Mode: RegComb
-        CaSense Mode: NEITHER
-        Treat as pin: True
-        Is OE Registered: False
-        Uses Analog: False
-        Can contain Digital: True
-        Is SIO: False
-        SIO Output Buf: NONREGULATED
-        SIO Input Buf: SINGLE_ENDED
-        SIO HiFreq: LOW
-        SIO Hyst: DISABLED
-        SIO Vtrip: MULTIPLIER_0_5
-        SIO Multiplier Index: 0
-        SIO RefSel: VCC_IO
-        Required Capabilities: DIGITAL, ROUTABLE
-        Initial Value: 1
-        IO Voltage: 0
-    PORT MAP (
-        pa_out => wifi_tx(0)__PA ,
-        pin_input => Net_24 ,
-        pad => wifi_tx(0)_PAD );
-    Properties:
-    {
-    }
-
-[IoId=2]: 
-Pin : Name = wifi_reset(0)
-    Attributes:
-        In Group/Port: True
-        In Sync Option: AUTO
-        Out Sync Option: NOSYNC
-        Interrupt generated: False
-        Interrupt mode: NONE
-        Drive mode: RES_PULL_UP
-        VTrip: EITHER
-        Slew: FAST
-        Input Sync needed: False
-        Output Sync needed: False
-        SC shield enabled: False
-        POR State: ANY
-        LCD Mode: COMMON
-        Register Mode: RegComb
-        CaSense Mode: NEITHER
-        Treat as pin: True
-        Is OE Registered: False
-        Uses Analog: False
-        Can contain Digital: True
-        Is SIO: False
-        SIO Output Buf: NONREGULATED
-        SIO Input Buf: SINGLE_ENDED
-        SIO HiFreq: LOW
-        SIO Hyst: DISABLED
-        SIO Vtrip: MULTIPLIER_0_5
-        SIO Multiplier Index: 0
-        SIO RefSel: VCC_IO
-        Required Capabilities: DIGITAL
-        Initial Value: 0
-        IO Voltage: 0
-    PORT MAP (
-        pa_out => wifi_reset(0)__PA ,
-        pad => wifi_reset(0)_PAD );
-    Properties:
-    {
-    }
-
-[IoId=3]: 
-Pin : Name = wifi_enable(0)
-    Attributes:
-        In Group/Port: True
-        In Sync Option: AUTO
-        Out Sync Option: NOSYNC
-        Interrupt generated: False
-        Interrupt mode: NONE
-        Drive mode: RES_PULL_UP
-        VTrip: EITHER
-        Slew: FAST
-        Input Sync needed: False
-        Output Sync needed: False
-        SC shield enabled: False
-        POR State: ANY
-        LCD Mode: COMMON
-        Register Mode: RegComb
-        CaSense Mode: NEITHER
-        Treat as pin: True
-        Is OE Registered: False
-        Uses Analog: False
-        Can contain Digital: True
-        Is SIO: False
-        SIO Output Buf: NONREGULATED
-        SIO Input Buf: SINGLE_ENDED
-        SIO HiFreq: LOW
-        SIO Hyst: DISABLED
-        SIO Vtrip: MULTIPLIER_0_5
-        SIO Multiplier Index: 0
-        SIO RefSel: VCC_IO
-        Required Capabilities: DIGITAL
-        Initial Value: 0
-        IO Voltage: 0
-    PORT MAP (
-        pa_out => wifi_enable(0)__PA ,
-        pad => wifi_enable(0)_PAD );
-    Properties:
-    {
-    }
-
 Port 3 contains the following IO cells:
 Port 4 contains the following IO cells:
 Port 5 contains the following IO cells:
@@ -2382,9 +614,7 @@ Clock group 0:
             clk_32k_xtal => ClockBlock_XTAL_32KHZ ,
             clk_sync => ClockBlock_MASTER_CLK ,
             clk_bus_glb => ClockBlock_BUS_CLK ,
-            clk_bus => ClockBlock_BUS_CLK_local ,
-            dclk_glb_0 => \uart_wifi:Net_9\ ,
-            dclk_0 => \uart_wifi:Net_9_local\ );
+            clk_bus => ClockBlock_BUS_CLK_local );
         Properties:
         {
         }
@@ -2400,7 +630,19 @@ PICU group 0: empty
 PM group 0: empty
 SC group 0: empty
 SPC group 0: empty
-Timer group 0: empty
+Timer group 0: 
+    Timer Block @ F(Timer,0): 
+    timercell: Name =\SOF_Timer:TimerHW\
+        PORT MAP (
+            clock => ClockBlock_BUS_CLK ,
+            enable => __ONE__ ,
+            tc => \SOF_Timer:Net_51\ ,
+            cmp => \SOF_Timer:Net_261\ ,
+            irq => Net_74 );
+        Properties:
+        {
+            cy_registers = ""
+        }
 USB group 0: empty
 VIDAC group 0: empty
 OpAmp group 0: empty
@@ -2421,43 +663,38 @@ Port | Pin | Fixed |      Type |       Drive Mode |           Name | Connections
 -----+-----+-------+-----------+------------------+----------------+------------
    1 |   2 |     * |      NONE |      RES_PULL_UP | switch_user(0) | 
 -----+-----+-------+-----------+------------------+----------------+------------
-   2 |   0 |     * |      NONE |     HI_Z_DIGITAL |     wifi_rx(0) | FB(Net_27)
-     |   1 |     * |      NONE |      RES_PULL_UP |     wifi_tx(0) | In(Net_24)
-     |   2 |     * |      NONE |      RES_PULL_UP |  wifi_reset(0) | 
-     |   3 |     * |      NONE |      RES_PULL_UP | wifi_enable(0) | 
------+-----+-------+-----------+------------------+----------------+------------
    6 |   7 |     * |      NONE |         CMOS_OUT |    led_user(0) | 
 --------------------------------------------------------------------------------
 </CYPRESSTAG>
 </CYPRESSTAG>
 </CYPRESSTAG>
-Digital component placer commit/Report: Elapsed time ==> 0s.069ms
-Digital Placement phase: Elapsed time ==> 2s.836ms
+Digital component placer commit/Report: Elapsed time ==> 0s.051ms
+Digital Placement phase: Elapsed time ==> 3s.687ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Routing">
 "C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\bin/sjrouter.exe" --xml-path "C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\dev\psoc5/psoc5lp/route_arch-rrg.cydata" --vh2-path "BootLoadable_r.vh2" --pcf-path "BootLoadable.pco" --des-name "BootLoadable" --dsf-path "BootLoadable.dsf" --sdc-path "BootLoadable.sdc" --lib-path "BootLoadable_r.lib"
 Routing successful.
-Digital Routing phase: Elapsed time ==> 2s.854ms
+Digital Routing phase: Elapsed time ==> 2s.313ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream Generation">
-Bitstream Generation phase: Elapsed time ==> 1s.447ms
+Bitstream Generation phase: Elapsed time ==> 0s.816ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream Verification">
-Bitstream Verification phase: Elapsed time ==> 0s.180ms
+Bitstream Verification phase: Elapsed time ==> 0s.256ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Static timing analysis">
 Timing report is in BootLoadable_timing.html.
-Static timing analysis phase: Elapsed time ==> 0s.556ms
+Static timing analysis phase: Elapsed time ==> 1s.291ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Data reporting">
-Data reporting phase: Elapsed time ==> 0s.236ms
+Data reporting phase: Elapsed time ==> 1s.095ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Database update...">
-Design database save phase: Elapsed time ==> 0s.194ms
+Design database save phase: Elapsed time ==> 0s.698ms
 </CYPRESSTAG>
-cydsfit: Elapsed time ==> 13s.241ms
+cydsfit: Elapsed time ==> 12s.576ms
 </CYPRESSTAG>
-Fitter phase: Elapsed time ==> 13s.303ms
-API generation phase: Elapsed time ==> 2s.692ms
-Dependency generation phase: Elapsed time ==> 0s.061ms
-Cleanup phase: Elapsed time ==> 0s.015ms
+Fitter phase: Elapsed time ==> 12s.593ms
+API generation phase: Elapsed time ==> 1s.633ms
+Dependency generation phase: Elapsed time ==> 0s.045ms
+Cleanup phase: Elapsed time ==> 0s.000ms
