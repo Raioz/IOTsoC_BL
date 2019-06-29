@@ -46,7 +46,7 @@ portTASK_FUNCTION(ledTask, pvParameters) {
             led_state = 1;
             CyPins_SetPin(led_user_0);
         }
-        vTaskDelay(50);
+        vTaskDelay(1000);
     }
 }
 
