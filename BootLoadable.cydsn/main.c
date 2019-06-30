@@ -32,19 +32,27 @@ int main(void)
     
     /* Start Scheduler */
     prvHardwareSetup();
+
+    CyPins_ClearPin(led_user_0);
+    isr_sound_start_button_Start();
+    
     vTaskStartScheduler();
 }
 
-portTASK_FUNCTION(ledTask, pvParameters) {
-    
+portTASK_FUNCTION(ledTask, pvParameters) 
+{
     uint8_t led_state = 0;
-    for (;;) {
-        if (led_state > 0) {
+    for (;;) 
+    {
+        if (led_state > 0) 
+        {
             led_state = 0;
-            CyPins_ClearPin(led_user_0);
-        } else {
+            //CyPins_ClearPin(led_user_0);
+        } 
+        else 
+        {
             led_state = 1;
-            CyPins_SetPin(led_user_0);
+            //CyPins_SetPin(led_user_0);
         }
         vTaskDelay(1000);
     }

@@ -1,5 +1,40 @@
---------------- Rebuild Started: 06/29/2019 11:57:33 Project: BootLoadable, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+--------------- Rebuild Started: 06/30/2019 11:46:35 Project: BootLoadable, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\os_resource.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\croutine.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\event_groups.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\heap_2.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\list.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\port.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\queue.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\tasks.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\timers.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\main.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\isr_source.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\cymetadata.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\Cm3Start.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\CyBootAsmGnu.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\CyDmac.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\CyFlash.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\CyLib.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\cyPm.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\CySpc.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\cyutils.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\led_user.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\switch_user.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\SOF_Timer.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\SOF_Timer_PM.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\isr_sof_timer.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\isr_sound_start_button.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\BootLoadable.hex"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\BootLoadable.elf"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\BootLoadable.map"
+Deleting file ".\BootLoadable.cycdx"
+Deleting file ".\BootLoadable.svd"
 Deleting file ".\BootLoadable.rpt"
+Deleting file ".\BootLoadable_timing.html"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\.deps\SOURCE_C__ARM_GCC_GENERIC.P"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\.deps\SOURCE_ASM__ARM_GCC_GENERIC.P"
 cydsfit.exe -.appdatapath "C:\Users\Raioz7\AppData\Local\Cypress Semiconductor\PSoC Creator\4.1" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\BootLoadable.cyprj -d CY8C5888AXI-LP096 -s C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
 Elaborating Design...
 HDL Generation...
@@ -26,6 +61,7 @@ arm-none-eabi-gcc.exe -c freertos\queue.c -o .\CortexM3\ARM_GCC_541\Debug\queue.
 arm-none-eabi-gcc.exe -c freertos\tasks.c -o .\CortexM3\ARM_GCC_541\Debug\tasks.o -mcpu=cortex-m3 -mthumb -I.\freertos\config -I.\freertos\include -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/tasks.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og
 arm-none-eabi-gcc.exe -c freertos\timers.c -o .\CortexM3\ARM_GCC_541\Debug\timers.o -mcpu=cortex-m3 -mthumb -I.\freertos\config -I.\freertos\include -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/timers.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og
 arm-none-eabi-gcc.exe -c main.c -o .\CortexM3\ARM_GCC_541\Debug\main.o -mcpu=cortex-m3 -mthumb -I.\freertos\config -I.\freertos\include -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/main.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og
+arm-none-eabi-gcc.exe -c isr_source.c -o .\CortexM3\ARM_GCC_541\Debug\isr_source.o -mcpu=cortex-m3 -mthumb -I.\freertos\config -I.\freertos\include -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/isr_source.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og
 arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\cyfitter_cfg.c -o .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o -mcpu=cortex-m3 -mthumb -I.\freertos\config -I.\freertos\include -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/cyfitter_cfg.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og
 arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\cymetadata.c -o .\CortexM3\ARM_GCC_541\Debug\cymetadata.o -mcpu=cortex-m3 -mthumb -I.\freertos\config -I.\freertos\include -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/cymetadata.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og
 arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\Cm3Start.c -o .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o -mcpu=cortex-m3 -mthumb -I.\freertos\config -I.\freertos\include -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/Cm3Start.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og
@@ -40,12 +76,13 @@ arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\switch_user.c -o .\CortexM3\ARM_
 arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\SOF_Timer.c -o .\CortexM3\ARM_GCC_541\Debug\SOF_Timer.o -mcpu=cortex-m3 -mthumb -I.\freertos\config -I.\freertos\include -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SOF_Timer.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og
 arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\SOF_Timer_PM.c -o .\CortexM3\ARM_GCC_541\Debug\SOF_Timer_PM.o -mcpu=cortex-m3 -mthumb -I.\freertos\config -I.\freertos\include -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SOF_Timer_PM.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og
 arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\isr_sof_timer.c -o .\CortexM3\ARM_GCC_541\Debug\isr_sof_timer.o -mcpu=cortex-m3 -mthumb -I.\freertos\config -I.\freertos\include -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/isr_sof_timer.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og
+arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\isr_sound_start_button.c -o .\CortexM3\ARM_GCC_541\Debug\isr_sound_start_button.o -mcpu=cortex-m3 -mthumb -I.\freertos\config -I.\freertos\include -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/isr_sound_start_button.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og
 arm-none-eabi-as.exe -o .\CortexM3\ARM_GCC_541\Debug\CyBootAsmGnu.o Generated_Source\PSoC5\CyBootAsmGnu.s -mcpu=cortex-m3 -mthumb -I.\freertos\config -I.\freertos\include -I. -IGenerated_Source\PSoC5 -alh=.\CortexM3\ARM_GCC_541\Debug/CyBootAsmGnu.lst -g -W
-arm-none-eabi-ar.exe -rs .\CortexM3\ARM_GCC_541\Debug\BootLoadable.a .\CortexM3\ARM_GCC_541\Debug\CyDmac.o .\CortexM3\ARM_GCC_541\Debug\CyFlash.o .\CortexM3\ARM_GCC_541\Debug\CyLib.o .\CortexM3\ARM_GCC_541\Debug\cyPm.o .\CortexM3\ARM_GCC_541\Debug\CySpc.o .\CortexM3\ARM_GCC_541\Debug\cyutils.o .\CortexM3\ARM_GCC_541\Debug\led_user.o .\CortexM3\ARM_GCC_541\Debug\switch_user.o .\CortexM3\ARM_GCC_541\Debug\SOF_Timer.o .\CortexM3\ARM_GCC_541\Debug\SOF_Timer_PM.o .\CortexM3\ARM_GCC_541\Debug\isr_sof_timer.o .\CortexM3\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe -rs .\CortexM3\ARM_GCC_541\Debug\BootLoadable.a .\CortexM3\ARM_GCC_541\Debug\CyDmac.o .\CortexM3\ARM_GCC_541\Debug\CyFlash.o .\CortexM3\ARM_GCC_541\Debug\CyLib.o .\CortexM3\ARM_GCC_541\Debug\cyPm.o .\CortexM3\ARM_GCC_541\Debug\CySpc.o .\CortexM3\ARM_GCC_541\Debug\cyutils.o .\CortexM3\ARM_GCC_541\Debug\led_user.o .\CortexM3\ARM_GCC_541\Debug\switch_user.o .\CortexM3\ARM_GCC_541\Debug\SOF_Timer.o .\CortexM3\ARM_GCC_541\Debug\SOF_Timer_PM.o .\CortexM3\ARM_GCC_541\Debug\isr_sof_timer.o .\CortexM3\ARM_GCC_541\Debug\isr_sound_start_button.o .\CortexM3\ARM_GCC_541\Debug\CyBootAsmGnu.o
 arm-none-eabi-ar.exe: creating .\CortexM3\ARM_GCC_541\Debug\BootLoadable.a
-arm-none-eabi-gcc.exe -Wl,--start-group -o C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\CortexM3\ARM_GCC_541\Debug\BootLoadable.elf .\CortexM3\ARM_GCC_541\Debug\os_resource.o .\CortexM3\ARM_GCC_541\Debug\croutine.o .\CortexM3\ARM_GCC_541\Debug\event_groups.o .\CortexM3\ARM_GCC_541\Debug\heap_2.o .\CortexM3\ARM_GCC_541\Debug\list.o .\CortexM3\ARM_GCC_541\Debug\port.o .\CortexM3\ARM_GCC_541\Debug\queue.o .\CortexM3\ARM_GCC_541\Debug\tasks.o .\CortexM3\ARM_GCC_541\Debug\timers.o .\CortexM3\ARM_GCC_541\Debug\main.o .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM3\ARM_GCC_541\Debug\cymetadata.o .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o .\CortexM3\ARM_GCC_541\Debug\BootLoadable.a "C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_541\Debug\CyComponentLibrary.a" -mcpu=cortex-m3 -mthumb -L Generated_Source\PSoC5 -L .\freertos\config -L .\freertos\include -Wl,-Map,.\CortexM3\ARM_GCC_541\Debug/BootLoadable.map -T Generated_Source\PSoC5\cm3gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+arm-none-eabi-gcc.exe -Wl,--start-group -o C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\CortexM3\ARM_GCC_541\Debug\BootLoadable.elf .\CortexM3\ARM_GCC_541\Debug\os_resource.o .\CortexM3\ARM_GCC_541\Debug\croutine.o .\CortexM3\ARM_GCC_541\Debug\event_groups.o .\CortexM3\ARM_GCC_541\Debug\heap_2.o .\CortexM3\ARM_GCC_541\Debug\list.o .\CortexM3\ARM_GCC_541\Debug\port.o .\CortexM3\ARM_GCC_541\Debug\queue.o .\CortexM3\ARM_GCC_541\Debug\tasks.o .\CortexM3\ARM_GCC_541\Debug\timers.o .\CortexM3\ARM_GCC_541\Debug\main.o .\CortexM3\ARM_GCC_541\Debug\isr_source.o .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM3\ARM_GCC_541\Debug\cymetadata.o .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o .\CortexM3\ARM_GCC_541\Debug\BootLoadable.a "C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_541\Debug\CyComponentLibrary.a" -mcpu=cortex-m3 -mthumb -L Generated_Source\PSoC5 -L .\freertos\config -L .\freertos\include -Wl,-Map,.\CortexM3\ARM_GCC_541\Debug/BootLoadable.map -T Generated_Source\PSoC5\cm3gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
 cyelftool.exe -C C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\CortexM3\ARM_GCC_541\Debug\BootLoadable.elf --flash_row_size 256 --flash_size 262144 --flash_offset 0x00000000
 cyelftool.exe -S C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\CortexM3\ARM_GCC_541\Debug\BootLoadable.elf
-Flash used: 4134 of 262144 bytes (1.6 %).
-SRAM used: 34449 of 65536 bytes (52.6 %). Stack: 1024 bytes. Heap: 0 bytes.
---------------- Rebuild Succeeded: 06/29/2019 11:58:12 ---------------
+Flash used: 4294 of 262144 bytes (1.6 %).
+SRAM used: 34457 of 65536 bytes (52.6 %). Stack: 1024 bytes. Heap: 0 bytes.
+--------------- Rebuild Succeeded: 06/30/2019 11:46:59 ---------------

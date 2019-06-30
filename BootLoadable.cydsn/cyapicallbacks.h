@@ -15,6 +15,11 @@
 
     /*Define your macro callbacks here */
     /*For more information, refer to the Writing Code topic in the PSoC Creator Help.*/
+#define isr_sof_timer_INTERRUPT_INTERRUPT_CALLBACK
+#define isr_sound_start_button_INTERRUPT_INTERRUPT_CALLBACK
+
+void isr_sof_timer_Interrupt_InterruptCallback(void);
+void isr_sound_start_button_Interrupt_InterruptCallback(void);
 
     
 #endif /* CYAPICALLBACKS_H */   

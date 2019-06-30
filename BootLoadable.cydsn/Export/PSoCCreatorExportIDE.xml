@@ -37,6 +37,7 @@
       <Folder BuildType="STRICT" Path="C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn">
         <Files Root="C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn">
           <File BuildType="BUILD" Toolchain="">main.c</File>
+          <File BuildType="BUILD" Toolchain="">isr_source.c</File>
           <File BuildType="BUILD" Toolchain="">cyapicallbacks.h</File>
           <File BuildType="BUILD" Toolchain="">freertos\include\device.h</File>
           <File BuildType="BUILD" Toolchain="">freertos\include\os_resource.h</File>
@@ -132,6 +133,8 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SOF_Timer_PM.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\isr_sof_timer.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\isr_sof_timer.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\isr_sound_start_button.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\isr_sound_start_button.h</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\Export\ARM_GCC_Generic">
