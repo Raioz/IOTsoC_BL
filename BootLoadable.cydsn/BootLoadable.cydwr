@@ -277,11 +277,15 @@
       <Data key="b0162966-0060-4af5-82d1-fcb491ad7619/be0a0e37-ad17-42ca-b5a1-1a654d736358" value="uart_wifi_IntClock" />
     </Group>
     <Group key="Pin">
+      <Data key="1d9d6afc-59c3-4d39-8834-2c33160077fd" value="sound_data_1" />
       <Data key="5fbd536f-14cf-4aaa-b3ff-836f0366ac78" value="wifi_reset" />
       <Data key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba" value="switch_user" />
+      <Data key="16b38ee9-fd17-425e-a98a-43aeef2a475f" value="sound_data_2" />
       <Data key="915455fc-369c-41c7-a3d6-f084954747dc" value="led_user" />
       <Data key="1425177d-0d0e-4468-8bcc-e638e5509a9b" value="wifi_rx" />
-      <Data key="e851a3b9-efb8-48be-bbb8-b303b216c393" value="wifi_enable" />
+      <Data key="c0d80c3b-8660-443a-9b12-5ba51c85ed1c" value="sound_data_0" />
+      <Data key="c8749a94-f47c-4420-80ba-04e8dc7ee821" value="sound_data_3" />
+      <Data key="e851a3b9-efb8-48be-bbb8-b303b216c393" value="sound_select" />
       <Data key="ed092b9b-d398-4703-be89-cebf998501f6" value="wifi_tx" />
     </Group>
   </Group>
@@ -3369,6 +3373,11 @@
     </Group>
   </Group>
   <Group key="Pin2">
+    <Group key="1d9d6afc-59c3-4d39-8834-2c33160077fd">
+      <Group key="0">
+        <Data key="Port Format" value="12,4" />
+      </Group>
+    </Group>
     <Group key="5fbd536f-14cf-4aaa-b3ff-836f0366ac78">
       <Group key="0">
         <Data key="Port Format" value="2,2" />
@@ -3377,6 +3386,11 @@
     <Group key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba">
       <Group key="0">
         <Data key="Port Format" value="1,2" />
+      </Group>
+    </Group>
+    <Group key="16b38ee9-fd17-425e-a98a-43aeef2a475f">
+      <Group key="0">
+        <Data key="Port Format" value="12,5" />
       </Group>
     </Group>
     <Group key="915455fc-369c-41c7-a3d6-f084954747dc">
@@ -3389,9 +3403,19 @@
         <Data key="Port Format" value="2,0" />
       </Group>
     </Group>
+    <Group key="c0d80c3b-8660-443a-9b12-5ba51c85ed1c">
+      <Group key="0">
+        <Data key="Port Format" value="12,3" />
+      </Group>
+    </Group>
+    <Group key="c8749a94-f47c-4420-80ba-04e8dc7ee821">
+      <Group key="0">
+        <Data key="Port Format" value="12,6" />
+      </Group>
+    </Group>
     <Group key="e851a3b9-efb8-48be-bbb8-b303b216c393">
       <Group key="0">
-        <Data key="Port Format" value="2,3" />
+        <Data key="Port Format" value="12,7" />
       </Group>
     </Group>
     <Group key="ed092b9b-d398-4703-be89-cebf998501f6">

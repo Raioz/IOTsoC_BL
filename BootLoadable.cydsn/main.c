@@ -12,8 +12,9 @@
 #include "project.h"
 #include "FreeRTOS_inc.h"
 #include "os_resource.h"
+#include "cyapicallbacks.h"
 
-portTASK_FUNCTION_PROTO(ledTask, pvParameters);
+portTASK_FUNCTION_PROTO(dataFrameTask, pvParameters);
 
 int main(void)
 {
@@ -23,9 +24,9 @@ int main(void)
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
     //uart_wifi_Start();
     
-    xTaskCreate(ledTask, 
-                "Led",
-                configMINIMAL_STACK_SIZE,
+    xTaskCreate(dataFrameTask, 
+                "Data",
+                configMINIMAL_STACK_SIZE * 2,
                 NULL,
                 3,
                 NULL);
@@ -39,22 +40,27 @@ int main(void)
     vTaskStartScheduler();
 }
 
-portTASK_FUNCTION(ledTask, pvParameters) 
+QueueHandle_t dataFrameQueue = NULL;
+portTASK_FUNCTION(dataFrameTask, pvParameters) 
 {
-    uint8_t led_state = 0;
+    uint8_t queueItem;
+    dataFrameQueue = xQueueCreate(2, sizeof(uint8_t));
+    setUserButtonCanInterrupt( true );
+    setUserButtonQueueHandle( dataFrameQueue );
+
     for (;;) 
     {
-        if (led_state > 0) 
+        if( xQueueReceive( dataFrameQueue, &queueItem, portMAX_DELAY ) )
         {
-            led_state = 0;
-            //CyPins_ClearPin(led_user_0);
-        } 
-        else 
-        {
-            led_state = 1;
-            //CyPins_SetPin(led_user_0);
+            vTaskDelay(50);
+
+            if( !CyPins_ReadPin( switch_user_0 ) )
+            {
+                CyPins_ClearPin( led_user_0 );
+            }
+
+            setUserButtonCanInterrupt( true );
         }
-        vTaskDelay(1000);
     }
 }
 

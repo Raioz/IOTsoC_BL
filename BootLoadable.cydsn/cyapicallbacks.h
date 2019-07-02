@@ -12,6 +12,9 @@
 #ifndef CYAPICALLBACKS_H
 #define CYAPICALLBACKS_H
     
+#include "FreeRTOS.h"
+#include "queue.h"
+#include "stdbool.h"
 
     /*Define your macro callbacks here */
     /*For more information, refer to the Writing Code topic in the PSoC Creator Help.*/
@@ -21,6 +24,9 @@
 void isr_sof_timer_Interrupt_InterruptCallback(void);
 void isr_sound_start_button_Interrupt_InterruptCallback(void);
 
+/* Utility Functions */
+QueueHandle_t setUserButtonQueueHandle( QueueHandle_t handle );
+bool setUserButtonCanInterrupt( bool can_interrupt );
     
 #endif /* CYAPICALLBACKS_H */   
 /* [] */

@@ -135,6 +135,21 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\isr_sof_timer.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\isr_sound_start_button.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\isr_sound_start_button.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\sound_select_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\sound_select.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\sound_select.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\sound_data_0_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\sound_data_0.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\sound_data_0.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\sound_data_1_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\sound_data_1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\sound_data_1.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\sound_data_2_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\sound_data_2.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\sound_data_2.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\sound_data_3_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\sound_data_3.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\sound_data_3.h</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="C:\Users\Raioz7\Documents\Raioz-USA\Cypress\Projects\FreeSoC2\IoT\IOTsoC_BL\BootLoadable.cydsn\Export\ARM_GCC_Generic">
